@@ -1,0 +1,7 @@
+- /.zfs/**
+- /.recycle/**
+- /.Trash-1000/**
+- /.windows/**
+- /$RECYCLE.BIN/**
+- video-*/**
+- /media/**

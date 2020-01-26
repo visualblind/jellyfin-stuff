@@ -1,0 +1,7 @@
++ video-memories/**
+- /media/**
+- video-movies/**
+- video-shows/**
+- video-standup/**
+- video-tech/**
+- video-tennis/**

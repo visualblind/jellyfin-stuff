@@ -1,0 +1,39 @@
+[gdrive]
+type = drive
+scope = drive
+token = {"access_token":"<redacted>"}
+client_id = <redacted>
+client_secret = <redacted>
+
+[gdrive-usmba]
+type = drive
+client_id = <redacted>
+client_secret = <redacted>
+scope = drive
+token = {"access_token":"<redacted>"}
+root_folder_id = <redacted>
+
+[gdrive-gavilan]
+type = drive
+client_id = <redacted>
+client_secret = <redacted>
+scope = drive
+token = {"access_token":"<redacted>"}
+root_folder_id = <redacted>
+
+[gcrypt-gavilan]
+type = crypt
+remote = gdrive-gavilan:gcrypt
+filename_encryption = standard
+directory_name_encryption = true
+password = <redacted>
+password2 = <redacted>
+
+[gcrypt-usmba]
+type = crypt
+remote = gdrive-usmba:/gcrypt
+filename_encryption = standard
+directory_name_encryption = true
+password = <redacted>
+password2 = <redacted>
+

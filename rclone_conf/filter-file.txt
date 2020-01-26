@@ -1,0 +1,9 @@
+- /.zfs/**
+- /.recycle/**
+- /.Trash-1000/**
+- /.windows/**
+- /$RECYCLE.BIN/**
+- /[G-g]s/**
++ /[T-t]emp/**
+- /drivers/**
+- /wordpress/**

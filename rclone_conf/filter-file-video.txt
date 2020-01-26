@@ -1,0 +1,7 @@
++ /video-movies/**
++ /video-shows/**
++ /video-standup/**
++ /video-tech/**
++ /video-tennis/**
++ /podcasts/**
+- *
