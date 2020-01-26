@@ -1,0 +1,7 @@
+# m h  dom mon dow   command
+@reboot /usr/bin/rclone mount gcrypt-usmba:p0ds0smb /mnt/gcrypt-usmba --daemon --vfs-cache-mode off --dir-cache-time 30m --read-only
+@reboot /usr/bin/rclone mount http-home: /mnt/http-home --daemon --vfs-cache-mode off --vfs-read-chunk-size 10M --vfs-read-chunk-size-limit 100M --dir-cache-time 30m --read-only
+45 */12 * * * sync && echo 1 | tee /proc/sys/vm/drop_caches 2>&1 | logger -t 'drop_caches'
+@reboot sleep 30 && /root/scripts/gen-media-lst.sh
+22 */2 * * * /root/scripts/gen-media-lst.sh
+*/45 * * * * ls -fR /usr/local/jellyfin/media/
