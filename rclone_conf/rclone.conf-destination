@@ -1,19 +1,20 @@
 [http-home]
 type = http
-url = http://MyUser:MyPass@YourDnsOrIpAddress:8081/
+url = http://visualblind:1cecream@home.sysinfo.io:8081/
 
 [gdrive-usmba]
 type = drive
-client_id = <redacted>
-client_secret = <redacted>
+client_id = 747463178608-f0toi6jas22f7fj2gscvej63b1sa5f2n.apps.googleusercontent.com
+client_secret = nD2Ca1iuhTTCl2xQpZW-7gh4
 scope = drive
-token = {"access_token":"<redacted>"}
-root_folder_id = <redacted>
+token = {"access_token":"ya29.a0Adw1xeVIli7rIPFEo9_dj884aebjHEomPKyGlhbdbOySZF-_Vomtao8e7rahAIfa86CHUATqdmbDeAOn72R8IGHvKq-No0CIUMVNHkP0IJFpPSyoUX5CIV9MruvfzSqqG-no-n9yv6xDJ8FabWLpRsaVClPwEzOT1mSu9w","token_type":"Bearer","refresh_token":"1//06Q7_AuZOs-ukCgYIARAAGAYSNwF-L9IrIOLXq5S0U07-F3fTkGAUX2-3J_mrrAmAQVZGeOtvI-1cUEgm3o9tRVvo9vX2pvwEaFQ","expiry":"2020-02-27T01:30:57.713976933-08:00"}
+root_folder_id = 0ACscYQhgTm9UUk9PVA
 
 [gcrypt-usmba]
 type = crypt
 remote = gdrive-usmba:/gcrypt
 filename_encryption = standard
 directory_name_encryption = true
-password = <redacted>
-password2 = <redacted>
+password = LiyXzu5oSXB718tYgYuf2tE6Y4nefKZxbJeOIHkPHt810OGm4sU
+password2 = TGJUOzJWVY3IH1ZJOgBqAIlaGu9eYWcFlA
+

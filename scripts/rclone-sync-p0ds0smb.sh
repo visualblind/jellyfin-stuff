@@ -41,8 +41,8 @@ while [ "$1" != "" ]; do
     shift
 done
 
-screen -dmS $SCREEN_NAME bash -c 'rclone sync --bwlimit "$BANDWIDTH"M --progress --transfers 8 --checkers 10 --tpslimit 10 --update --filter-from $HOME/.config/rclone/filter-p0ds0smb.txt --drive-acknowledge-abuse --drive-use-trash=true --log-level INFO --delete-during --log-file $HOME/.config/rclone/log/upload-gcrypt-gavilan.log /mnt/pool0/p0ds0smb gcrypt-gavilan:/p0ds0smb 2>&1 | tee $HOME/.config/rclone/log/gcrypt-gavilan.log'
+screen -dmS $SCREEN_NAME bash -c 'rclone sync --bwlimit "$BANDWIDTH"M --progress --transfers 5 --checkers 10 --tpslimit 5 --update --filter-from $HOME/.config/rclone/filter-p0ds0smb.txt --drive-acknowledge-abuse --drive-use-trash=true --log-level INFO --delete-during --log-file $HOME/.config/rclone/log/upload-gcrypt-usmba-p0ds0smb.log /mnt/pool0/p0ds0smb gcrypt-usmba:/p0ds0smb/backup 2>&1 | tee $HOME/.config/rclone/log/gcrypt-usmba-p0ds0smb.log'
 else
-screen -dmS $SCREEN_NAME bash -c 'rclone sync --bwlimit 4M --progress --transfers 8 --checkers 10 --tpslimit 10 --update --filter-from $HOME/.config/rclone/filter-p0ds0smb.txt --drive-acknowledge-abuse --drive-use-trash=true --log-level INFO --delete-during --log-file $HOME/.config/rclone/log/upload-gcrypt-gavilan.log /mnt/pool0/p0ds0smb gcrypt-gavilan:/p0ds0smb 2>&1 | tee $HOME/.config/rclone/log/gcrypt-gavilan.log'
+screen -dmS $SCREEN_NAME bash -c 'rclone sync --bwlimit 3M --progress --transfers 5 --checkers 10 --tpslimit 5 --update --filter-from $HOME/.config/rclone/filter-p0ds0smb.txt --drive-acknowledge-abuse --drive-use-trash=true --log-level INFO --delete-during --log-file $HOME/.config/rclone/log/upload-gcrypt-usmba-p0ds0smb.log /mnt/pool0/p0ds0smb gcrypt-usmba:/p0ds0smb/backup 2>&1 | tee $HOME/.config/rclone/log/gcrypt-usmba-p0ds0smb.log'
 fi
 

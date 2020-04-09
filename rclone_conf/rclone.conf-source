@@ -1,39 +1,23 @@
 [gdrive]
 type = drive
 scope = drive
-token = {"access_token":"<redacted>"}
-client_id = <redacted>
-client_secret = <redacted>
+token = {"access_token":"ya29.Il-3B86AZbCUVpC48KNYODnbwjjE9uP_0E0_h0W0TQkdBscafWWUZBEKbbfuluIko4Pqwk3gLKop33lLBAi6eWYW0PZHsR16OlPXc0f4xGvsbiHZlvyg86SS864Np8wuQw","token_type":"Bearer","refresh_token":"1//06Z0lUMA6NEEwCgYIARAAGAYSNwF-L9IrpSFgCG09dVg6etSXHullxkMaeZ9Ps_Ey5XwdutzrTzaPSV3kkbQm941GGCI6o6-Pkk0","expiry":"2019-12-31T05:45:41.047208941-08:00"}
+client_id = 1049353758092-qkuikopn5cg1gpq2l6732gjbd5ldjbeu.apps.googleusercontent.com
+client_secret = XiiFGLxP2IOn6sNXxt_VfuaP
 
 [gdrive-usmba]
 type = drive
-client_id = <redacted>
-client_secret = <redacted>
+client_id = 747463178608-f0toi6jas22f7fj2gscvej63b1sa5f2n.apps.googleusercontent.com
+client_secret = nD2Ca1iuhTTCl2xQpZW-7gh4
 scope = drive
-token = {"access_token":"<redacted>"}
-root_folder_id = <redacted>
-
-[gdrive-gavilan]
-type = drive
-client_id = <redacted>
-client_secret = <redacted>
-scope = drive
-token = {"access_token":"<redacted>"}
-root_folder_id = <redacted>
-
-[gcrypt-gavilan]
-type = crypt
-remote = gdrive-gavilan:gcrypt
-filename_encryption = standard
-directory_name_encryption = true
-password = <redacted>
-password2 = <redacted>
+token = {"access_token":"ya29.a0Adw1xeVjRbunYeyWCuMPKHW7EJagetfZLh8T5h2mYbCduWlfWIbYl8JrUMfOi9ByPEV8dOd-Xvzk2nM-Q0uxWB7wGvVpKRK8DRB5tvzUeVYjE1F4TroAUsL6rlzeqVkjhpQbAgwu-26JJaSacNAkMIk5ucyQpyXbgFoygg","token_type":"Bearer","refresh_token":"1//06Q7_AuZOs-ukCgYIARAAGAYSNwF-L9IrIOLXq5S0U07-F3fTkGAUX2-3J_mrrAmAQVZGeOtvI-1cUEgm3o9tRVvo9vX2pvwEaFQ","expiry":"2020-02-27T01:40:04.145903898-08:00"}
+root_folder_id = 0ACscYQhgTm9UUk9PVA
 
 [gcrypt-usmba]
 type = crypt
 remote = gdrive-usmba:/gcrypt
 filename_encryption = standard
 directory_name_encryption = true
-password = <redacted>
-password2 = <redacted>
+password = LiyXzu5oSXB718tYgYuf2tE6Y4nefKZxbJeOIHkPHt810OGm4sU
+password2 = TGJUOzJWVY3IH1ZJOgBqAIlaGu9eYWcFlA
 
