@@ -2,9 +2,13 @@
 # RClone Config file
 RCLONE_CONFIG=/root/.config/rclone/rclone.conf
 SCREEN_NAME=$(basename "$0" | cut -d '.' -f 1)
+BANDWIDTH=${1:-3}
+
+export BANDWIDTH
 export RCLONE_CONFIG
 export SCREEN_NAME
-curl -fsS --retry 3 https://hc-ping.com/1b9d965f-c9cc-42e3-b256-fb57cfc7a88a > /dev/null
+
+curl -fsS --retry 3 https://hc-ping.com/1b9d965f-c9cc-42e3-b256-fb57cfc7a88a > /dev/null || wget https://hc-ping.com/1b9d965f-c9cc-42e3-b256-fb57cfc7a88a -O /dev/null
 
 #exit if running
 if ! [[ $(screen -S "$SCREEN_NAME" -Q select .) ]]; then
@@ -22,10 +26,6 @@ usage()
     echo "usage: rclone-sync-p0ds0smb.sh [-b | --bandwidth specify bandwidth as an integer | -h | --help shows this message]"
 }
 
-if [ "$1" != "" ]; then
-
-BANDWIDTH=
-
 while [ "$1" != "" ]; do
     case $1 in
         -b | --bandwidth )	shift
@@ -42,7 +42,10 @@ while [ "$1" != "" ]; do
 done
 
 screen -dmS $SCREEN_NAME bash -c 'rclone sync --bwlimit "$BANDWIDTH"M --progress --transfers 5 --checkers 10 --tpslimit 5 --update --filter-from $HOME/.config/rclone/filter-p0ds0smb.txt --drive-acknowledge-abuse --drive-use-trash=true --log-level INFO --delete-during --log-file $HOME/.config/rclone/log/upload-gcrypt-usmba-p0ds0smb.log /mnt/pool0/p0ds0smb gcrypt-usmba:/p0ds0smb/backup 2>&1 | tee $HOME/.config/rclone/log/gcrypt-usmba-p0ds0smb.log'
+<<<<<<< HEAD
 else
 screen -dmS $SCREEN_NAME bash -c 'rclone sync --bwlimit 3M --progress --transfers 5 --checkers 10 --tpslimit 5 --update --filter-from $HOME/.config/rclone/filter-p0ds0smb.txt --drive-acknowledge-abuse --drive-use-trash=true --log-level INFO --delete-during --log-file $HOME/.config/rclone/log/upload-gcrypt-usmba-p0ds0smb.log /mnt/pool0/p0ds0smb gcrypt-usmba:/p0ds0smb/backup 2>&1 | tee $HOME/.config/rclone/log/gcrypt-usmba-p0ds0smb.log'
 fi
+=======
+>>>>>>> 5d0b69996c7c57947218b463e8088b0a2abff99f
 
