@@ -1,23 +1,33 @@
 #!/usr/bin/env bash
-TEMPDIR=${1:-'/mnt/pool0/p0ds0smb/temp/ffmpeg'}
-WORKDIR=${1:-$TEMPDIR'/working'}
+TEMPDIR="/mnt/pool0/p0ds0smb/temp/ffmpeg"
+WORKDIR="$TEMPDIR/working"
 declare -a LOG
 shopt -s globstar
 shopt -u nullglob
 
 usage()
 {
-    echo "usage: $0 [-d --directory specify the directory to work in | -w --workdir working directory for FFmpeg | -h --help shows this message]"
+    cat <<EOF
+Usage: $(basename "$0") [options]
+
+-h| --help         Help shows this message.
+-d| --directory    Specify the directory to process.
+-w| --workdir      Writable working directory for FFmpeg.
+                   If you don't specify this option, the
+                   subdirectory named "working" will be used
+                   within the --directory path or \$TEMPDIR.
+EOF
 }
 
 while [ "$1" != "" ]; do
     case $1 in
         -d | --directory )	shift
-                                TEMPDIR="$1"
+                                TEMPDIR="${1:-/mnt/pool0/p0ds0smb/temp/ffmpeg}"
+                                WORKDIR="$TEMPDIR/working"
 #				export TEMPDIR
 								;;
         -w | --workdir )	shift
-                                WORKDIR="$1"
+                                WORKDIR="${1:-$TEMPDIR/working}"
                                 ;;
         -h | --help )           usage
                                 exit 0
@@ -28,11 +38,11 @@ while [ "$1" != "" ]; do
     shift
 done
 
-pushd $TEMPDIR
-[ -d "$WORKDIR" ] || mkdir "$WORKDIR"
+cd $TEMPDIR
+echo -e "DEBUG:\n\$TEMPDIR = $TEMPDIR\n\$WORKDIR = $WORKDIR"
+[ -d "$WORKDIR" ] || mkdir "$WORKDIR" || exit $?
 FILENAME=$(find . ! -path "*$(basename "$WORKDIR")/*" -regextype posix-extended -regex '.*.(mkv|mp4)' -print)
-if [ -n "$FILENAME" ]; then 
-  echo -e "\n***DEBUG***:\n\$TEMPDIR: $TEMPDIR, \$WORKDIR: $WORKDIR\n"
+if [ -n "$FILENAME" ]; then
   for f in $FILENAME; do
   	LOG+=("$f")
 	AUDIOFORMAT=($(ffprobe -loglevel error -select_streams a:0 -show_entries stream=codec_name,channels -of default=nw=1:nk=1 "$f"))
@@ -55,12 +65,12 @@ if [ -n "$FILENAME" ]; then
 # 	args=("-i ${f}" "${args[@]}")
 #	args+=("$WORKDIR/$(basename "${f}")")
 	echo -e '\nffprobe detected '${AUDIOFORMAT[0]}' in the default audio stream with '${AUDIOFORMAT[1]}' channels\nPreparing to convert audio codec to AAC...\n' ; sleep 1
-	echo -e "\n***DEBUG***: ffmpeg ${args[@]}\n"
+	echo -e "\nDEBUG: ffmpeg ${args[@]}\n"
 	ffmpeg "${args[@]}" || break
 	echo -e '\nMoving '$WORKDIR/$(basename "${f}")' back to source directory name '$(dirname "${f}")'\n'; sleep 1
 	mv -ufv "$WORKDIR/$(basename "${f}")" "$(dirname "${f}")" || break
 	fi
   done
-  printf '\nProcessed:%s\n'
+  printf '\nPROCESSED:%s\n'
   for i in "${LOG[@]}"; do echo "$i"; done
  fi
