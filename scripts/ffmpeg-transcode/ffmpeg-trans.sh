@@ -7,7 +7,7 @@ shopt -u nullglob
 
 usage()
 {
-    echo "usage: ffmpeg-trans.sh [-d | --directory specify the directory to work in | -h | --help shows this message]"
+    echo "usage: $0 [-d --directory specify the directory to work in | -w --workdir working directory for FFmpeg | -h --help shows this message]"
 }
 
 while [ "$1" != "" ]; do
