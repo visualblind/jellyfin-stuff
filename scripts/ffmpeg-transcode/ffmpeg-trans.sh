@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-TEMPDIR="/mnt/pool0/p0ds0smb/temp/ffmpeg"
+TEMPDIR="/temp/ffmpeg"
 WORKDIR="$TEMPDIR/working"
 declare -a LOG
 shopt -s globstar
@@ -22,12 +22,11 @@ EOF
 while [ "$1" != "" ]; do
     case $1 in
         -d | --directory )	shift
-                                TEMPDIR="${1:-/mnt/pool0/p0ds0smb/temp/ffmpeg}"
-                                WORKDIR="$TEMPDIR/working"
-#				export TEMPDIR
-								;;
+                                TEMPDIR="${1:-$TEMPDIR}"
+                                WORKDIR="$WORKDIR"
+								                ;;
         -w | --workdir )	shift
-                                WORKDIR="${1:-$TEMPDIR/working}"
+                                WORKDIR="${1:-$WORKDIR}"
                                 ;;
         -h | --help )           usage
                                 exit 0
@@ -47,8 +46,9 @@ if [ -n "$FILENAME" ]; then
   	LOG+=("$f")
 	AUDIOFORMAT=($(ffprobe -loglevel error -select_streams a:0 -show_entries stream=codec_name,channels -of default=nw=1:nk=1 "$f"))
   	if ! [ "${AUDIOFORMAT[0]}" = "aac" ]; then
+
   	# Build ffmpeg array within the loop to populate variables
-	args=(
+    args=(
 		-i "${f}"
 		-map 0:v:0
 		-map 0:a:0
@@ -62,15 +62,14 @@ if [ -n "$FILENAME" ]; then
 		-c:s copy
 		"$WORKDIR/$(basename "${f}")"
 		)
-# 	args=("-i ${f}" "${args[@]}")
-#	args+=("$WORKDIR/$(basename "${f}")")
-	echo -e '\nffprobe detected '${AUDIOFORMAT[0]}' in the default audio stream with '${AUDIOFORMAT[1]}' channels\nPreparing to convert audio codec to AAC...\n' ; sleep 1
-	echo -e "\nDEBUG: ffmpeg ${args[@]}\n"
-	ffmpeg "${args[@]}" || break
-	echo -e '\nMoving '$WORKDIR/$(basename "${f}")' back to source directory name '$(dirname "${f}")'\n'; sleep 1
-	mv -ufv "$WORKDIR/$(basename "${f}")" "$(dirname "${f}")" || break
-	fi
+
+	  echo -e '\nffprobe detected '${AUDIOFORMAT[0]}' in the default audio stream with '${AUDIOFORMAT[1]}' channels\nPreparing to convert audio codec to AAC...\n' ; sleep 1
+    echo -e "\nDEBUG: ffmpeg ${args[@]}\n"
+    ffmpeg "${args[@]}" || break
+    echo -e '\nMoving '$WORKDIR/$(basename "${f}")' back to source directory name '$(dirname "${f}")'\n'; sleep 1
+    mv -ufv "$WORKDIR/$(basename "${f}")" "$(dirname "${f}")" || break
+    fi
   done
-  printf '\nPROCESSED:%s\n'
-  for i in "${LOG[@]}"; do echo "$i"; done
- fi
+printf '\nPROCESSED:%s\n'
+for i in "${LOG[@]}"; do echo "$i"; done
+fi

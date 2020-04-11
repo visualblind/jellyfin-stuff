@@ -42,4 +42,3 @@ while [ "$1" != "" ]; do
 done
 
 screen -dmS $SCREEN_NAME bash -c 'rclone sync --bwlimit "$BANDWIDTH"M --progress --transfers 8 --checkers 10 --tpslimit 10 --update --filter-from $HOME/.config/rclone/filter-file-video.txt --drive-acknowledge-abuse --drive-use-trash=true --log-level INFO --delete-during --log-file $HOME/.config/rclone/log/upload-gcrypt-usmba.log /mnt/pool0/p0ds0smb/media gcrypt-usmba:/p0ds0smb 2>&1 | tee $HOME/.config/rclone/log/gcrypt-usmba.log'
-
