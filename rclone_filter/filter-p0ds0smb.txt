@@ -3,9 +3,11 @@
 - /.Trash-1000/**
 - /.windows/**
 - /$RECYCLE.BIN/**
-- /media/**
-- video-movies/**
-- video-shows/**
-- video-standup/**
-- video-tech/**
-- video-tennis/**
++ /media/**
++ /media/video-memories/**
++ /media/podcasts/**
++ video-movies/**
++ video-shows/**
++ video-standup/**
++ video-tech/**
++ video-tennis/**
