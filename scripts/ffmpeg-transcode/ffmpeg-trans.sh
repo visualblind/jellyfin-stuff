@@ -24,7 +24,7 @@ while [ "$1" != "" ]; do
         -d | --directory )	shift
                                 TEMPDIR="${1:-$TEMPDIR}"
                                 WORKDIR="$WORKDIR"
-								                ;;
+                                ;;
         -w | --workdir )	shift
                                 WORKDIR="${1:-$WORKDIR}"
                                 ;;
