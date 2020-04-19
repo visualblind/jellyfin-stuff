@@ -1,15 +1,22 @@
 #!/usr/bin/env bash
 #
-# Author: Travis Runyard
-# Date: 04-18-2020
-# sysinfo.io
+## DESCRIPTION: Transcode with FFmpeg all (mkv, mp4) media files in specified directory,
+##              overwriting the original source files.
+##
+## AUTHOR:  Travis Runyard
+## Revised: 04/18/2020
+## URL:     https://sysinfo.io/ffmpeg-batch-transcode-audio/
 
+# Exit on first non-zero exit code
 set -e
+# Set shell options
 shopt -s globstar
 shopt -u nullglob
-# Define variables are indexed array
+# Declare variables (optionally) are indexed arrays
+# Only associative arrays require declaration, but standardizing is a good thing
 declare -a FILENAME
 declare -a LOG
+
 # Modify TEMPDIR and WORKDIR to suit your needs
 TEMPDIR="/mnt/pool0/p0ds0smb/temp/ffmpeg"
 WORKDIR="$TEMPDIR/working"
@@ -59,7 +66,7 @@ if [ -n "$FILENAME" ]; then
     LOG+=("$f")
     AUDIOFORMAT=($(ffprobe -loglevel error -select_streams a:0 -show_entries stream=codec_name,channels -of default=nw=1:nk=1 "$f"))
   	if ! [ "${AUDIOFORMAT[0]}" = "aac" ]; then
-      # Build ffmpeg array within the loop to populate variables
+# Build ffmpeg array within the loop to populate variables
       args=(
       -nostdin
       -y
@@ -69,6 +76,8 @@ if [ -n "$FILENAME" ]; then
       -map 0:s?
       -ac "${AUDIOFORMAT[1]}"
       -ar 48000
+      -metadata:s:a:0
+      language=eng
       -c:v copy
       -c:a aac
       -c:s copy
