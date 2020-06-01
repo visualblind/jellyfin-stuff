@@ -19,7 +19,7 @@ declare -a LOG
 
 # Modify TEMPDIR and WORKDIR to suit your needs
 TEMPDIR="/mnt/pool0/p0ds0smb/temp/ffmpeg"
-WORKDIR="$TEMPDIR/working"
+WORKDIR="$TEMPDIR/.working"
 SCRIPT_NAME=$(basename "$0")
 
 usage()
@@ -83,15 +83,15 @@ if [ -n "$FILENAME" ]; then
       -c:s copy
       "$WORKDIR/$(basename "$f")"
       )
-      echo -e '\n*** DEBUG: ffprobe detected '${AUDIOFORMAT[0]}' in the default audio stream with '${AUDIOFORMAT[1]}' channels\nPreparing to convert audio codec to AAC...' ; sleep 1
-      echo -e "\n*** DEBUG: ffmpeg ${args[@]}"
+      echo -e "*** DEBUG: ffprobe detected '${AUDIOFORMAT[0]}' in the default audio stream with '${AUDIOFORMAT[1]}' channels\nPreparing to convert audio codec to AAC..." ; sleep 1
+      echo -e "*** DEBUG: ffmpeg ${args[@]}"
       ffmpeg "${args[@]}" || break
-      echo -e '\n*** DEBUG: Moving '$WORKDIR/$(basename "$f")' back to source directory name '$(dirname "$f")''; sleep 1
+      echo -e "*** DEBUG: Moving '$WORKDIR/$(basename "$f")' back to source directory name '$(dirname "$f")'"; sleep 1
       mv -ufv "$WORKDIR/$(basename "$f")" "$(dirname "$f")" || break
     fi
   done
-  printf '\n*** DEBUG ***\nPROCESSED:%s\n'
+  printf '*** DEBUG ***\nPROCESSED:%s\n'
   for i in "${LOG[@]}"; do echo "$i"; done
 else
-  echo -e '\n*** DEBUG: No files to process'
+  echo -e "*** DEBUG: No files to process"
 fi
