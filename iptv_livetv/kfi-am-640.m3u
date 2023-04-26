@@ -1,0 +1,6 @@
+#EXTM3U
+#EXTINF:0 tvg-name="KFI AM 640"tvg-id="KFIAM640HLS"tvg-logo="https://i.ibb.co/QFvsTYx/kfi-am-640-black.webp"group-title="Radio":http-user-agent="",KFI AM 640 Radio 1
+https://stream.revma.ihrhls.com/zc177/hls.m3u8
+#EXTINF:0 tvg-name="KFI AM 640"tvg-id="KFIAM640SHOUTCAST"tvg-logo="https://i.ibb.co/QFvsTYx/kfi-am-640-black.webp"group-title="Radio":http-user-agent="",KFI AM 640 Radio 2
+https://stream.revma.ihrhls.com/zc177
+

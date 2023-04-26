@@ -1,6 +1,0 @@
-#m  h  dom  mon  dow
-@reboot /root/scripts/rclone-serve-http.sh
-@reboot /root/scripts/rclone-sync-video.sh
-@reboot /root/scripts/rclone-sync-p0ds0smb.sh
-40 */12 * * * /root/scripts/rclone-sync-video.sh
-15 1 * * * /root/scripts/rclone-sync-p0ds0smb.sh
