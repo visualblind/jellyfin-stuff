@@ -1,7 +1,7 @@
 # jellyfin-stuff
 
 % Travis Runyard <travisrunyard@gmail.com>
-% 2020-01-26 **updated 04-25-2023**
+% 2020-01-26 **updated 05-15-2023**
 
 
 ## NAME
