@@ -3,7 +3,9 @@
 # Travis Runyard
 # 05-05-2020
 
-# Enter your jellyfin transcoding directory
+# compatibility: jellyfin-independant
+
+# enter your jellyfin transcoding directory
 TCODETMP='/usr/local/jellyfin/config/transcodes'
 
 #isMounted () { findmnt -rn "$TCODETMP" > /dev/null 2>&1; }
