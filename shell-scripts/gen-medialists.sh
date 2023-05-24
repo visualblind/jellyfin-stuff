@@ -2,7 +2,11 @@
 
 # compatibility: jellyfin-independant
 
-# edit these variables to point to your public web root and jellyfin media location
+# Edit these variables to point to your public web root and jellyfin media location.
+# This script was built to run on my nginx reverse proxy via using a commonly shared jellyfin
+# media storage mount, however if this was ran from the Jellyfin box an additional benefit
+# would be refreshing file and directory traversal cache for faster library scans
+
 nginx_www='/var/www/html'
 jf_media='/mnt/mergerfs/media'
 

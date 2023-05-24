@@ -1,0 +1,381 @@
+/* FONT STYLE */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+@font-face {
+    font-family: 'Open Sans', sans-serif; !important
+    font-style: normal; !important
+    font-weight: 400; !important
+}
+.page, div {
+    font-family: 'Open Sans', sans-serif; !important
+    font-style: normal; !important
+    font-weight: 400; !important
+}
+h1, h2, h3 {
+   font-family: 'Open Sans', sans-serif; text-transform: uppercase;
+}
+h2, h3 {
+   letter-spacing: .4px;
+}
+.emby-tab-button {
+   font-family: 'Open Sans', sans-serif !important;
+   text-transform: uppercase;
+   letter-spacing: .5px;
+}
+.emby-tab-button:active {
+   font-weight: 700 !important;
+}
+.emby-tab-button-active {
+   font-weight: 700 !important;
+}
+.emby-button {
+   text-transform: uppercase;
+}
+.button-link {
+   text-transform: uppercase;
+   color: #00a4dc !important;
+}
+.button-link:hover {   
+   color: #e0e0e0 !important;
+   text-decoration-line: none; !important
+}
+
+/* DISCLAIMER FONT STYLE */
+.disclaimer p {
+  font-weight: 400;
+  color: ivory;
+/*  color: seashell; */
+}
+
+/* TEXTBOX LABELS */
+.checkboxListLabel, .inputLabel, .inputLabelUnfocused, .paperListLabel, .textareaLabelUnfocused {
+color: rgb(255, 255, 255); !important
+} 
+
+/* NAV MENU */
+.navMenuOption {
+  padding: .6em 0 .6em 2.4em !important;
+  text-transform: none !important;
+}
+
+/* ADMIN DASHBOARD */
+span.navMenuOptionText {
+   white-space: pre-wrap;
+   text-align: justify;
+}
+.mainDrawer {
+   background: #161616 !important;
+}
+.drawer-open {
+   -webkit-box-shadow: 2px 0 12px 
+   box-shadow: 2px 0 12px
+}
+.checkboxLabel {
+   text-transform: uppercase;
+}
+.checkboxListLabel, .inputLabel, .inputLabelUnfocused, .textareaLabelUnfocused {
+   text-transform: uppercase;
+}
+
+.textareaLabel {
+   text-transform: uppercase;
+}
+.selectLabel {
+   text-transform: uppercase;
+}
+.fieldDescription {
+   font-style: oblique;
+}
+.paperList, .visualCardBox {
+   border: 2px solid;
+}
+div.focuscontainer.dialog.formDialog.align-items-center.justify-content-center.dialog-fullscreen-lowres.centeredDialog.opened {
+   border: 2px solid;
+}
+div.focuscontainer.dialog.formDialog.align-items-center.justify-items-center.dialog-fullscreen-lowres.centeredDialog.opened {
+   border: 2px solid;
+}
+.formDialogFooterItem-autosize {
+   padding-left: 1em;
+   padding-right: 1em;
+}
+.emby-input:focus, .emby-textarea:focus {
+   box-shadow: 0 0 10px 0;
+}
+table.tblApiKeys.detailTable {
+   text-transform: uppercase;
+}
+
+/* HEADER TOP MENU TRANSPARENCY */
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
+.skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color:rgba(0, 0, 0, 0);}
+
+/* BACKGROUND STYLE */
+/* .backgroundContainer, .dialog, html {background-color: #000 !important;} */
+/* 
+   .backgroundContainer.withBackdrop {
+    background-color: rgba(0,0,0,1) !important;
+}
+   .backgroundContainer.withBackdrop {
+    background-color: transparent !important;
+}
+*/
+.cardContent-shadow, .defaultCardBackground0 {
+   background-color: transparent !important;
+}
+.appfooter {
+   border-top: 1px solid rgba(255,255,255,.1) !important;
+}
+.dialog-small {
+   border: 2px solid !important;
+}
+.selectionCommandsPanel {
+   background: #cc3333 !important;
+}
+div.dialog {
+   padding: 0 .2em .2em 0;
+}
+
+/* RIGHT-CLICK CONTEXT MENU */
+.actionSheetContent {border: 1px solid;}
+.dialog {background-color: #101010cf;}
+
+.layout-desktop .listItemBodyText {
+    margin: 0.10em 0 0 0 !important;
+}
+
+/* UI BUTTON STYLE */
+.emby-select-withcolor {
+   background: transparent !important;
+   border: .07em solid !important;
+}
+.fab, .raised {
+   border: 1px solid #00a4dc !important;
+   transition: 0.3s;
+}
+.fab:hover, .raised:hover {
+   background: #0073a8 !important;
+   border-color: #00a4dc !important;
+}
+.emby-input-iconbutton {
+   transition: 0.3s;
+}
+i.md-icon.playstatebutton-icon-played {
+   transition: 0.3s;
+}
+button.listItemButton.paper-icon-button-light.emby-button {
+   transition: 0.3s;
+}
+i.md-icon.ratingbutton-icon-withrating {
+   transition: 0.3s;
+}
+button.listItemButton.paper-icon-button-light.emby-button.ratingbutton-withrating {
+   transition: 0.3s;
+}
+#popupAddTrigger button {
+   font-size: 1em;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-weight: 600;
+   line-height: 1.35;
+   letter-spacing: .5px;
+   margin: 0 .29em;
+   padding: .86em 1em;
+   border: 1px solid !important;
+   border-radius: .2em;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+/* PROGRESS RINGS */
+div.progressring {right: 30px;}
+
+/* EMBY BRANDING */
+.pageTitleWithDefaultLogo {background-image: url("//cdn.travisflix.com/web/img/travisflix_clean_lg.svg") !important;}
+
+/* LOGIN FORM WIDTH */
+#loginPage .readOnlyContent, #loginPage form {max-width: 24em;}
+
+/* HIDE "PLEASE LOGIN" TEXT, MARGIN IS TO PREVENT LOGIN FORM MOVING TOO FAR UP */
+#loginPage h1 {display: none;}
+#loginPage .padded-left.padded-right.padded-bottom-page {margin-top: 50px;}
+
+/* HIDE MANUAL AND FORGOT BUTTONS */
+#loginPage .raised.cancel.block.btnManual.emby-button {display: none;}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none;}
+
+/* BACKGROUND IMAGE */
+#loginPage {
+    background-image: url("//cdn.travisflix.com/web/img/mandalorian1.jpg");
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position:  top;
+    width: 100%;
+    overflow-y: scroll;
+    background-attachment: fixed;
+    background-size: cover;
+    webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* TEXT INPUT FIELD BORDER COLOR */
+.emby-input, .emby-textarea {border: 0.16em solid #444444;}
+
+/* PLAYBACK REPORTING PLUGIN */
+table#activity_report_table thead {
+   color: rgba(255, 255, 255, 0.87) !important;
+   background: #cc3333 !important;
+   text-transform: uppercase;
+}
+
+#user_usage_report_table thead {
+   text-transform: uppercase;
+}
+
+#user_usage_report_results button {
+   border: 1px solid !important;
+   border-radius: .2em;
+   cursor: pointer;
+   transition: 0.3s;
+}
+
+/* SIZE EPISODE PREVIEW IMAGES IN A MORE COMPACT WAY */
+.listItemImage.listItemImage-large.itemAction.lazy {height: 110px;}
+.listItem-content {height: 115px;}
+.secondary.listItem-overview.listItemBodyText {height: 61px; margin: 0;}
+
+/* ADJUST BOTH "SIZE-ADJUST" AND "SIZE" TO MODIFY SIZE */
+.headerTabs.sectionTabs {text-size-adjust: 110%;  font-size: 110%;}
+
+.pageTitle {
+   margin-top: auto;
+   margin-bottom: auto;
+   color: yellow !important;
+ }
+
+.mediaSourceIndicator {
+    color: #a40061;
+    background: yellow;
+}
+
+.emby-tab-button {padding: 1.75em 1.7em;}
+
+/* REMOVE SECTION TITLE HEADER AND EDIT MENU */
+#homeTab div.section0 div.sectionTitleContainer.sectionTitleContainer-cards {visibility: hidden;}
+
+/* MY MEDIA IMAGE SIZE */
+.smallBackdropCard {width: 16.0% !important;}
+
+/* VIDEO TITLE TEXT */
+button.itemAction.textActionButton.cardTextActionButton {font-weight: 600;}
+
+#loginPage .content-primary, .padded-bottom-page, .page, .pageWithAbsoluteTabs .pageTabContent {
+padding-bottom: 0 !important;
+}
+
+.cardText > .textActionButton {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* MAKE WATCHED ICON DARK AND TRANSPARENT */
+.playedIndicator {
+/* background: #00000058; */
+background: #000000c2;
+color: #fbff3fd6;
+}
+
+.countIndicator {background: #dc0026a3;}
+
+/* THIS MODIFIES THE COLORS OF THE CAST, SEARCH AND USER BUTTONS IN THE TOP RIGHT */
+.headerRight { color: yellow; }
+
+/* SCROLLBAR */
+.layout-desktop ::-webkit-scrollbar {width: 1em;}
+::-webkit-scrollbar-thumb:vertical {background: center no-repeat #afafaf;}
+::-webkit-scrollbar-track-piece {background-color: #161616;}
+
+/* MOVE DETAILLOGO AND ITEM DESCRIPTION HIGHER 
+.itemBackdrop {height: 45vh;}
+.detailLogo {top: 5vh;} */
+
+/* SHRINK AND SQUARE (OR ROUND) CAST THUMNAILS */
+@media all and (min-width: 131.25em){
+  #castContent .card.overflowPortraitCard {
+    width: 6.3vw !important; 
+    font-size: 90% !important;
+  }
+}
+
+@media all and (min-width: 120em) and (max-width: 131.25em){
+  #castContent .card.overflowPortraitCard {
+    width: 6.4vw !important; 
+    font-size: 90% !important;
+  }
+}
+
+@media all and (min-width: 100em) and (max-width: 120em){
+  #castContent .card.overflowPortraitCard {
+    width: 7.6vw !important; 
+    font-size: 90% !important;
+  }
+}
+
+@media all and (min-width: 87.5em) and (max-width: 100em){
+  #castContent .card.overflowPortraitCard {
+    width: 9.3vw !important; 
+    font-size: 90% !important;
+  }
+}
+
+@media all and (min-width: 75em) and (max-width: 87.5em){
+  #castContent .card.overflowPortraitCard {
+    width: 10.5vw !important; 
+    font-size: 90% !important;
+  }
+}
+
+@media all and (min-width: 50em) and (max-width: 75em){
+  #castContent .card.overflowPortraitCard {
+    width: 15vw !important;
+    font-size: 90% !important;
+  }
+}
+
+@media all and (min-width: 43.75em) and (max-width: 50em){
+  #castContent .card.overflowPortraitCard {
+    width: 20.1vw !important; 
+    font-size: 90% !important;
+  }
+}
+
+@media all and (min-width: 25em) and (max-width: 43.75em){
+  #castContent .card.overflowPortraitCard {
+    width: 31.2vw !important; 
+    font-size: 90% !important;
+  }
+}
+
+@media all and (max-width: 25em){
+  #castContent .card.overflowPortraitCard {
+    width: 40vw !important; 
+    font-size: 90% !important;
+  }
+}
+
+/* SHRINK AND SQUARE (OR ROUND) CAST THUMBNAILS */
+#castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
+#castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
+.cardPadder {background-color: #0000 !important; box-shadow: none !important;}
+
+/* CORRECT IMAGE ASPECT RATIO BEHAVIOUR, SET BORDER-RADIUS TO ZERO FOR SQUARE TILES */
+#castContent .cardOverlayContainer.itemAction,
+#castContent .cardImageContainer
+{border-radius: 50% !important;}
+#castContent .cardScalable {width:  3.8cm !important; height: 3.8cm !important;}
+
+/* ADD THIS IF USING COMPLETELY ROUND ICONS, IT CENTERS THE THREEDOT BUTTON */
+#castContent .cardOverlayButton-br {bottom: 4%; right: 15%; width: 70%;}
+#castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {margin:auto;}

@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
 #
-# Travis Runyard
+# travis runyard
 # 05-05-2020
-
 # compatibility: jellyfin-independant
+#
+# example usage running every 5 minutes in crontab:
+# */5 * * * * /path/to/delete-transcodetmp.sh
+
 
 # enter your jellyfin transcoding directory
 TCODETMP='/usr/local/jellyfin/config/transcodes'
