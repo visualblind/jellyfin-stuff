@@ -1,7 +1,8 @@
 # jellyfin-stuff
 
-Travis Runyard <travisrunyard@gmail.com>
-2020-01-26 **updated 05-15-2023**
+Author: Travis Runyard <travisrunyard@gmail.com>
+
+Date: 01-26-2020 (**updated 05-23-2023**)
 
 
 ## NAME
