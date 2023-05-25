@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Compatibility: Jellyfin 10.8.x
+# compatibility: jellyfin-independent
 
 # The command below looks for all srt subtitles in the current direcory non-recursively.
 # Remove maxdepth param if you require recursive subdirectory search.
