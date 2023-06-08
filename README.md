@@ -1,7 +1,7 @@
 # jellyfin-stuff
 
 Author: [Travis Runyard](travisrunyard@gmail.com)<br>
-Updated: 05-23-2023
+Updated: 06-08-2023
 
 
 ## DESCRIPTION
