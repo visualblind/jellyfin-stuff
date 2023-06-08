@@ -5,7 +5,7 @@ services:
     devices: 
       - "/dev/dri:/dev/dri"
     environment: 
-      - JELLYFIN_PublishedServerUrl="https://travisflix.com"
+      - JELLYFIN_PublishedServerUrl=travisflix.com
       - JELLYFIN_MEDIA_DIR=/media
       - JELLYFIN_DATA_DIR=/config
       - JELLYFIN_CACHE_DIR=/cache
