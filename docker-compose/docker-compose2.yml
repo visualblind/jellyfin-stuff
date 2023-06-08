@@ -2,8 +2,6 @@ version: '3.3'
 services: 
   jellyfin: 
     container_name: jellyfin
-#    depends_on: 
-#      - nginx_proxy
     devices: 
       - "/dev/dri:/dev/dri"
     environment: 
@@ -26,24 +24,6 @@ services:
       - "/usr/local/jellyfin/cache:/cache"
       - "/usr/local/jellyfin/jellyfin-web:/jellyfin/jellyfin-web/src"
 
-#  nginx_proxy: 
-#    container_name: nginx
-#    environment: 
-#      - PUID=1000
-#      - PGID=1000
-#      - TZ=America/Los_Angeles
-#    image: ghcr.io/linuxserver/nginx:latest
-#    networks: 
-#      - linuxserver-nginx_default
-#    ports: 
-#      - "80:80"
-#      - "443:443"
-#      - "8081:8081"  
-#    restart: unless-stopped
-#    volumes: 
-#      - "/usr/local/linuxserver-nginx/config:/config"
-#      - "/run/nginx-cache:/config/nginx-cache"
-
   filebrowser:
     container_name: filebrowser
     environment:
@@ -51,7 +31,6 @@ services:
       - FB_BASEURL=/
       - FB_USERNAME=visualblind
     image: hurlenko/filebrowser
-#user: "${UID}:${GID}"
     volumes:
       - /usr/local/filebrowser/config:/config
       - /usr/local/filebrowser/data:/data
@@ -66,8 +45,6 @@ services:
     restart: unless-stopped
 
   openspeedtest:
-#    depends_on:
-#      - nginx_proxy
     container_name: openspeedtest
     image: openspeedtest/latest:latest
     networks:
@@ -77,8 +54,6 @@ services:
     restart: unless-stopped
 
   letsencrypt:
-#    depends_on:
-#      - nginx_proxy
     image: ghcr.io/linuxserver/letsencrypt:latest
     networks:
       - linuxserver-nginx_default
@@ -99,8 +74,6 @@ services:
     restart: unless-stopped
 
   portainer:
-#    depends_on:
-#      - nginx_proxy
     container_name: portainer
     ports:
       - "9000:9000"
@@ -110,24 +83,6 @@ services:
     image: portainer/portainer
     networks:
       - linuxserver-nginx_default
-
-        #  ombi:
-#    depends_on:
-#      - nginx_proxy
-#    container_name: ombi
-      #    ports:
-      #     - 3579:3579
-       #    volumes:
-      #      - /usr/local/ombi/appdata/config:/config
-        #    image: lscr.io/linuxserver/ombi:latest
-      #    environment:
-      #      - PUID=1000
-        #      - PGID=1000
-        #      - TZ=America/Los_Angeles
-        #      - BASE_URL= #optional
-#    networks:
-#      - linuxserver-nginx_default
-#    restart: unless-stopped
 
   jellyseerr:
     image: fallenbagel/jellyseerr:latest
@@ -142,7 +97,6 @@ services:
     networks:
       - linuxserver-nginx_default
     restart: unless-stopped
-
 
 #  droppy:
 #    depends_on:
