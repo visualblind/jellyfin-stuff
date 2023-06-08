@@ -3,12 +3,11 @@
 Author: [Travis Runyard](travisrunyard@gmail.com)<br>
 Updated: 05-23-2023
 
-jellyfin-stuff - This repo contains any relevant files used within the scope of Jellyfin customization and management, while typically steering away from any internal development modifications (C#).
-
 
 ## DESCRIPTION
 
-**jellyfin-stuff** is a collection of various shell scripts, css and configuration files which help to customize the Jellyfin interface and automate any other tasks not covered by the official plugins.
+**jellyfin-stuff** is a collection of various shell scripts, css and configuration files which help to customize the Jellyfin front-end interface and automate any other tasks not covered by the official plugins.
+Scripts in this repo modify relevant Jellyfin front-end files (html, js, css, etc) so use at your own risk. I have done my best to add descriptive comments explaining what is being done if it is not obvious.
 
 **Be advised that some shell scripts modify the Jellyfin web interface javascript and html files** directly as there is no other easy way to accomplish the relevant objectives.
 
