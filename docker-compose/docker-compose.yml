@@ -23,6 +23,7 @@ services:
       - "/mnt/mergerfs/media:/media:ro"
       - "/usr/local/jellyfin/cache:/cache"
       - "/usr/local/jellyfin/jellyfin-web:/jellyfin/jellyfin-web/src"
+
   filebrowser:
     container_name: filebrowser
     environment:
@@ -30,17 +31,20 @@ services:
       - FB_BASEURL=/
       - FB_USERNAME=visualblind
     image: hurlenko/filebrowser
+#user: "${UID}:${GID}"
     volumes:
       - /usr/local/filebrowser/config:/config
       - /usr/local/filebrowser/data:/data
       - /usr/local/filebrowser/branding:/branding
       - /mnt/mergerfs/media/video-movies:/data/video-movies:ro
       - /mnt/mergerfs/media/video-movies:/data/users/upload/video-movies:ro
+      - /mnt/mergerfs/backup:/data/backup:ro
     ports:
       - 8080:8080
     networks:
       - linuxserver-nginx_default
     restart: unless-stopped
+
   openspeedtest:
     container_name: openspeedtest
     image: openspeedtest/latest:latest
@@ -49,6 +53,7 @@ services:
     ports:
       - "3000:3000"
     restart: unless-stopped
+
   letsencrypt:
     image: ghcr.io/linuxserver/letsencrypt:latest
     networks:
@@ -68,6 +73,7 @@ services:
       - "4433:443"
       - "8082:80"
     restart: unless-stopped
+
   portainer:
     container_name: portainer
     ports:
@@ -78,6 +84,7 @@ services:
     image: portainer/portainer
     networks:
       - linuxserver-nginx_default
+
   jellyseerr:
     image: fallenbagel/jellyseerr:latest
     container_name: jellyseerr
@@ -91,6 +98,7 @@ services:
     networks:
       - linuxserver-nginx_default
     restart: unless-stopped
+
 networks: 
   linuxserver-nginx_default:
     external: true
