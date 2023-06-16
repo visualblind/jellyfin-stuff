@@ -13,17 +13,3 @@ Be aware scripts in this repo modify relevant Jellyfin front-end files (html, js
 
 
 
-## FEATURES
-
-**TBD**
-
-
-## How it works
-
-**TBD**
-
-
-## LINKS
-
-**TBD**
-
