@@ -1,106 +1,78 @@
 ﻿#EXTM3U
-#EXTINF:-1 tvg-name="ABC News Live"tvg-id="ABCNews"tvg-logo="https://i.imgur.com/zBOsKCv.png"group-title="News":http-user-agent="",ABC News Live
+#EXTINF:-1 tvg-name="CBS News" tvg-id="CBSNews.us" tvg-name="CBS News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CBS_News_logo_%282020%29.svg/512px-CBS_News_logo_%282020%29.svg.png" group-title="News",CBS News
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF:-1 tvg-name="ABC News" tvg-id="ABCNews" tvg-logo="https://i.imgur.com/zBOsKCv.png" group-title="News":http-user-agent="",ABC News
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
-#EXTINF:-1 tvg-name="BBC World News"tvg-id="BBCWorld"tvg-logo="https://i.imgur.com/joD38lo.png"group-title="News":http-user-agent="",BBC World News
+#EXTINF:-1 tvg-name="BBC World News" tvg-id="BBCWorld" tvg-logo="https://i.imgur.com/joD38lo.png" group-title="News":http-user-agent="",BBC World News
 http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
-#EXTINF:-1 tvg-name="PBS America"tvg-id="PBSAmerica"tvg-logo="https://i.imgur.com/J4zE5z9.jpg"group-title="Shows":http-user-agent="",PBS America
+#EXTINF:-1 tvg-name="PBS America" tvg-id="PBSAmerica" tvg-logo="https://i.imgur.com/J4zE5z9.jpg" group-title="Shows":http-user-agent="",PBS America
 https://pbs-samsunguk.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="Buzzr"tvg-id="Buzzr"tvg-logo="https://i.imgur.com/VihFt5p.png"group-title="Shows":http-user-agent="",Buzzr
-https://buzzrota-web.amagi.tv/playlist480.m3u8
-#EXTINF:-1 tvg-name="NASA TV Public"tvg-id="NASATVPublic"tvg-logo="https://i.imgur.com/rmyfoOI.png"group-title="Shows":http-user-agent="",NASA TV Public
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
-#EXTINF:-1 tvg-name="NASA TV Media"tvg-id="NASATVMedia"tvg-logo="https://i.imgur.com/rmyfoOI.png"group-title="Shows":http-user-agent="",NASA TV Media
-https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
-#EXTINF:-1 tvg-name="ABC News Live 1 (720p)"tvg-id="ABCNewsLive1.us"tvg-logo="https://i.imgur.com/zBOsKCv.png"group-title="News":http-user-agent="",ABC News Live 1 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8
-#EXTINF:-1 tvg-name="ABC News Live 2 (720p)"tvg-id="ABCNewsLive2.us"tvg-logo="https://i.imgur.com/zBOsKCv.png"group-title="News":http-user-agent="",ABC News Live 2 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8
-#EXTINF:-1 tvg-name="ABC News Live 3 (720p)"tvg-id="ABCNewsLive3.us"tvg-logo="https://i.imgur.com/zBOsKCv.png"group-title="News":http-user-agent="",ABC News Live 3 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023562/abcnews3/master.m3u8
-#EXTINF:-1 tvg-name="ABC News Live 4 (720p)"tvg-id="ABCNewsLive4.us"tvg-logo="https://i.imgur.com/zBOsKCv.png"group-title="News":http-user-agent="",ABC News Live 4 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023563/abcnews4/master.m3u8
-#EXTINF:-1 tvg-name="ABC News Live 5 (720p)"tvg-id="ABCNewsLive5.us"tvg-logo="https://i.imgur.com/zBOsKCv.png"group-title="News":http-user-agent="",ABC News Live 5 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023564/abcnews5/master.m3u8
-#EXTINF:-1 tvg-name="ABC News Live 6 (720p)"tvg-id="ABCNewsLive6.us"tvg-logo="https://i.imgur.com/zBOsKCv.png"group-title="News":http-user-agent="",ABC News Live 6 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023565/abcnews6/master.m3u8
-#EXTINF:-1 tvg-name="ABC News Live 7 (720p)"tvg-id="ABCNewsLive7.us"tvg-logo="https://i.imgur.com/zBOsKCv.png"group-title="News":http-user-agent="",ABC News Live 7 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023566/abcnews7/master.m3u8
-#EXTINF:-1 tvg-name="ABC News Live 8 (720p)"tvg-id="ABCNewsLive8.us"tvg-logo="https://i.imgur.com/zBOsKCv.png"group-title="News":http-user-agent="",ABC News Live 8 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023567/abcnews8/master.m3u8
-#EXTINF:-1 tvg-name="ABC News Live 9 (720p)"tvg-id="ABCNewsLive9.us"tvg-logo="https://i.imgur.com/zBOsKCv.png"group-title="News":http-user-agent="",ABC News Live 9 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023568/abcnews9/master.m3u8
-#EXTINF:-1 tvg-name="ABC 7 Los Angeles CA (KABC-TV) (720p)"tvg-id="KABC-TV"tvg-logo="https://i.imgur.com/zBOsKCv.png"group-title="News":http-user-agent="",ABC 7 Los Angeles CA (KABC-TV) (720p)
-https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
-#EXTINF:-1 tvg-name="ABC 4 Seattle WA (KOMO-TV) (720p)"tvg-id="KOMO-TV"tvg-logo="https://i.imgur.com/OujKrqc.png"group-title="News":http-user-agent="",ABC 4 Seattle WA (KOMO-TV) (720p)
-https://content.uplynk.com/2c88dfe19e1447e6a6aa27e8e143a140.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Aqua Teen Hunger Force (1080p) [Geo-blocked]"tvg-id="AdultSwimAquaTeenHungerForce.us"tvg-logo="https://i.imgur.com/ixywxhs.jpg"group-title="Series":http-user-agent="",Adult Swim Aqua Teen Hunger Force (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Black Jesus (1080p) [Geo-blocked]"tvg-id="AdultSwimBlackJesus.us"tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Black_Jesus_title_card.png"group-title="Series":http-user-agent="",Adult Swim Black Jesus (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Channel 5 (1080p) [Geo-blocked]"tvg-id="AdultSwimChannel5.us"tvg-logo="https://i.imgur.com/sCRPkPk.jpg"group-title="Series":http-user-agent="",Adult Swim Channel 5 (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/channel-5/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Dream Corp LLC (1080p) [Geo-blocked]"tvg-id="AdultSwimDreamCorpLLC.us"tvg-logo="https://i.imgur.com/jOTChgo.jpg"group-title="Series":http-user-agent="",Adult Swim Dream Corp LLC (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim East (720p)"tvg-id="AdultSwimEast.us"tvg-logo="https://cdn.tvpassport.com/image/station/100x100/adult-swim.png"group-title="Series":http-user-agent="",Adult Swim East (720p)
-https://tve-live-lln.warnermediacdn.com/hls/live/2023183/aseast/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Infomercials (1080p) [Geo-blocked]"tvg-id="AdultSwimInfomercials.us"tvg-logo="https://static.wikia.nocookie.net/toonami/images/e/ea/As_short.jpg"group-title="Series":http-user-agent="",Adult Swim Infomercials (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/infomercials/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Last Stream On The Left (1080p) [Geo-blocked]"tvg-id="AdultSwimLastStreamOnTheLeft.us"tvg-logo="https://i.imgur.com/VsAKoN6.jpg"group-title="Series":http-user-agent="",Adult Swim Last Stream On The Left (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/lsotl/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Metalocalypse (1080p) [Geo-blocked]"tvg-id="AdultSwimMetalocalypse.us"tvg-logo="https://i.imgur.com/N0pMBQ7.jpg"group-title="Series":http-user-agent="",Adult Swim Metalocalypse (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Off The Air (1080p) [Geo-blocked]"tvg-id="AdultSwimOffTheAir.us"tvg-logo="https://i.imgur.com/tFks0c6.jpg"group-title="Series":http-user-agent="",Adult Swim Off The Air (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/off-the-air/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Rick and Morty (1080p) [Geo-blocked]"tvg-id="AdultSwimRickAndMorty.us"tvg-logo="https://i.imgur.com/vLzXFTa.jpg"group-title="Series":http-user-agent="",Adult Swim Rick and Morty (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Robot Chicken (1080p) [Geo-blocked]"tvg-id="AdultSwimRobotChicken.us"tvg-logo="https://i.imgur.com/bTWIjIw.jpg"group-title="Series":http-user-agent="",Adult Swim Robot Chicken (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Samurai Jack (1080p) [Geo-blocked]"tvg-id="AdultSwimSamuraiJack.us"tvg-logo="https://i.imgur.com/zIjbwSa.jpg"group-title="Series":http-user-agent="",Adult Swim Samurai Jack (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/samurai-jack/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim The Eric Andre Show (1080p) [Geo-blocked]"tvg-id="AdultSwimTheEricAndreShow.us"tvg-logo="https://i.imgur.com/tqHQy32.jpg"group-title="Series":http-user-agent="",Adult Swim The Eric Andre Show (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim The Venture Bros (1080p) [Geo-blocked]"tvg-id="AdultSwimTheVentureBros.us"tvg-logo="https://i.imgur.com/QQc2rh8.jpg"group-title="Series":http-user-agent="",Adult Swim The Venture Bros (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
-#EXTINF:-1 tvg-name="Adult Swim West (720p)"tvg-id="AdultSwimWest.us"tvg-logo="https://cdn.tvpassport.com/image/station/100x100/adult-swim.png"group-title="Series":http-user-agent="",Adult Swim West (720p)
-https://tve-live-lln.warnermediacdn.com/hls/live/2023185/aswest/noslate/VIDEO_1_5128000.m3u8
-#EXTINF:-1 tvg-name="Adult Swim Your Pretty Face Is Going To Hell (1080p) [Geo-blocked]"tvg-id="AdultSwimYourPrettyFaceIsGoingToHell.us"tvg-logo="https://i.imgur.com/yVZAI7F.png"group-title="Series":http-user-agent="",Adult Swim Your Pretty Face Is Going To Hell (1080p) [Geo-blocked]
-https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
-#EXTINF:-1 tvg-name="CNBC Europe (480p)"tvg-id="CNBCEurope.us"tvg-logo="https://i.imgur.com/53EgUZN.png"group-title="News":http-user-agent="",CNBC Europe (480p)
-http://ott-cdn.ucom.am/s65/index.m3u8
-#EXTINF:-1 tvg-name="CBS News Los Angeles (720p)"tvg-id="CBSNewsLA.us"tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png"group-title="News":http-user-agent="",CBS News Los Angeles (720p)
-https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
-#EXTINF:-1 tvg-name="CNN"tvg-id="CNN.us"tvg-logo="https://i.imgur.com/vyrc1I1.png"group-title="News":http-user-agent="",CNN
-https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-name="FOX 11 Los Angeles CA (KTTV) (720p)"tvg-id="FOX11.us"tvg-logo="https://i.imgur.com/O1LIEJd.png"group-title="News":http-user-agent="",FOX 11 Los Angeles CA (KTTV) (720p)
-https://csm-e-eb.csm.tubi.video/csm/extlive/tubiprd01,p-KTTV-Monetizer.m3u8
-#EXTINF:-1 tvg-name="Law & Crime (720p)"tvg-id="LawCrime.us"tvg-logo="https://i.imgur.com/HY64Nhe.png"group-title="Series":http-user-agent="",Law & Crime (720p)
-http://lawandcrime.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-name="Law & Crime (XUMO) (720p)"tvg-id="LawCrimeXUMO.us"tvg-logo="https://i.imgur.com/HY64Nhe.png"group-title="Series":http-user-agent="",Law & Crime (XUMO) (720p)
-https://dai2.xumo.com/amagi_hls_data_xumo1234A-lawcrime/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="MST3K (1080p)"tvg-id="MST3K.us"tvg-logo="https://i.imgur.com/1xJJB7C.jpg"group-title="Series":http-user-agent="",MST3K (1080p)
-https://mst3k-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-mst3k/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="Mystery Science Theater 3000 (1080p)"tvg-id="MysteryScienceTheater3000.us"tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5f9ace054964ba19ff258256"group-title="Series":http-user-agent="",Mystery Science Theater 3000 (1080p)
-https://mst3k-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="Pluto TV MTV Biggest Pop (720p)"tvg-id="PlutoTVMTVBiggestPop.us"tvg-logo="https://images.pluto.tv/channels/5d14fd1a252d35decbc4080c/colorLogoPNG.png"group-title="Shows":http-user-agent="",Pluto TV MTV Biggest Pop (720p)
-http://pluto-live.plutotv.net/egress/chandler/pluto01/live/VIACBS02/master.m3u8
-#EXTINF:-1 tvg-name="Pluto TV Action"tvg-id=""tvg-logo="https://i.imgur.com/g8PCdh6.png"group-title="Shows":http-user-agent="",Pluto TV Action
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/561d7d484dc7c8770484914a/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=54&deviceId=561d7d484dc7c8770484914a&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
-#EXTINF:-1 tvg-name="Pluto TV Comedy"tvg-id="PlutoTVComedy.us"tvg-logo="https://images.pluto.tv/channels/5a4d3a00ad95e4718ae8d8db/featuredImage.jpg?auto=&fill=blur&fit=fill&ixlib=react-9.1.5&h=350"group-title="Shows":http-user-agent="",Pluto TV Comedy
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5a4d3a00ad95e4718ae8d8db/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=57&deviceId=5a4d3a00ad95e4718ae8d8db&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
-#EXTINF:-1 tvg-name="The Film Detective (720p)"tvg-id="TheFilmDetective.us"tvg-logo="https://i.imgur.com/X7NV3X1.png"group-title="Movies":http-user-agent="",The Film Detective (720p)
+#EXTINF:-1 tvg-name="PBS West" tvg-id="PBSWest.us" tvg-logo="https://d1qbemlbhjecig.cloudfront.net/prod/filer_public/pbs-digital-studios-bento-live-pbs/icons/1fcc0dd46e_PBS_favicon.png" group-title="Education",PBS West
+https://pbs.lls.cdn.pbs.org/pst/index.m3u8
+#EXTINF:-1 tvg-name="Film Detective" tvg-id="FilmDetective.us" tvg-logo="https://i.imgur.com/4aFLH9g.png" group-title="VOD Movies (EN)",Film Detective
 https://dai.google.com/linear/hls/event/OYH9J7rZSK2fabKXWAYcfA/master.m3u8
-#EXTINF:-1 tvg-name="Pluto TV Crime Movies"tvg-id="PlutoTVCrimeMovies"tvg-logo="https://i.imgur.com/PlAQrIb.png"group-title="Movies":http-user-agent="",Pluto TV Crime Movies
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4d8594eb979c0007706de7/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=73&deviceId=5f4d8594eb979c0007706de7&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
-#EXTINF:-1 tvg-name="TNT East (720p)"tvg-id="TNTEast.us"tvg-logo="https://i.imgur.com/xvL9KPI.png"group-title="Shows":http-user-agent="",TNT East (720p)
-https://tve-live-lln.warnermediacdn.com/hls/live/2023168/tnteast/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-name="TNT West (720p)"tvg-id="TNTWest.us"tvg-logo="https://i.imgur.com/xvL9KPI.png"group-title="Shows":http-user-agent="",TNT West (720p)
-https://tve-live-lln.warnermediacdn.com/hls/live/2023170/tntwest/slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-name="Weathernation (720p)"tvg-id="WeatherNation.us"tvg-logo="https://cdn.tvpassport.com/image/station/100x100/weathernation.png"group-title="Weather":http-user-agent="",Weathernation (720p)
+#EXTINF:-1 tvg-name="Buzzr" tvg-id="Buzzr" tvg-logo="https://i.imgur.com/VihFt5p.png" group-title="Shows":http-user-agent="",Buzzr
+https://buzzrota-web.amagi.tv/playlist480.m3u8
+#EXTINF:-1 tvg-name="TD Ameritrade Network" tvg-id="TDAmeritradeNetwork.us" tvg-logo="https://i.imgur.com/RbVdkJ5.png" group-title="Business",TD Ameritrade Network
+https://tdameritrade-distro.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Bloomberg" tvg-id="BloombergTelevision.us" tvg-logo="https://camo.githubusercontent.com/a6e1561a2ce085c3856c8bbc45801fa49fcd7bb77617a8b899f29b8e1fa8f36a/68747470733a2f2f692e696d6775722e636f6d2f566e43634837332e706e67" group-title="News",Bloomberg
+https://bloomberg.com/media-manifest/streams/us.m3u8
+#EXTINF:-1 tvg-name="Reuters TV" tvg-id="ReutersTV.us" tvg-logo="https://camo.githubusercontent.com/003839ca42a1273a3fed24768d62470e216d0f74600b8dde7e0cbea4821cff4e/68747470733a2f2f692e696d6775722e636f6d2f416276436e6f482e706e67" group-title="News",Reuters TV
+https://reuters-reutersnow-1-eu.rakuten.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="NASA TV Public" tvg-id="NASATVPublic.us" tvg-logo="https://i.imgur.com/rmyfoOI.png" group-title="Shows":http-user-agent="",NASA TV Public
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master_2000.m3u8
+#EXTINF:-1 tvg-name="NASA TV Media" tvg-id="NASATVMedia.us" tvg-logo="https://i.imgur.com/rmyfoOI.png" group-title="Shows":http-user-agent="",NASA TV Media
+https://ntv2.akamaized.net/hls/live/2013923/NASA-NTV2-HLS/master.m3u8
+#EXTINF:-1 tvg-name="ABC News Live 1 (720p)" tvg-id="ABCNewsLive1.us" tvg-logo="https://i.imgur.com/zBOsKCv.png" group-title="News":http-user-agent="",ABC News Live 1 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8
+#EXTINF:-1 tvg-name="ABC News Live 2 (720p)" tvg-id="ABCNewsLive2.us" tvg-logo="https://i.imgur.com/zBOsKCv.png" group-title="News":http-user-agent="",ABC News Live 2 (720p)
+https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8
+#EXTINF:-1 tvg-name="ABC 7 Los Angeles CA (KABC-TV) (720p)" tvg-id="KABC-TV" tvg-logo="https://i.imgur.com/zBOsKCv.png" group-title="News":http-user-agent="",ABC 7 Los Angeles CA (KABC-TV) (720p)
+https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
+#EXTINF:-1 tvg-name="ABC 4 Seattle WA (KOMO-TV) (720p)" tvg-id="KOMO-TV" tvg-logo="https://i.imgur.com/OujKrqc.png" group-title="News":http-user-agent="",ABC 4 Seattle WA (KOMO-TV) (720p)
+https://content.uplynk.com/2c88dfe19e1447e6a6aa27e8e143a140.m3u8
+#EXTINF:-1 tvg-name="Adult Swim Aqua Teen Hunger Force (1080p) [Geo-blocked]" tvg-id="AdultSwimAquaTeenHungerForce.us" tvg-logo="https://i.imgur.com/ixywxhs.jpg" group-title="Series":http-user-agent="",Adult Swim Aqua Teen Hunger Force (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim Black Jesus (1080p) [Geo-blocked]" tvg-id="AdultSwimBlackJesus.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Black_Jesus_title_card.png" group-title="Series":http-user-agent="",Adult Swim Black Jesus (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim Channel 5 (1080p) [Geo-blocked]" tvg-id="AdultSwimChannel5.us" tvg-logo="https://i.imgur.com/sCRPkPk.jpg" group-title="Series":http-user-agent="",Adult Swim Channel 5 (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/channel-5/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim Dream Corp LLC (1080p) [Geo-blocked]" tvg-id="AdultSwimDreamCorpLLC.us" tvg-logo="https://i.imgur.com/jOTChgo.jpg" group-title="Series":http-user-agent="",Adult Swim Dream Corp LLC (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim Last Stream On The Left (1080p) [Geo-blocked]" tvg-id="AdultSwimLastStreamOnTheLeft.us" tvg-logo="https://i.imgur.com/VsAKoN6.jpg" group-title="Series":http-user-agent="",Adult Swim Last Stream On The Left (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/lsotl/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim Metalocalypse (1080p) [Geo-blocked]" tvg-id="AdultSwimMetalocalypse.us" tvg-logo="https://i.imgur.com/N0pMBQ7.jpg" group-title="Series":http-user-agent="",Adult Swim Metalocalypse (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim Off The Air (1080p) [Geo-blocked]" tvg-id="AdultSwimOffTheAir.us" tvg-logo="https://i.imgur.com/tFks0c6.jpg" group-title="Series":http-user-agent="",Adult Swim Off The Air (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/off-the-air/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim Rick and Morty (1080p) [Geo-blocked]" tvg-id="AdultSwimRickAndMorty.us" tvg-logo="https://i.imgur.com/vLzXFTa.jpg" group-title="Series":http-user-agent="",Adult Swim Rick and Morty (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim Robot Chicken (1080p) [Geo-blocked]" tvg-id="AdultSwimRobotChicken.us" tvg-logo="https://i.imgur.com/bTWIjIw.jpg" group-title="Series":http-user-agent="",Adult Swim Robot Chicken (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim Samurai Jack (1080p) [Geo-blocked]" tvg-id="AdultSwimSamuraiJack.us" tvg-logo="https://i.imgur.com/zIjbwSa.jpg" group-title="Series":http-user-agent="",Adult Swim Samurai Jack (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/samurai-jack/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim The Eric Andre Show (1080p) [Geo-blocked]" tvg-id="AdultSwimTheEricAndreShow.us" tvg-logo="https://i.imgur.com/tqHQy32.jpg" group-title="Series":http-user-agent="",Adult Swim The Eric Andre Show (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim The Venture Bros (1080p) [Geo-blocked]" tvg-id="AdultSwimTheVentureBros.us" tvg-logo="https://i.imgur.com/QQc2rh8.jpg" group-title="Series":http-user-agent="",Adult Swim The Venture Bros (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
+#EXTINF:-1 tvg-name="Adult Swim Your Pretty Face Is Going To Hell (1080p) [Geo-blocked]" tvg-id="AdultSwimYourPrettyFaceIsGoingToHell.us" tvg-logo="https://i.imgur.com/yVZAI7F.png" group-title="Series":http-user-agent="",Adult Swim Your Pretty Face Is Going To Hell (1080p) [Geo-blocked]
+https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
+#EXTINF:-1 tvg-name="CBS News Los Angeles (720p)" tvg-id="CBSNewsLA.us" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" group-title="News":http-user-agent="",CBS News Los Angeles (720p)
+https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
+https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+#EXTINF:-1 tvg-name="Law & Crime (720p)" tvg-id="LawCrime.us" tvg-logo="https://i.imgur.com/HY64Nhe.png" group-title="Series":http-user-agent="",Law & Crime (720p)
+http://lawandcrime.samsung.wurl.com/manifest/playlist.m3u8
+#EXTINF:-1 tvg-name="Law & Crime (720p) (XUMO)" tvg-id="LawCrimeXUMO.us" tvg-logo="https://i.imgur.com/HY64Nhe.png" group-title="Series":http-user-agent="",Law & Crime (720p) (XUMO)
+https://dai2.xumo.com/amagi_hls_data_xumo1234A-lawcrime/CDN/playlist.m3u8
+#EXTINF:-1 tvg-name="MST3K (1080p)" tvg-id="MST3K.us" tvg-logo="https://i.imgur.com/1xJJB7C.jpg" group-title="Series":http-user-agent="",MST3K (1080p)
+https://mst3k-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-mst3k/CDN/playlist.m3u8
+#EXTINF:-1 tvg-name="Mystery Science Theater 3000 (1080p)" tvg-id="MysteryScienceTheater3000.us" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5f9ace054964ba19ff258256" group-title="Series":http-user-agent="",Mystery Science Theater 3000 (1080p)
+https://mst3k-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="The Film Detective (720p)" tvg-id="TheFilmDetective.us" tvg-logo="https://i.imgur.com/X7NV3X1.png" group-title="Movies":http-user-agent="",The Film Detective (720p)
+https://dai.google.com/linear/hls/event/OYH9J7rZSK2fabKXWAYcfA/master.m3u8
+#EXTINF:-1 tvg-name="Weathernation (720p)" tvg-id="WeatherNation.us" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/weathernation.png" group-title="Weather":http-user-agent="",Weathernation (720p)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-Weather-Nation.m3u8
-#EXTINF:-1 tvg-name="WeatherSpy"tvg-id="WeatherSpy.us"tvg-logo="https://i.imgur.com/SAZF1cq.jpg"group-title="Weather":http-user-agent="",WeatherSpy
+#EXTINF:-1 tvg-name="WeatherSpy" tvg-id="WeatherSpy.us" tvg-logo="https://i.imgur.com/SAZF1cq.jpg" group-title="Weather":http-user-agent="",WeatherSpy
 https://jukin-weatherspy-1-us.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="WeatherSpy (720p)"tvg-id="WeatherSpy.us"tvg-logo="https://i.imgur.com/SAZF1cq.jpg"group-title="Weather":http-user-agent="",WeatherSpy (720p)
+#EXTINF:-1 tvg-name="WeatherSpy (720p) (XUMO)" tvg-id="WeatherSpy.us" tvg-logo="https://i.imgur.com/SAZF1cq.jpg" group-title="Weather":http-user-agent="",WeatherSpy (720p) (XUMO)
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxweatherspy/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="USA Today (1080p)"tvg-id="USAToday.us"tvg-logo="https://cdn.freelogovectors.net/wp-content/uploads/2020/11/usa-today-logo-768x768.png"group-title="News":http-user-agent="",USA Today (1080p)
-https://dai.google.com/linear/hls/event/gJJhuFTCRo-HAHYsffb3Xg/master.m3u8
-
