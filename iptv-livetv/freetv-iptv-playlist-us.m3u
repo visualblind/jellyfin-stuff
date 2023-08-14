@@ -1,5 +1,7 @@
 ﻿#EXTM3U
-#EXTINF:-1 tvg-name="CBS News" tvg-id="CBSNews.us" tvg-name="CBS News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CBS_News_logo_%282020%29.svg/512px-CBS_News_logo_%282020%29.svg.png" group-title="News",CBS News
+#EXTINF:-1 tvg-name="CNBC" tvg-id="CNBC.us" tvg-logo="https://i.imgur.com/BTasyOy.png" group-title="News":http-user-agent="",CNBC
+https://www.youtube.com/c/CNBC/live
+#EXTINF:-1 tvg-name="CBS News" tvg-id="CBSNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CBS_News_logo_%282020%29.svg/512px-CBS_News_logo_%282020%29.svg.png" group-title="News":http-user-agent="",CBS News
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
 #EXTINF:-1 tvg-name="ABC News" tvg-id="ABCNews" tvg-logo="https://i.imgur.com/zBOsKCv.png" group-title="News":http-user-agent="",ABC News
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
@@ -70,9 +72,9 @@ https://mst3k-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-mst3k/CDN/playlist.m3
 https://mst3k-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="The Film Detective (720p)" tvg-id="TheFilmDetective.us" tvg-logo="https://i.imgur.com/X7NV3X1.png" group-title="Movies":http-user-agent="",The Film Detective (720p)
 https://dai.google.com/linear/hls/event/OYH9J7rZSK2fabKXWAYcfA/master.m3u8
-#EXTINF:-1 tvg-name="Weathernation (720p)" tvg-id="WeatherNation.us" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/weathernation.png" group-title="Weather":http-user-agent="",Weathernation (720p)
+#EXTINF:-1 tvg-name="Weathernation (720p)" tvg-id="WeatherNation.us" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/weathernation.png" group-title="News":http-user-agent="",Weathernation (720p)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-Weather-Nation.m3u8
-#EXTINF:-1 tvg-name="WeatherSpy" tvg-id="WeatherSpy.us" tvg-logo="https://i.imgur.com/SAZF1cq.jpg" group-title="Weather":http-user-agent="",WeatherSpy
+#EXTINF:-1 tvg-name="WeatherSpy" tvg-id="WeatherSpy.us" tvg-logo="https://i.imgur.com/SAZF1cq.jpg" group-title="News":http-user-agent="",WeatherSpy
 https://jukin-weatherspy-1-us.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="WeatherSpy (720p) (XUMO)" tvg-id="WeatherSpy.us" tvg-logo="https://i.imgur.com/SAZF1cq.jpg" group-title="Weather":http-user-agent="",WeatherSpy (720p) (XUMO)
+#EXTINF:-1 tvg-name="WeatherSpy (720p) (XUMO)" tvg-id="WeatherSpy.us" tvg-logo="https://i.imgur.com/SAZF1cq.jpg" group-title="News":http-user-agent="",WeatherSpy (720p) (XUMO)
 https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxweatherspy/CDN/playlist.m3u8
