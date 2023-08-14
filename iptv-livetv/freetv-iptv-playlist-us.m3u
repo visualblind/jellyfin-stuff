@@ -1,6 +1,4 @@
 ﻿#EXTM3U
-#EXTINF:-1 tvg-name="CNBC" tvg-id="CNBC.us" tvg-logo="https://i.imgur.com/BTasyOy.png" group-title="News":http-user-agent="",CNBC
-https://www.youtube.com/c/CNBC/live
 #EXTINF:-1 tvg-name="CBS News" tvg-id="CBSNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/CBS_News_logo_%282020%29.svg/512px-CBS_News_logo_%282020%29.svg.png" group-title="News":http-user-agent="",CBS News
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
 #EXTINF:-1 tvg-name="ABC News" tvg-id="ABCNews" tvg-logo="https://i.imgur.com/zBOsKCv.png" group-title="News":http-user-agent="",ABC News
