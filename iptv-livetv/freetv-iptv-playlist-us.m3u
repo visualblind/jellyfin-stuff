@@ -9,8 +9,6 @@ http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 https://pbs-samsunguk.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="PBS West" tvg-id="PBSWest.us" tvg-logo="https://d1qbemlbhjecig.cloudfront.net/prod/filer_public/pbs-digital-studios-bento-live-pbs/icons/1fcc0dd46e_PBS_favicon.png" group-title="Education",PBS West
 https://pbs.lls.cdn.pbs.org/pst/index.m3u8
-#EXTINF:-1 tvg-name="Film Detective" tvg-id="FilmDetective.us" tvg-logo="https://i.imgur.com/4aFLH9g.png" group-title="VOD Movies (EN)",Film Detective
-https://dai.google.com/linear/hls/event/OYH9J7rZSK2fabKXWAYcfA/master.m3u8
 #EXTINF:-1 tvg-name="Buzzr" tvg-id="Buzzr" tvg-logo="https://i.imgur.com/VihFt5p.png" group-title="Shows":http-user-agent="",Buzzr
 https://buzzrota-web.amagi.tv/playlist480.m3u8
 #EXTINF:-1 tvg-name="TD Ameritrade Network" tvg-id="TDAmeritradeNetwork.us" tvg-logo="https://i.imgur.com/RbVdkJ5.png" group-title="Business",TD Ameritrade Network
@@ -64,11 +62,11 @@ https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_
 http://lawandcrime.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-name="Law & Crime (720p) (XUMO)" tvg-id="LawCrimeXUMO.us" tvg-logo="https://i.imgur.com/HY64Nhe.png" group-title="Series":http-user-agent="",Law & Crime (720p) (XUMO)
 https://dai2.xumo.com/amagi_hls_data_xumo1234A-lawcrime/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="MST3K (1080p)" tvg-id="MST3K.us" tvg-logo="https://i.imgur.com/1xJJB7C.jpg" group-title="Series":http-user-agent="",MST3K (1080p)
+#EXTINF:-1 tvg-name="MST3K (1080p) 1" tvg-id="MST3K.us" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5f9ace054964ba19ff258256" group-title="Series":http-user-agent="",MST3K (1080p) 1
 https://mst3k-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-mst3k/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="Mystery Science Theater 3000 (1080p)" tvg-id="MysteryScienceTheater3000.us" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5f9ace054964ba19ff258256" group-title="Series":http-user-agent="",Mystery Science Theater 3000 (1080p)
+#EXTINF:-1 tvg-name="MST3K (1080p) 2" tvg-id="MysteryScienceTheater3000.us" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5f9ace054964ba19ff258256" group-title="Series":http-user-agent="",MST3K (1080p) 2
 https://mst3k-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="The Film Detective (720p)" tvg-id="TheFilmDetective.us" tvg-logo="https://i.imgur.com/X7NV3X1.png" group-title="Movies":http-user-agent="",The Film Detective (720p)
+#EXTINF:-1 tvg-name="The Film Detective (720p)" tvg-id="TheFilmDetective.us" tvg-logo="https://i.imgur.com/4aFLH9g.png" group-title="Movies":http-user-agent="",The Film Detective (720p)
 https://dai.google.com/linear/hls/event/OYH9J7rZSK2fabKXWAYcfA/master.m3u8
 #EXTINF:-1 tvg-name="Weathernation (720p)" tvg-id="WeatherNation.us" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/weathernation.png" group-title="News":http-user-agent="",Weathernation (720p)
 https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-Weather-Nation.m3u8
