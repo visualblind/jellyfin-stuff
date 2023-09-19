@@ -1,0 +1,3 @@
+#EXTM3U
+#EXTINF:0 tvg-name="BBC Radio 1" tvg-id="BBCRadio1" tvg-logo="https://i.ibb.co/8rC1vfL/bbc-radio-1.webp"
+http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_radio_one.m3u8
