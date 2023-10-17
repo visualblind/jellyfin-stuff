@@ -42,14 +42,14 @@ h2, h3 {
 /* DISCLAIMER FONT STYLE */
 .disclaimer p {
   font-weight: 400;
-  color: ivory;
-/*  color: seashell; */
+  color: #deff7f;
 }
 
 /* TEXTBOX LABELS */
 .checkboxListLabel, .inputLabel, .inputLabelUnfocused, .paperListLabel, .textareaLabelUnfocused {
-color: rgb(255, 255, 255); !important
-} 
+  color: rgb(255, 255, 255); !important
+  font-weight: 600 !important;
+}
 
 /* NAV MENU */
 .navMenuOption {
@@ -109,16 +109,6 @@ table.tblApiKeys.detailTable {
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred {background:none; background-color:rgba(0, 0, 0, 0);}
 .skinHeader.focuscontainer-x.skinHeader-withBackground.skinHeader-blurred.noHomeButtonHeader {background:none; background-color:rgba(0, 0, 0, 0);}
 
-/* BACKGROUND STYLE */
-/* .backgroundContainer, .dialog, html {background-color: #000 !important;} */
-/* 
-   .backgroundContainer.withBackdrop {
-    background-color: rgba(0,0,0,1) !important;
-}
-   .backgroundContainer.withBackdrop {
-    background-color: transparent !important;
-}
-*/
 .cardContent-shadow, .defaultCardBackground0 {
    background-color: transparent !important;
 }
@@ -171,6 +161,7 @@ i.md-icon.ratingbutton-icon-withrating {
 button.listItemButton.paper-icon-button-light.emby-button.ratingbutton-withrating {
    transition: 0.3s;
 }
+
 #popupAddTrigger button {
    font-size: 1em;
    text-transform: uppercase;
@@ -203,14 +194,14 @@ div.progressring {right: 30px;}
 #loginPage .raised.cancel.block.btnManual.emby-button {display: none;}
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {display: none;}
 
-/* BACKGROUND IMAGE */
+/* LOGIN PAGE BACKGROUND IMAGE */
 #loginPage {
-    background-image: url("//cdn.travisflix.com/web/img/mandalorian1.jpg");
+    background-image: url("//cdn.travisflix.com/web/img/webp/los-angeles-3-1-1920x1080.webp");
     position: absolute;
     margin-left: auto;
     margin-right: auto;
     background-repeat: no-repeat;
-    background-position:  top;
+    background-position:  center;
     width: 100%;
     overflow-y: scroll;
     background-attachment: fixed;
@@ -282,7 +273,6 @@ padding-bottom: 0 !important;
 
 /* MAKE WATCHED ICON DARK AND TRANSPARENT */
 .playedIndicator {
-/* background: #00000058; */
 background: #000000c2;
 color: #fbff3fd6;
 }
@@ -293,7 +283,7 @@ color: #fbff3fd6;
 .headerRight { color: yellow; }
 
 /* SCROLLBAR */
-.layout-desktop ::-webkit-scrollbar {width: 1em;}
+/* .layout-desktop ::-webkit-scrollbar {width: 1em;} */
 ::-webkit-scrollbar-thumb:vertical {background: center no-repeat #afafaf;}
 ::-webkit-scrollbar-track-piece {background-color: #161616;}
 
@@ -301,7 +291,7 @@ color: #fbff3fd6;
 .itemBackdrop {height: 45vh;}
 .detailLogo {top: 5vh;} */
 
-/* SHRINK AND SQUARE (OR ROUND) CAST THUMNAILS */
+/*Shrink and square (or round) cast thumnails*/
 @media all and (min-width: 131.25em){
   #castContent .card.overflowPortraitCard {
     width: 6.3vw !important; 
@@ -365,17 +355,17 @@ color: #fbff3fd6;
   }
 }
 
-/* SHRINK AND SQUARE (OR ROUND) CAST THUMBNAILS */
+/*Shrink and square (or round) cast thumnails*/
 #castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
 #castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
 .cardPadder {background-color: #0000 !important; box-shadow: none !important;}
 
-/* CORRECT IMAGE ASPECT RATIO BEHAVIOUR, SET BORDER-RADIUS TO ZERO FOR SQUARE TILES */
+/*Correct image aspect ratio behaviour, set border-radius to zero for square tiles*/
 #castContent .cardOverlayContainer.itemAction,
 #castContent .cardImageContainer
 {border-radius: 50% !important;}
 #castContent .cardScalable {width:  3.8cm !important; height: 3.8cm !important;}
 
-/* ADD THIS IF USING COMPLETELY ROUND ICONS, IT CENTERS THE THREEDOT BUTTON */
+/*Add this if using completely round icons, it centers the threedot button*/
 #castContent .cardOverlayButton-br {bottom: 4%; right: 15%; width: 70%;}
 #castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {margin:auto;}
