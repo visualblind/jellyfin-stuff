@@ -37,7 +37,7 @@
     },
     {
         "name": "Site Status",
-        "icon": "healing",
+        "icon": "monitor_heart",
         "url": "https://status.travisflix.com"
     },
     {
@@ -51,19 +51,9 @@
         "url": "http://speed.travisflix.com"
     },
     {
-        "name": "New Relic Synthetics",
-        "icon": "data_object",
-        "url": "https://synthetics.newrelic.com/report/16zOp"
-    },
-    {
         "name": "Upload",
         "icon": "file_upload",
         "url": "https://files.travisflix.com/"
-    },
-    {
-        "name": "Music",
-        "icon": "music_note",
-        "url": "https://music.travisflix.com"
     },
     {
         "name": "Telegram",

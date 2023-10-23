@@ -42,14 +42,18 @@ h2, h3 {
 /* DISCLAIMER FONT STYLE */
 .disclaimer p {
   font-weight: 400;
-  color: ivory;
+  color: #deff7f;
+/*  color: #c8ff00; */
+/*  color: honeydew; */
 /*  color: seashell; */
 }
 
 /* TEXTBOX LABELS */
 .checkboxListLabel, .inputLabel, .inputLabelUnfocused, .paperListLabel, .textareaLabelUnfocused {
-color: rgb(255, 255, 255); !important
-} 
+  color: rgb(255, 255, 255); !important
+/*  color: rgb(0, 186, 217) !important; */
+  font-weight: 600 !important;
+}
 
 /* NAV MENU */
 .navMenuOption {
@@ -112,12 +116,12 @@ table.tblApiKeys.detailTable {
 /* BACKGROUND STYLE */
 /* .backgroundContainer, .dialog, html {background-color: #000 !important;} */
 /* 
-   .backgroundContainer.withBackdrop {
+/* .backgroundContainer.withBackdrop {
     background-color: rgba(0,0,0,1) !important;
-}
-   .backgroundContainer.withBackdrop {
+} */
+/* .backgroundContainer.withBackdrop {
     background-color: transparent !important;
-}
+} */
 */
 .cardContent-shadow, .defaultCardBackground0 {
    background-color: transparent !important;
@@ -205,7 +209,7 @@ div.progressring {right: 30px;}
 
 /* BACKGROUND IMAGE */
 #loginPage {
-    background-image: url("//cdn.travisflix.com/web/img/mandalorian1.jpg");
+    background-image: url("//cdn.travisflix.com/Branding/Splashscreen?format=webp&foregroundLayer=0.2");
     position: absolute;
     margin-left: auto;
     margin-right: auto;
@@ -293,7 +297,7 @@ color: #fbff3fd6;
 .headerRight { color: yellow; }
 
 /* SCROLLBAR */
-.layout-desktop ::-webkit-scrollbar {width: 1em;}
+/* .layout-desktop ::-webkit-scrollbar {width: 1em;} */
 ::-webkit-scrollbar-thumb:vertical {background: center no-repeat #afafaf;}
 ::-webkit-scrollbar-track-piece {background-color: #161616;}
 
@@ -301,7 +305,7 @@ color: #fbff3fd6;
 .itemBackdrop {height: 45vh;}
 .detailLogo {top: 5vh;} */
 
-/* SHRINK AND SQUARE (OR ROUND) CAST THUMNAILS */
+/*Shrink and square (or round) cast thumnails*/
 @media all and (min-width: 131.25em){
   #castContent .card.overflowPortraitCard {
     width: 6.3vw !important; 
@@ -365,17 +369,17 @@ color: #fbff3fd6;
   }
 }
 
-/* SHRINK AND SQUARE (OR ROUND) CAST THUMBNAILS */
+/*Shrink and square (or round) cast thumnails*/
 #castContent .card.overflowPortraitCard.personCard.card-hoverable.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
 #castContent .card.overflowPortraitCard.personCard.card-withuserdata {width: 4.2cm !important; font-size: 90% !important;}
 .cardPadder {background-color: #0000 !important; box-shadow: none !important;}
 
-/* CORRECT IMAGE ASPECT RATIO BEHAVIOUR, SET BORDER-RADIUS TO ZERO FOR SQUARE TILES */
+/*Correct image aspect ratio behaviour, set border-radius to zero for square tiles*/
 #castContent .cardOverlayContainer.itemAction,
 #castContent .cardImageContainer
 {border-radius: 50% !important;}
 #castContent .cardScalable {width:  3.8cm !important; height: 3.8cm !important;}
 
-/* ADD THIS IF USING COMPLETELY ROUND ICONS, IT CENTERS THE THREEDOT BUTTON */
+/*Add this if using completely round icons, it centers the threedot button*/
 #castContent .cardOverlayButton-br {bottom: 4%; right: 15%; width: 70%;}
 #castContent .cardOverlayButton.cardOverlayButton-hover.itemAction.paper-icon-button-light {margin:auto;}
