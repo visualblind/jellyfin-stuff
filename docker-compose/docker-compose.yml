@@ -23,6 +23,8 @@ services:
       - "/mnt/mergerfs/media:/media:ro"
       - "/usr/local/jellyfin/cache:/cache"
       - "/usr/local/jellyfin/jellyfin-web:/jellyfin/jellyfin-web/src"
+      - "/usr/local/jellyfin/jellyfin-web/config.json:/jellyfin/jellyfin-web/config.json"
+      - "/usr/local/jellyfin/jellyfin-web/session-login-index-html.384c1886b01202a35d87.chunk.js:/jellyfin/jellyfin-web/session-login-index-html.384c1886b01202a35d87.chunk.js"
 
   filebrowser:
     container_name: filebrowser
@@ -36,8 +38,11 @@ services:
       - /usr/local/filebrowser/config:/config
       - /usr/local/filebrowser/data:/data
       - /usr/local/filebrowser/branding:/branding
+      - /mnt/mergerfs/media:/data/media:ro
       - /mnt/mergerfs/media/video-movies:/data/video-movies:ro
       - /mnt/mergerfs/media/video-movies:/data/users/upload/video-movies:ro
+      - /mnt/p0ds0smb/media/video-tech:/data/users/upload/video-tech:ro
+      - /mnt/p1ds0smb/software_wintel:/data/users/upload/software_wintel:ro
       - /mnt/mergerfs/backup:/data/backup:ro
     ports:
       - 8080:8080
@@ -54,26 +59,6 @@ services:
       - "3000:3000"
     restart: unless-stopped
 
-  letsencrypt:
-    image: ghcr.io/linuxserver/letsencrypt:latest
-    networks:
-      - linuxserver-nginx_default
-    container_name: letsencryptpnw
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=US/Pacific
-      - URL=pnwpanorama.com
-      - SUBDOMAINS=wildcard
-      - VALIDATION=dns
-      - DNSPLUGIN=cloudflare
-    volumes:
-      - /docker_data/nginx/config:/config
-    ports:
-      - "4433:443"
-      - "8082:80"
-    restart: unless-stopped
-
   portainer:
     container_name: portainer
     ports:
@@ -85,6 +70,20 @@ services:
     networks:
       - linuxserver-nginx_default
 
+  webgrabplus:
+    image: lscr.io/linuxserver/webgrabplus:latest
+    container_name: webgrabplus
+    hostname: webgrabplus
+#   mac_address: 00:00:00:00:00:00
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Los_Angeles
+    volumes:
+      - /usr/local/webgrabplus/config:/config
+      - /usr/local/webgrabplus/data:/data
+    restart: unless-stopped
+
   jellyseerr:
     image: fallenbagel/jellyseerr:latest
     container_name: jellyseerr
@@ -95,6 +94,18 @@ services:
       - 5055:5055
     volumes:
       - /usr/local/jellyseer/appdata/config:/app/config
+    networks:
+      - linuxserver-nginx_default
+    restart: unless-stopped
+
+  droppy:
+    container_name: droppy
+    image: silverwind/droppy
+    ports:
+      - '8989:8989'
+    volumes:
+      - /docker/droppy/config:/config
+      - /docker/droppy/files:/files
     networks:
       - linuxserver-nginx_default
     restart: unless-stopped
