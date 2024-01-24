@@ -60,9 +60,7 @@ https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_
 http://lawandcrime.samsung.wurl.com/manifest/playlist.m3u8
 #EXTINF:-1 tvg-name="Law & Crime (720p) (XUMO)" tvg-id="LawCrimeXUMO.us" tvg-logo="https://i.imgur.com/HY64Nhe.png" group-title="Series":http-user-agent="",Law & Crime (720p) (XUMO)
 https://dai2.xumo.com/amagi_hls_data_xumo1234A-lawcrime/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="MST3K 1 (1080p)" tvg-id="MST3K1.us" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5f9ace054964ba19ff258256" group-title="Series":http-user-agent="",MST3K 1 (1080p)
-https://mst3k-redbox.amagi.tv/hls/amagi_hls_data_redboxAAA-mst3k/CDN/playlist.m3u8
-#EXTINF:-1 tvg-name="MST3K 2 (1080p)" tvg-id="MST3K2.us" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5f9ace054964ba19ff258256" group-title="Series":http-user-agent="",MST3K 2 (1080p)
+#EXTINF:-1 tvg-name="MST3K (1080p)" tvg-id="MST3K.us" tvg-logo="https://f9q4g5j6.ssl.hwcdn.net/5f9ace054964ba19ff258256" group-title="Series":http-user-agent="",MST3K (1080p)
 https://mst3k-vizio.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="The Film Detective (720p)" tvg-id="TheFilmDetective.us" tvg-logo="https://i.imgur.com/4aFLH9g.png" group-title="Movies":http-user-agent="",The Film Detective (720p)
 https://dai.google.com/linear/hls/event/OYH9J7rZSK2fabKXWAYcfA/master.m3u8
