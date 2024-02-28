@@ -5,7 +5,6 @@ proxy_set_header X-Forwarded-Proto $scheme;
 proxy_set_header X-Forwarded-Protocol $scheme;
 proxy_set_header X-Forwarded-Host $host;
 
-#client_max_body_size 100M;
 client_max_body_size 0;
 client_body_buffer_size 1m;
 proxy_intercept_errors on;
