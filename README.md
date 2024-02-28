@@ -1,7 +1,9 @@
 # jellyfin-stuff
 
 Author: [Travis Runyard](travisrunyard@gmail.com)
+
 Website: [travisflix.com](https://travisflix.com)
+
 Updated: 02-28-2024
 
 
