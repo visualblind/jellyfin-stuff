@@ -14,3 +14,4 @@ Be aware scripts in this repo modify relevant Jellyfin front-end files (html, js
 
 ?> TIP: If you run an NGINX reverse proxy in front of Jellyfin, you can do image caching on tmpfs (/dev/shm) to increase the image loading speed. You can find the relevant config in [nginx.conf](https://github.com/visualblind/jellyfin-stuff/blob/master/nginx/nginx.conf) and [website.conf](https://github.com/visualblind/jellyfin-stuff/blob/master/nginx/website.conf) using the proxy_cache directives.
 
+
