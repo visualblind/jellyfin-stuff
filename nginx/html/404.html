@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>404 ‒ Resource not found</title>
+
+		<link rel="icon" />
+
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+				overflow: hidden;
+				user-select: none;
+				font-family: arial;
+				text-align: center;
+			}
+
+			body {
+				background-image: radial-gradient(transparent, rgba(0, 0, 0, 0.85)),
+					linear-gradient(transparent 75%, #000 75%),
+					linear-gradient(
+						to left,
+						#d1d1d1 14.29%,
+						#ffe500 14.29%,
+						#ffe500 28.57%,
+						#0ef 28.57%,
+						#0ef 42.86%,
+						#02d406 42.86%,
+						#02d406 57.14%,
+						#b6077c 57.14%,
+						#b6077c 71.43%,
+						#ff002f 71.43%,
+						#ff002f 85.71%,
+						#0000c2 85.71%
+					);
+			}
+
+			body:before {
+				height: 5%;
+				width: 100%;
+				bottom: 25%;
+				content: '';
+				display: block;
+				position: absolute;
+				background-image: linear-gradient(
+					to left,
+					#0000c2 14.29%,
+					#000 14.29%,
+					#000 28.57%,
+					#85055a 28.57%,
+					#85055a 42.86%,
+					#000 42.86%,
+					#000 57.14%,
+					#0ef 57.14%,
+					#0ef 71.43%,
+					#000 71.43%,
+					#000 85.71%,
+					#d1d1d1 85.71%
+				);
+			}
+
+			.static {
+				top: 0;
+				left: 0;
+				width: 100%;
+				opacity: 0.75;
+				animation: static 3s steps(5, end) infinite;
+				background-image: url('https://i.imgur.com/vISjwOZ.png');
+			}
+
+			@keyframes static {
+				0% {
+					background-position: 0 0;
+				}
+				20% {
+					background-position: 25% 15%;
+				}
+				40% {
+					background-position: 50% 69%;
+				}
+				60% {
+					background-position: 33% 25%;
+				}
+				80% {
+					background-position: 72% 4%;
+				}
+				to {
+					background-position: 80% 91%;
+				}
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="static">
+			<h1 style="color: white; font-size: 200px; line-height: 300%;">404</h1>
+		</div>
+	</body>
+</html>
