@@ -7,7 +7,7 @@ Updated: 02-28-2024
 
 ## DESCRIPTION
 
-**jellyfin-stuff** is a collection of various shell scripts, css and nginx configuration files which help to customize the Jellyfin front-end interface and automate any other tasks not covered by the official plugins.
+**jellyfin-stuff** is a collection of shell scripts, CSS and Nginx configuration files that helps to customize the Jellyfin front-end and accomplish any other tasks not covered by the official plugins (ie. [change the site title](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title.sh)).
 
 
 Be aware scripts in this repo modify relevant Jellyfin front-end files (html, js, css, etc) directly as there is no other easy way to accomplish the objective so use at your own risk ([force enabling backdrops on by default](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-backdrops-enable.sh) for example). I have done my best to add descriptive comments explaining what is being done if it is not obvious.
