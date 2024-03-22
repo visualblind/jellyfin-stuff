@@ -2,8 +2,6 @@
 
 Author: [Travis Runyard](mailto:travisrunyard@gmail.com)<br>
 Website: [travisflix.com](https://travisflix.com)<br>
-Updated: 02-29-2024
-
 
 ## DESCRIPTION
 
