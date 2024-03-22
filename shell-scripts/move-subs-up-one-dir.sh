@@ -7,6 +7,7 @@
 #│   └── Subs
 
 # this can be ran multiple times to 'walk' the subs up one directory at a time
+# via adjusting the mindepth and maxdepth paramters
 
 find /mnt/path/to/video-movies -depth -mindepth 3 -maxdepth 4 -type f \
 -ipath '*/sub*' \( -iname '*.srt' -o -iname '*.sub' -o -iname '*.idx' \) \
