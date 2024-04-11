@@ -1,0 +1,5 @@
+#EXTM3U
+#EXTINF:0 tvg-name="BBC Radio 1" tvg-id="BBCRadio1" tvg-logo="https://i.ibb.co/8rC1vfL/bbc-radio-1.webp"
+http://as-hls-ww-live.akamaized.net/pool_904/live/ww/bbc_radio_one/bbc_radio_one.isml/bbc_radio_one-audio%3d128000.norewind.m3u8
+#EXTINF:0 tvg-name="BBC Radio 1Xtra" tvg-id="BBCRadio1Xtra" tvg-logo="https://i1.sndcdn.com/artworks-000120718423-5sfp93-t500x500.jpg"
+http://lstn.lv/bbc.m3u8?station=bbc_1xtra&bitrate=128000
