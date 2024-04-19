@@ -1,5 +1,5 @@
 ﻿#EXTM3U
-#EXTINF:-1 tvg-name="CBS News" tvg-id="CBSNews.us" tvg-logo="https://i.ibb.co/N3Vrp7p/cbs.jpg" group-title="News":http-user-agent="",CBS News
+#EXTINF:-1 tvg-name="CBS News" tvg-id="CBSNews.us" tvg-logo="https://i.ibb.co/C6NkXzt/CBS-NEWS-Logo-vintage-womens-relaxed-RO-1200x630.webp" group-title="News":http-user-agent="",CBS News
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
 #EXTINF:-1 tvg-name="CBSN KCAL Los Angeles CA" tvg-id="CBSKCALNews.us" tvg-logo="https://i.ibb.co/ncHg0DG/cbs-kcal-losangeles.png" group-title="News":http-user-agent="",CBSN KCAL Los Angeles CA (720p) [Not 24/7]
 https://dai.google.com/linear/hls/event/TxSbNMu4R5anKrjV02VOBg/master.m3u8
