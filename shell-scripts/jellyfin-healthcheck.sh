@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
-HEALTHURL='https://travisflix.com/health'
+HEALTHURL='https://jellyfin_instance/health'
 
-if [ $(curl -sI "$HEALTHURL" | head -n 1 | cut -d ' ' -f 2) -ne 200 ]
+if [[ $(curl -s "$HEALTHURL") != "Healthy" ]]
 then
-	docker restart jellyfin
+	echo "Not Healthy"
+else
+	echo "Healthy"
 fi
 
