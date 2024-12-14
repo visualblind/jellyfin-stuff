@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# compatibility: jellyfin 10.8.x
+# compatibility: jellyfin 10.8.x - 10.9.x
 
 # enable backdrops by default for all users
 sed -E -i 's/enableBackdrops\:function\(\)\{return P\}/enableBackdrops\:function\(\)\{return \_\}/' main.jellyfin.bundle.js
