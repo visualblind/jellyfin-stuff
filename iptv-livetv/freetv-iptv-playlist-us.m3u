@@ -83,4 +83,8 @@ https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfunnyordie/CDN/playlist.m3u
 #EXTINF:-1 tvg-name="Forensic Files (Tubi)" tvg-id="FilmRiseForensicFiles.us" tvg-logo="https://i.ibb.co/mGYny0w/forensic-files-400x.jpg" group-title="Series",Forensic Files (Tubi)
 https://apollo.production-public.tubi.io/live/ac-forensic-files.m3u8
 #EXTINF:-1 tvg-name="CNN" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" group-title="News",CNN
-https://stream1.freetv.fun/ca2aed4b63ba567d1b59150c98655f25b2cd95cd79f9932b8d8eb6eca11da56a.ctv
+https://stream1.freetv.fun/e5667906c5c0fc0d1a7327e49a649f1e28cfd74bfb9a96c0844156fbec16ab64.m3u8
+https://stream1.freetv.fun/cnn-1.m3u8
+#EXTINF:-1 tvg-name="CNN International" tvg-id="CNNInternationalNorthAmerica.us" tvg-logo="https://i.imgur.com/05S3yYZ.png" group-title="News",CNN International
+https://stream1.freetv.fun/14985f6413cc7555063e05f9966d1a6d9019ff04884b80b62c1f35e8582bef18.m3u8
+https://stream1.freetv.fun/cnn-int-4.m3u8
