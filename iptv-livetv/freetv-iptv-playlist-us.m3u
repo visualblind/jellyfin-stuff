@@ -93,5 +93,5 @@ https://stream1.freetv.fun/f6bfffcab440e219cfeacdb8c80597308b8dc1d9a7bd5bce90dd6
 https://stream1.freetv.fun/c-span-2.m3u8
 #EXTINF:-1 tvg-name="HBO Xtreme" tvg-id="HBOXtreme.br" tvg-logo="https://www.vertvcable.com/wp-content/uploads/2022/02/hboextreme.jpg" group-title="Series",HBO Xtreme
 http://45.177.179.227:8000/play/a02f/index.m3u8
-#EXTINF:-1 tvg-name="Baywatch (720p)" tvg-id="Baywatch.us" tvg-logo="https://img.i-scmp.com/cdn-cgi/image/fit=contain,width=1024,format=auto/sites/default/files/d8/images/canvas/2024/08/27/96f4b5a8-868b-4227-8e0b-512a2e21d388_d7491f3d.jpg" group-title="Series",Baywatch (720p)
+#EXTINF:-1 tvg-name="Baywatch (720p)" tvg-id="Baywatch.us" tvg-logo="https://images.fineartamerica.com/images/artworkimages/medium/3/1-baywatch-chris-toro-transparent.png" group-title="Series",Baywatch (720p)
 https://apollo.production-public.tubi.io/live/ac-baywatch.m3u8
