@@ -85,6 +85,11 @@ https://apollo.production-public.tubi.io/live/ac-forensic-files.m3u8
 #EXTINF:-1 tvg-name="CNN" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" group-title="News",CNN
 https://stream1.freetv.fun/e5667906c5c0fc0d1a7327e49a649f1e28cfd74bfb9a96c0844156fbec16ab64.m3u8
 https://stream1.freetv.fun/cnn-1.m3u8
-#EXTINF:-1 tvg-name="CNN International" tvg-id="CNNInternationalNorthAmerica.us" tvg-logo="https://i.imgur.com/05S3yYZ.png" group-title="News",CNN International
+#EXTINF:-1 tvg-name="CNN International" tvg-id="CNNInternationalNorthAmerica.us" tvg-logo="https://i.imgur.com/dfxefQw.png" group-title="News",CNN International
 https://stream1.freetv.fun/14985f6413cc7555063e05f9966d1a6d9019ff04884b80b62c1f35e8582bef18.m3u8
 https://stream1.freetv.fun/cnn-int-4.m3u8
+#EXTINF:-1 tvg-name="C-SPAN" tvg-id="CSPAN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/C-SPAN_Logo_%282019%29.svg/512px-C-SPAN_Logo_%282019%29.svg.png" group-title="News",C-SPAN
+https://stream1.freetv.fun/f6bfffcab440e219cfeacdb8c80597308b8dc1d9a7bd5bce90dd62dbb4318496.m3u8
+https://stream1.freetv.fun/c-span-2.m3u8
+#EXTINF:-1 tvg-name="HBO Xtreme" tvg-id="HBOXtreme.br" tvg-logo="https://www.vertvcable.com/wp-content/uploads/2022/02/hboextreme.jpg" group-title="Series",HBO Xtreme
+http://45.177.179.227:8000/play/a02f/index.m3u8
