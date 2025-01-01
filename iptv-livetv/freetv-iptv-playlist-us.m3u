@@ -95,3 +95,7 @@ https://stream1.freetv.fun/c-span-2.m3u8
 http://45.177.179.227:8000/play/a02f/index.m3u8
 #EXTINF:-1 tvg-name="Baywatch (720p)" tvg-id="Baywatch.us" tvg-logo="https://images.fineartamerica.com/images/artworkimages/medium/3/1-baywatch-chris-toro-transparent.png" group-title="Series",Baywatch (720p)
 https://apollo.production-public.tubi.io/live/ac-baywatch.m3u8
+#EXTINF:-1 tvg-name="BBC Top Gear" tvg-id="BBCTopGear" tvg-logo="https://static.wikia.nocookie.net/classikcars/images/f/f8/Top-gear.jpg" group-title="Series",BBC Top Gear (720p)
+https://apollo.production-public.tubi.io/live/ac-bbc-top-gear2.m3u8
+#EXTINF:-1 tvg-name="Ice Road Truckers" tvg-id="IceRoadTruckers" tvg-logo="https://i.pinimg.com/564x/f5/5d/1c/f55d1c1ac7458bec4840dc1bd875cfe7.jpg" group-title="Series",Ice Road Truckers (1080p)
+https://apollo.production-public.tubi.io/live/ac-ice-road-truckers.m3u8
