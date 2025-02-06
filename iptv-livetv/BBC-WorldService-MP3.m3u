@@ -1,9 +1,0 @@
-# BBC World Service mp3 streams
-
-#EXTM3U
-#EXTINF:-1,BBC - BBC World Service
-http://stream.live.vc.bbcmedia.co.uk/bbc_world_service
-
-#EXTM3U
-#EXTINF:-1,BBC - BBC World Service
-http://wsdownload.bbc.co.uk/worldservice/meta/live/shoutcast/mp3/eieuk.pls
