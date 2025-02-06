@@ -1,13 +1,12 @@
-#EXTM3U
-#EXTINF:-1 tvg-name="KFI AM 640" tvg-id="KFIAM640HLS" tvg-logo="https://i.ibb.co/QFvsTYx/kfi-am-640-black.webp" group-title="Radio",KFI AM 640
+#EXTINF:0,KFI AM 640,tvg-logo="https://i.ibb.co/QFvsTYx/kfi-am-640-black.webp"
 https://stream.revma.ihrhls.com/zc177/hls.m3u8
-#EXTINF:-1 tvg-name="93.1 JACK FM" tvg-id="93.1JACKFM" tvg-logo="https://i.ibb.co/wN49Sx3W/93-1jackfm-scaled.png" group-title="Radio",93.1 JACK FM
+#EXTINF:0,93.1 JACK FM,tvg-logo="https://i.ibb.co/wN49Sx3W/93-1jackfm-scaled.png"
 https://live.amperwave.net/manifest/audacy-kcbsfmaac-imc
-#EXTINF:-1 tvg-name="106.7 KROQ" tvg-id="1067KROQ" tvg-logo="https://i.ibb.co/sd1bxqnM/kroq106-7-400x400.png" group-title="Radio",106.7 KROQ
+#EXTINF:0,106.7 KROQ,tvg-logo="https://i.ibb.co/sd1bxqnM/kroq106-7-400x400.png"
 https://live.amperwave.net/manifest/audacy-kroqfmaac-imc
-#EXTINF:-1 tvg-name="POWER 101.1 FM" tvg-id="POWER101FM" tvg-logo="https://i.ibb.co/WNtCktR0/power101-1fm.jpg" group-title="Radio",POWER 101.1 FM
+#EXTINF:0,POWER 101.1 FM,tvg-logo="https://i.ibb.co/WNtCktR0/power101-1fm.jpg"
 https://ice3.securenetsystems.net/WHJA2
-#EXTINF:-1 tvg-name="K-EARTH 101" tvg-id="KEARTH101" tvg-logo="https://i.ibb.co/jkN8TkTx/kearth-101-fm-500x500.jpg" group-title="Radio",K-EARTH 101
+#EXTINF:0,K-EARTH 101,tvg-logo="https://i.ibb.co/jkN8TkTx/kearth-101-fm-500x500.jpg"
 https://live.amperwave.net/manifest/audacy-krthfmaac-imc
-#EXTINF:-1 tvg-name="95.5 KLOS" tvg-id="955KLOS" tvg-logo="https://i.ibb.co/GvTBpstK/95-5klos-scaled.webp" group-title="Radio",95.5 KLOS
+#EXTINF:0,95.5 KLOS,tvg-logo="https://i.ibb.co/GvTBpstK/95-5klos-scaled.webp"
 https://playerservices.streamtheworld.com/api/livestream-redirect/KLOSFMAAC.aac
