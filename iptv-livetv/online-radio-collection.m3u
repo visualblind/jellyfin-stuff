@@ -1,12 +1,13 @@
-#EXTINF:0,KFI AM 640,tvg-logo="https://i.ibb.co/QFvsTYx/kfi-am-640-black.webp"
+#EXTM3U
+#EXTINF:0 tvg-name="KFI AM 640" tvg-logo="https://i.ibb.co/QFvsTYx/kfi-am-640-black.webp",KFI AM 640
 https://stream.revma.ihrhls.com/zc177/hls.m3u8
-#EXTINF:0,93.1 JACK FM,tvg-logo="https://i.ibb.co/wN49Sx3W/93-1jackfm-scaled.png"
+#EXTINF:0 tvg-name="93.1 JACK FM" tvg-logo="https://i.ibb.co/wN49Sx3W/93-1jackfm-scaled.png",93.1 JACK FM
 https://live.amperwave.net/manifest/audacy-kcbsfmaac-imc
-#EXTINF:0,106.7 KROQ,tvg-logo="https://i.ibb.co/sd1bxqnM/kroq106-7-400x400.png"
+#EXTINF:0 tvg-name="106.7 KROQ" tvg-logo="https://i.ibb.co/sd1bxqnM/kroq106-7-400x400.png",106.7 KROQ
 https://live.amperwave.net/manifest/audacy-kroqfmaac-imc
-#EXTINF:0,POWER 101.1 FM,tvg-logo="https://i.ibb.co/WNtCktR0/power101-1fm.jpg"
+#EXTINF:0 tvg-name="POWER 101.1 FM" tvg-logo="https://i.ibb.co/WNtCktR0/power101-1fm.jpg",POWER 101.1 FM
 https://ice3.securenetsystems.net/WHJA2
-#EXTINF:0,K-EARTH 101,tvg-logo="https://i.ibb.co/jkN8TkTx/kearth-101-fm-500x500.jpg"
+#EXTINF:0 tvg-name="K-EARTH 101" tvg-logo="https://i.ibb.co/jkN8TkTx/kearth-101-fm-500x500.jpg",K-EARTH 101
 https://live.amperwave.net/manifest/audacy-krthfmaac-imc
-#EXTINF:0,95.5 KLOS,tvg-logo="https://i.ibb.co/GvTBpstK/95-5klos-scaled.webp"
+#EXTINF:0 tvg-name="95.5 KLOS" tvg-logo="https://i.ibb.co/GvTBpstK/95-5klos-scaled.webp",95.5 KLOS
 https://playerservices.streamtheworld.com/api/livestream-redirect/KLOSFMAAC.aac
