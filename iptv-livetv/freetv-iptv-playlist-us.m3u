@@ -9,24 +9,14 @@ https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dc481cda1d4300009
 https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 tvg-name="ABC Bakersfield CA 23" tvg-id="ABCNewsBakersfield" tvg-logo="https://i.ibb.co/CbsYMDR/abckero.webp" group-title="News",ABC Bakersfield CA 23 (KERO) (720p)
 https://content.uplynk.com/channel/ff809e6d9ec34109abfb333f0d4444b5.m3u8
-#EXTINF:-1 tvg-name="BBC World News" tvg-id="BBCWorld" tvg-logo="https://i.imgur.com/joD38lo.png" group-title="News",BBC World News
-http://103.199.161.254/Content/bbcworld/Live/Channel(BBCworld)/index.m3u8
 #EXTINF:-1 tvg-name="PBS West" tvg-id="PBSWest.us" tvg-logo="https://i.ibb.co/myk8WCF/pbs-news2.png" group-title="Education",PBS West
 https://pbs.lls.cdn.pbs.org/pst/index.m3u8
-#EXTINF:-1 tvg-name="Buzzr" tvg-id="Buzzr" tvg-logo="https://i.imgur.com/VihFt5p.png" group-title="Series",Buzzr
-https://buzzrota-web.amagi.tv/playlist480.m3u8
 #EXTINF:-1 tvg-name="TD Ameritrade Network" tvg-id="TDAmeritradeNetwork.us" tvg-logo="https://i.imgur.com/RbVdkJ5.png" group-title="News",TD Ameritrade Network
 https://tdameritrade-distro.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Bloomberg" tvg-id="BloombergTelevision.us" tvg-logo="https://i.ibb.co/jGSp0Cc/bloomberg.jpg" group-title="News",Bloomberg
 https://bloomberg.com/media-manifest/streams/us.m3u8
-#EXTINF:-1 tvg-name="ABC News Live 1 (720p)" tvg-id="ABCNewsLive1.us" tvg-logo="https://i.imgur.com/zBOsKCv.png" group-title="News",ABC News Live 1 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023560/abcnews1/master.m3u8
-#EXTINF:-1 tvg-name="ABC News Live 2 (720p)" tvg-id="ABCNewsLive2.us" tvg-logo="https://i.imgur.com/zBOsKCv.png" group-title="News",ABC News Live 2 (720p)
-https://abcnews-streams.akamaized.net/hls/live/2023561/abcnews2/master.m3u8
 #EXTINF:-1 tvg-name="ABC 7 Los Angeles CA (KABC-TV) (720p)" tvg-id="KABC-TV" tvg-logo="https://i.imgur.com/zBOsKCv.png" group-title="News",ABC 7 Los Angeles CA (KABC-TV) (720p)
 https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
-#EXTINF:-1 tvg-name="ABC 4 Seattle WA (KOMO-TV) (720p)" tvg-id="KOMO-TV" tvg-logo="https://i.imgur.com/OujKrqc.png" group-title="News",ABC 4 Seattle WA (KOMO-TV) (720p)
-https://content.uplynk.com/2c88dfe19e1447e6a6aa27e8e143a140.m3u8
 #EXTINF:-1 tvg-name="Aqua Teen Hunger Force (1080p)" tvg-id="AdultSwimAquaTeenHungerForce.us" tvg-logo="https://i.ibb.co/kmxS2RR/Athf-logo.webp" group-title="Series",Aqua Teen Hunger Force (1080p)
 https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
 #EXTINF:-1 tvg-name="Black Jesus (1080p)" tvg-id="AdultSwimBlackJesus.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Black_Jesus_title_card.png" group-title="Series",Black Jesus (1080p)
@@ -55,47 +45,25 @@ https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
 https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
 #EXTINF:-1 tvg-name="CBS News Los Angeles (720p)" tvg-id="CBSNewsLA.us" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" group-title="News",CBS News Los Angeles (720p)
 https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
-https://tve-live-lln.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1 tvg-name="Law & Crime (720p)" tvg-id="LawCrime.us" tvg-logo="https://i.ibb.co/D5S2GcD/lawandcrime-defult-social.jpg" group-title="Series",Law & Crime (720p)
-http://lawandcrime.samsung.wurl.com/manifest/playlist.m3u8
-#EXTINF:-1 tvg-name="Law & Crime (720p) (XUMO)" tvg-id="LawCrimeXUMO.us" tvg-logo="https://i.ibb.co/vdC6x7d/xumo-play.png" group-title="Series",Law & Crime (720p) (XUMO)
-https://dai2.xumo.com/amagi_hls_data_xumo1234A-lawcrime/CDN/playlist.m3u8
 #EXTINF:-1 tvg-name="MST3K 1 (1080p)" tvg-id="MST3K1.us" tvg-logo="https://i.ibb.co/FVMsb87/mst3k-live-stream-400x.png" group-title="Series",MST3K 1 (1080p)
 http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/545943f1c9f133a519bbac92/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a02e6-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=08f3602c-a3d5-4a4d-91f2-ec37a24d31a5
 #EXTINF:-1 tvg-name="MST3K 2 (1080p)" tvg-id="MST3K2.us" tvg-logo="https://i.ibb.co/FVMsb87/mst3k-live-stream-400x.png" group-title="Series",MST3K 2 (1080p)
-https://aegis-cloudfront-1.tubi.video/d4996d1c-b12b-4220-ac05-b674d76b639b/playlist.m3u8
-#EXTINF:-1 tvg-name="The Film Detective (720p)" tvg-id="TheFilmDetective.us" tvg-logo="https://i.imgur.com/4aFLH9g.png" group-title="Movies",The Film Detective (720p)
-https://dai.google.com/linear/hls/event/OYH9J7rZSK2fabKXWAYcfA/master.m3u8
-#EXTINF:-1 tvg-name="Weathernation (720p)" tvg-id="WeatherNation.us" tvg-logo="https://cdn.tvpassport.com/image/station/100x100/weathernation.png" group-title="News",Weathernation (720p)
-https://live-news-manifest.tubi.video/live-news-manifest/csm/extlive/tubiprd01,Cloudfront-Weather-Nation.m3u8
-#EXTINF:-1 tvg-name="WeatherSpy" tvg-id="WeatherSpy.us" tvg-logo="https://i.imgur.com/SAZF1cq.jpg" group-title="News",WeatherSpy
-https://jukin-weatherspy-1-us.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-name="WeatherSpy (720p) (XUMO)" tvg-id="WeatherSpy.us" tvg-logo="https://i.imgur.com/SAZF1cq.jpg" group-title="News",WeatherSpy (720p) (XUMO)
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxweatherspy/CDN/playlist.m3u8
+https://live-manifest.production-public.tubi.io/live/da2d381e-93a5-466c-8807-74e18bac08f1/playlist.m3u8
 #EXTINF:-1 tvg-name="Pluto TV Space (720p) [Not 24/7]" tvg-id="PlutoTVSpace.us" tvg-logo="https://images.pluto.tv/channels/5dbc2f98777f2e0009934ae7/colorLogoPNG.png" group-title="Series",Pluto TV Space (720p) [Not 24/7]
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dbc2f98777f2e0009934ae7/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Smithsonian Channel Selects (720p)" tvg-id="PlutoTVSmithsonianChannelSelects.us" tvg-logo="https://images.pluto.tv/channels/5f21ea08007a49000762d349/featuredImage.jpg" group-title="Series",Pluto TV Smithsonian Channel Selects (720p)
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f21ea08007a49000762d349/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Spotlight (684p)" tvg-id="PlutoTVSpotlight.us" tvg-logo="https://images.pluto.tv/channels/5ba3fb9c4b078e0f37ad34e8/colorLogoPNG.png" group-title="Series",Pluto TV Spotlight (684p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ba3fb9c4b078e0f37ad34e8/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ba3fb9c4b078e0f37ad34e8&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=51&terminate=false&userId=
-#EXTINF:-1 tvg-name="Funny or Die (720p)" tvg-id="FunnyorDie.us" tvg-logo="https://i.ibb.co/GFgQQxF/funny-or-die-logo.jpg" group-title="Series",Funny or Die (720p)
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-redboxfunnyordie/CDN/playlist.m3u8
 #EXTINF:-1 tvg-name="Forensic Files (Tubi)" tvg-id="FilmRiseForensicFiles.us" tvg-logo="https://i.ibb.co/mGYny0w/forensic-files-400x.jpg" group-title="Series",Forensic Files (Tubi)
-https://apollo.production-public.tubi.io/live/ac-forensic-files.m3u8
-#EXTINF:-1 tvg-name="CNN" tvg-id="CNN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/CNN.svg/512px-CNN.svg.png" group-title="News",CNN
-https://stream1.freetv.fun/e5667906c5c0fc0d1a7327e49a649f1e28cfd74bfb9a96c0844156fbec16ab64.m3u8
-https://stream1.freetv.fun/cnn-1.m3u8
+https://live-manifest.production-public.tubi.io/live/09b0ad55-05ca-42e9-9538-348224b86dbf/playlist.m3u8
 #EXTINF:-1 tvg-name="CNN International" tvg-id="CNNInternationalNorthAmerica.us" tvg-logo="https://i.imgur.com/dfxefQw.png" group-title="News",CNN International
-https://stream1.freetv.fun/14985f6413cc7555063e05f9966d1a6d9019ff04884b80b62c1f35e8582bef18.m3u8
 https://stream1.freetv.fun/cnn-int-4.m3u8
-#EXTINF:-1 tvg-name="C-SPAN" tvg-id="CSPAN.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/C-SPAN_Logo_%282019%29.svg/512px-C-SPAN_Logo_%282019%29.svg.png" group-title="News",C-SPAN
-https://stream1.freetv.fun/f6bfffcab440e219cfeacdb8c80597308b8dc1d9a7bd5bce90dd62dbb4318496.m3u8
-https://stream1.freetv.fun/c-span-2.m3u8
 #EXTINF:-1 tvg-name="HBO Xtreme" tvg-id="HBOXtreme.br" tvg-logo="https://www.vertvcable.com/wp-content/uploads/2022/02/hboextreme.jpg" group-title="Series",HBO Xtreme
 http://45.177.179.227:8000/play/a02f/index.m3u8
 #EXTINF:-1 tvg-name="Baywatch (720p)" tvg-id="Baywatch.us" tvg-logo="https://images.fineartamerica.com/images/artworkimages/medium/3/1-baywatch-chris-toro-transparent.png" group-title="Series",Baywatch (720p)
 https://live-manifest.production-public.tubi.io/live/83955a5d-baa8-42a6-aa9c-e1fcc0aab891/playlist.m3u8
 #EXTINF:-1 tvg-name="BBC Top Gear" tvg-id="BBCTopGear" tvg-logo="https://static.wikia.nocookie.net/classikcars/images/f/f8/Top-gear.jpg" group-title="Series",BBC Top Gear (720p)
-https://apollo.production-public.tubi.io/live/ac-bbc-top-gear2.m3u8
+https://live-manifest.production-public.tubi.io/live/6d84d716-66f1-4f2d-8978-d0a6b99500ed/playlist.m3u8
 #EXTINF:-1 tvg-name="Ice Road Truckers" tvg-id="IceRoadTruckers" tvg-logo="https://i.pinimg.com/564x/f5/5d/1c/f55d1c1ac7458bec4840dc1bd875cfe7.jpg" group-title="Series",Ice Road Truckers (1080p)
-https://apollo.production-public.tubi.io/live/ac-ice-road-truckers.m3u8
+https://live-manifest.production-public.tubi.io/live/67b1276a-56fb-40ae-bb7b-51dfead73bc1/playlist.m3u8
