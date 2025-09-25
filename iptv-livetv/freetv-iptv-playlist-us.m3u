@@ -66,4 +66,4 @@ https://live-manifest.production-public.tubi.io/live/6d84d716-66f1-4f2d-8978-d0a
 #EXTINF:-1 tvg-name="Ice Road Truckers" tvg-id="IceRoadTruckers" tvg-logo="https://i.pinimg.com/564x/f5/5d/1c/f55d1c1ac7458bec4840dc1bd875cfe7.jpg" group-title="Series",Ice Road Truckers (1080p)
 https://live-manifest.production-public.tubi.io/live/67b1276a-56fb-40ae-bb7b-51dfead73bc1/playlist.m3u8
 #EXTINF:-1 tvg-name="Cosmos: A Spacetime Odyssey" tvg-id="CosmosASpacetimeOdyssey" tvg-logo="https://i.ibb.co/mrhNxLNL/unnamed.jpg" group-title="Series",Cosmos: A Spacetime Odyssey (720p)
-https://apollo.production-public.tubi.io/live/cosmos-daterange-6Rnuvl.m3u8
+https://live-manifest.production-public.tubi.io/live/e4bf224c-cfad-4ce8-8479-de3568398770/playlist.m3u8
