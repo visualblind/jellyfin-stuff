@@ -67,3 +67,11 @@ https://live-manifest.production-public.tubi.io/live/6d84d716-66f1-4f2d-8978-d0a
 https://live-manifest.production-public.tubi.io/live/67b1276a-56fb-40ae-bb7b-51dfead73bc1/playlist.m3u8
 #EXTINF:-1 tvg-name="Cosmos: A Spacetime Odyssey" tvg-id="CosmosASpacetimeOdyssey" tvg-logo="https://i.ibb.co/mrhNxLNL/unnamed.jpg" group-title="Series",Cosmos: A Spacetime Odyssey (720p)
 https://live-manifest.production-public.tubi.io/live/e4bf224c-cfad-4ce8-8479-de3568398770/playlist.m3u8
+#EXTINF:-1 tvg-name="FOX 11 Los Angeles" tvg-id="FOX11LA" tvg-logo="https://i.ibb.co/PvskS2L5/fox11la.webp" group-title="News",FOX 11 Los Angeles
+https://live-manifest.production-public.tubi.io/live/b54c2aa5-e243-480f-9384-bbf7bcbddaf1/playlist.m3u8
+#EXTINF:-1 tvg-name="Tubi Watchlist" tvg-id="WATCHLIST" tvg-logo="https://i.ibb.co/qLzNM0LQ/tubi.png" group-title="Series",Tubi Watchlist
+https://live-manifest.production-public.tubi.io/live/b399c32f-0c5f-4609-a2f2-94a773397b44/playlist.m3u8
+#EXTINF:-1 tvg-name="Mysterious Worlds" tvg-id="MYSTERIOUS" tvg-logo="https://i.ibb.co/F4PXdgt3/Mysterious-Worlds.webp" group-title="Series",Mysterious Worlds
+https://live-manifest.production-public.tubi.io/live/8fa6f1c5-c602-426c-999d-8651180ca7ff/playlist.m3u8
+#EXTINF:-1 tvg-name="The Johnny Carson Show" tvg-id="JOHNNYCARSON" tvg-logo="https://i.ibb.co/4Rsf9HWX/The-Johnny-Carson-Show.webp" group-title="Series",The Johnny Carson Show
+https://live-manifest.production-public.tubi.io/live/196721fd-dabe-4799-8edc-d8e70f63eb31/playlist.m3u8
