@@ -46,7 +46,7 @@ https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
 #EXTINF:-1 tvg-name="CBS News Los Angeles (720p)" tvg-id="CBSNewsLA.us" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" group-title="News",CBS News Los Angeles (720p)
 https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
 #EXTINF:-1 tvg-name="MST3K 1 (1080p)" tvg-id="MST3K1.us" tvg-logo="https://i.ibb.co/FVMsb87/mst3k-live-stream-400x.png" group-title="Series",MST3K 1 (1080p)
-http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/545943f1c9f133a519bbac92/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a02e6-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=08f3602c-a3d5-4a4d-91f2-ec37a24d31a5
+"http://cfd-v4-service-channel-stitcher-use1-1.prd.pluto.tv/stitch/hls/channel/545943f1c9f133a519bbac92/master.m3u8?appName=web&appVersion=unknown&clientTime=0&deviceDNT=0&deviceId=6c2a02e6-30d3-11ef-9cf5-e9ddff8ff496&deviceMake=Chrome&deviceModel=web&deviceType=web&deviceVersion=unknown&includeExtendedEvents=false&serverSideAds=false&sid=08f3602c-a3d5-4a4d-91f2-ec37a24d31a5"
 #EXTINF:-1 tvg-name="MST3K 2 (1080p)" tvg-id="MST3K2.us" tvg-logo="https://i.ibb.co/FVMsb87/mst3k-live-stream-400x.png" group-title="Series",MST3K 2 (1080p)
 https://live-manifest.production-public.tubi.io/live/da2d381e-93a5-466c-8807-74e18bac08f1/playlist.m3u8
 #EXTINF:-1 tvg-name="Pluto TV Space (720p) [Not 24/7]" tvg-id="PlutoTVSpace.us" tvg-logo="https://images.pluto.tv/channels/5dbc2f98777f2e0009934ae7/colorLogoPNG.png" group-title="Series",Pluto TV Space (720p) [Not 24/7]
