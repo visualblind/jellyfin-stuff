@@ -1,0 +1,55 @@
+﻿#EXTM3U
+#EXTINF:-1 tvg-name="CBSN KCAL Los Angeles CA" tvg-id="CBSKCALNews.us" tvg-logo="https://i.ibb.co/ncHg0DG/cbs-kcal-losangeles.png" group-title="News",CBSN KCAL Los Angeles CA (720p) [Not 24/7]
+https://dai.google.com/linear/hls/event/TxSbNMu4R5anKrjV02VOBg/master.m3u8
+#EXTINF:-1 tvg-name="TD Ameritrade Network" tvg-id="TDAmeritradeNetwork.us" tvg-logo="https://i.imgur.com/RbVdkJ5.png" group-title="News",TD Ameritrade Network
+https://tdameritrade-distro.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-name="Bloomberg" tvg-id="BloombergTelevision.us" tvg-logo="https://i.ibb.co/jGSp0Cc/bloomberg.jpg" group-title="News",Bloomberg
+https://bloomberg.com/media-manifest/streams/us.m3u8
+#EXTINF:-1 tvg-name="Aqua Teen Hunger Force (1080p)" tvg-id="AdultSwimAquaTeenHungerForce.us" tvg-logo="https://i.ibb.co/kmxS2RR/Athf-logo.webp" group-title="Series",Aqua Teen Hunger Force (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
+#EXTINF:-1 tvg-name="Black Jesus (1080p)" tvg-id="AdultSwimBlackJesus.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Black_Jesus_title_card.png" group-title="Series",Black Jesus (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/black-jesus/stream.m3u8
+#EXTINF:-1 tvg-name="Channel 5 (1080p)" tvg-id="AdultSwimChannel5.us" tvg-logo="https://i.ibb.co/D4kJP4Z/adult-swim-channel-5.png" group-title="Series",Channel 5 (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/channel-5/stream.m3u8
+#EXTINF:-1 tvg-name="Dream Corp LLC (1080p)" tvg-id="AdultSwimDreamCorpLLC.us" tvg-logo="https://i.imgur.com/jOTChgo.jpg" group-title="Series",Dream Corp LLC (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/DREAM-CORP-LLC/stream.m3u8
+#EXTINF:-1 tvg-name="Last Stream On The Left (1080p)" tvg-id="AdultSwimLastStreamOnTheLeft.us" tvg-logo="https://i.imgur.com/VsAKoN6.jpg" group-title="Series",Last Stream On The Left (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/lsotl/stream.m3u8
+#EXTINF:-1 tvg-name="Metalocalypse (1080p)" tvg-id="AdultSwimMetalocalypse.us" tvg-logo="https://i.ibb.co/fvbD6Fg/as.jpg" group-title="Series",Metalocalypse (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/metalocalypse/stream.m3u8
+#EXTINF:-1 tvg-name="Off The Air (1080p)" tvg-id="AdultSwimOffTheAir.us" tvg-logo="https://i.imgur.com/tFks0c6.jpg" group-title="Series",Off The Air (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/off-the-air/stream.m3u8
+#EXTINF:-1 tvg-name="Rick and Morty (1080p)" tvg-id="AdultSwimRickAndMorty.us" tvg-logo="https://i.ibb.co/jWWDP9D/rickandmorty01.jpg" group-title="Series",Rick and Morty (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/rick-and-morty/stream.m3u8
+#EXTINF:-1 tvg-name="Robot Chicken (1080p)" tvg-id="AdultSwimRobotChicken.us" tvg-logo="https://i.imgur.com/bTWIjIw.jpg" group-title="Series",Robot Chicken (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/robot-chicken/stream.m3u8
+#EXTINF:-1 tvg-name="Samurai Jack (1080p)" tvg-id="AdultSwimSamuraiJack.us" tvg-logo="https://i.ibb.co/fvbD6Fg/as.jpg" group-title="Series",Samurai Jack (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/samurai-jack/stream.m3u8
+#EXTINF:-1 tvg-name="The Eric Andre Show (1080p)" tvg-id="AdultSwimTheEricAndreShow.us" tvg-logo="https://i.imgur.com/tqHQy32.jpg" group-title="Series",The Eric Andre Show (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
+#EXTINF:-1 tvg-name="The Venture Bros (1080p)" tvg-id="AdultSwimTheVentureBros.us" tvg-logo="https://i.ibb.co/fvbD6Fg/as.jpg" group-title="Series",The Venture Bros (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
+#EXTINF:-1 tvg-name="Your Pretty Face Is Going To Hell (1080p)" tvg-id="AdultSwimYourPrettyFaceIsGoingToHell.us" tvg-logo="https://i.ibb.co/fvbD6Fg/as.jpg" group-title="Series",Your Pretty Face Is Going To Hell (1080p)
+https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
+#EXTINF:-1 tvg-name="MST3K (1080p)" tvg-id="MST3K.us" tvg-logo="https://i.ibb.co/FVMsb87/mst3k-live-stream-400x.png" group-title="Series",MST3K (1080p)
+https://live-manifest.production-public.tubi.io/live/da2d381e-93a5-466c-8807-74e18bac08f1/playlist.m3u8
+#EXTINF:-1 tvg-name="Forensic Files (Tubi)" tvg-id="FilmRiseForensicFiles.us" tvg-logo="https://i.ibb.co/mGYny0w/forensic-files-400x.jpg" group-title="Series",Forensic Files (Tubi)
+https://live-manifest.production-public.tubi.io/live/09b0ad55-05ca-42e9-9538-348224b86dbf/playlist.m3u8
+#EXTINF:-1 tvg-name="CNN International" tvg-id="CNNInternationalNorthAmerica.us" tvg-logo="https://i.imgur.com/dfxefQw.png" group-title="News",CNN International
+https://stream1.freetv.fun/cnn-int-4.m3u8
+#EXTINF:-1 tvg-name="Baywatch (720p)" tvg-id="Baywatch.us" tvg-logo="https://images.fineartamerica.com/images/artworkimages/medium/3/1-baywatch-chris-toro-transparent.png" group-title="Series",Baywatch (720p)
+https://live-manifest.production-public.tubi.io/live/83955a5d-baa8-42a6-aa9c-e1fcc0aab891/playlist.m3u8
+#EXTINF:-1 tvg-name="BBC Top Gear" tvg-id="BBCTopGear" tvg-logo="https://static.wikia.nocookie.net/classikcars/images/f/f8/Top-gear.jpg" group-title="Series",BBC Top Gear (720p)
+https://live-manifest.production-public.tubi.io/live/6d84d716-66f1-4f2d-8978-d0a6b99500ed/playlist.m3u8
+#EXTINF:-1 tvg-name="Ice Road Truckers" tvg-id="IceRoadTruckers" tvg-logo="https://i.pinimg.com/564x/f5/5d/1c/f55d1c1ac7458bec4840dc1bd875cfe7.jpg" group-title="Series",Ice Road Truckers (1080p)
+https://live-manifest.production-public.tubi.io/live/67b1276a-56fb-40ae-bb7b-51dfead73bc1/playlist.m3u8
+#EXTINF:-1 tvg-name="Cosmos: A Spacetime Odyssey" tvg-id="CosmosASpacetimeOdyssey" tvg-logo="https://i.ibb.co/mrhNxLNL/unnamed.jpg" group-title="Series",Cosmos: A Spacetime Odyssey (720p)
+https://live-manifest.production-public.tubi.io/live/e4bf224c-cfad-4ce8-8479-de3568398770/playlist.m3u8
+#EXTINF:-1 tvg-name="FOX 11 Los Angeles" tvg-id="FOX11LA" tvg-logo="https://i.ibb.co/PvskS2L5/fox11la.webp" group-title="News",FOX 11 Los Angeles
+https://live-manifest.production-public.tubi.io/live/b54c2aa5-e243-480f-9384-bbf7bcbddaf1/playlist.m3u8
+#EXTINF:-1 tvg-name="Tubi Watchlist" tvg-id="WATCHLIST" tvg-logo="https://i.ibb.co/qLzNM0LQ/tubi.png" group-title="Series",Tubi Watchlist
+https://live-manifest.production-public.tubi.io/live/b399c32f-0c5f-4609-a2f2-94a773397b44/playlist.m3u8
+#EXTINF:-1 tvg-name="Mysterious Worlds" tvg-id="MYSTERIOUS" tvg-logo="https://i.ibb.co/F4PXdgt3/Mysterious-Worlds.webp" group-title="Series",Mysterious Worlds
+https://live-manifest.production-public.tubi.io/live/8fa6f1c5-c602-426c-999d-8651180ca7ff/playlist.m3u8
+#EXTINF:-1 tvg-name="The Johnny Carson Show" tvg-id="JOHNNYCARSON" tvg-logo="https://i.ibb.co/4Rsf9HWX/The-Johnny-Carson-Show.webp" group-title="Series",The Johnny Carson Show
+https://live-manifest.production-public.tubi.io/live/196721fd-dabe-4799-8edc-d8e70f63eb31/playlist.m3u8
