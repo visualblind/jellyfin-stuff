@@ -1,7 +1,7 @@
 # jellyfin-stuff
 
-Author: 📧 [Travis Runyard](mailto:travisrunyard@gmail.com)<br>
-Website: 🔗 [travisflix.com](https://travisflix.com)<br>
+📧  [travisrunyard@gmail.com](mailto:travisrunyard@gmail.com) (visualblind)<br>
+🔗 [travisflix.com](https://travisflix.com) | [blog.travisflix.com](https://blog.travisflix.com)<br>
 
 ## 📜 DESCRIPTION
 
