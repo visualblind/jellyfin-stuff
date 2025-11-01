@@ -33,7 +33,12 @@
     {
         "name": "Help / Support",
         "icon": "contact_support",
-        "url": "https://travisflix.com/help/#/support"
+        "url": "https://help.travisflix.com"
+    },
+    {
+        "name": "Request Media",
+        "icon": "file_download",
+        "url": "https://request.travisflix.com"
     },
     {
         "name": "Site Status",
@@ -51,44 +56,19 @@
         "url": "http://speed.travisflix.com"
     },
     {
+        "name": "Music",
+        "icon": "music_note",
+        "url": "http://music.travisflix.com"
+    },
+    {
         "name": "Upload",
         "icon": "file_upload",
-        "url": "https://files.travisflix.com/"
+        "url": "https://files.travisflix.com"
     },
     {
         "name": "Telegram",
         "icon": "telegram",
         "url": "https://t.me/+5lfAfvn7U90xOTQx"
-    },
-    {
-        "name": "Movies.txt",
-        "icon": "local_movies",
-        "url": "https://travisflix.com/movies.txt"
-    },
-    {
-        "name": "Shows.txt",
-        "icon": "tv",
-        "url": "https://travisflix.com/shows.txt"
-    },
-    {
-        "name": "Standup.txt",
-        "icon": "theater_comedy",
-        "url": "https://travisflix.com/standup.txt"
-    },
-    {
-        "name": "MotoGP.txt",
-        "icon": "sports_motorsports",
-        "url": "https://travisflix.com/motogp.txt"
-    },
-    {
-        "name": "Formula1.txt",
-        "icon": "emoji_events",
-        "url": "https://travisflix.com/formula1.txt"
-    },
-    {
-        "name": "Tennis.txt",
-        "icon": "sports_tennis",
-        "url": "https://travisflix.com/tennis.txt"
     }
   ],
   "servers": [],
@@ -105,6 +85,7 @@
     "pdfPlayer/plugin",
     "logoScreensaver/plugin",
     "sessionPlayer/plugin",
-    "chromecastPlayer/plugin"
+    "chromecastPlayer/plugin",
+    "syncPlay/plugin"
   ]
 }
