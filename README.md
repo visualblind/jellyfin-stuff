@@ -36,7 +36,7 @@ I have done my best to add descriptive comments in the shell scripts explaining 
 <br>
 
 <img align="left" src="https://i.ibb.co/R2HwVMW/nginx-image-cache-hit.png">
-Regarding the tmpfs image casching mentioned earlier, you can find the relevant NGINX config in <a href="https://github.com/visualblind/jellyfin-stuff/blob/master/nginx/website.conf#L126">website.conf</a> using the <code>proxy_cache</code> directives.
+Regarding the tmpfs image caching mentioned earlier, you can find the relevant NGINX config in <a href="https://github.com/visualblind/jellyfin-stuff/blob/master/nginx/website.conf#L126">website.conf</a> using the <code>proxy_cache</code> directives.
 
 
 
