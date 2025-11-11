@@ -8,7 +8,7 @@ Replace all instances of the string **YOURNAME** with whatever you want to displ
 <script>document.addEventListener("DOMContentLoaded",(function(){document.title="YOURNAME";new MutationObserver((function(t){t.forEach((function(t){"childList"===t.type&&"YOURNAME"!==document.title&&(document.title="YOURNAME")}))})).observe(document.querySelector("title"),{childList:!0}),Object.defineProperty(document,"title",{set:function(){return"YOURNAME"},get:function(){return"YOURNAME"}})}))</script>
 ```
 
-Find the Jellyfin index.html file (in the docker version the default location is /jellyfin/jellyfin-web/index.html) and paste the javascript right after the following string:
+Find the Jellyfin index.html file (in the docker version the default location is `/jellyfin/jellyfin-web/index.html`) and paste the javascript right after the following string:
 
 ```javascript
 <script defer="defer" src="runtime.bundle.js?0f9d6486af79af0b5be2"></script>
