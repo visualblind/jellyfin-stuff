@@ -5,9 +5,9 @@
 
 ## 📌 DESCRIPTION
 
-**jellyfin-stℹuff** is a collection of shell scripts, css, js, and other conf files which helps customize the Jellyfin web interface and accomplish other tasks not covered by any official plugins (ie. changing the site title for versions [10.8.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.8.x.sh), [10.9.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.9.x.sh), and [10.10.x](https://github.com/visualblind/jellyfin-stuff/blob/master/site-title.md)).
+**jellyfin-stℹuff** is a collection of shell scripts, html/css/js and other conf files which helps customize the Jellyfin web interface and accomplish other tasks not covered by any official plugins (ie. changing the site title for versions [10.8.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.8.x.sh), [10.9.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.9.x.sh), [10.10.x](https://github.com/visualblind/jellyfin-stuff/blob/master/site-title.md)).
 
-Be aware scripts in this repo modify relevant Jellyfin front-end files (html, js, css, etc) directly as there is no other easy way to accomplish the objective without modifying source files and re-compiling the web interface yourself, so use at your own risk.
+Scripts in this repo modify relevant Jellyfin front-end files (html, js, css, etc) directly as there is no other easy way to accomplish the objective without modifying source files and re-compiling the web interface yourself, so use at your own risk.
 
 I have done my best to add descriptive comments in the shell scripts explaining what is being done if it is not obvious. If you couldn't tell, the script files are not meant to be ran by themselves, but rather serve as a reference source for modifying according to your needs then copy/pasting the one-liners into your terminal and running that way (I know I could have shebanged to something other than a shell or gave them a txt extension but we all prefer to do things our own way).
 
