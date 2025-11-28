@@ -1,10 +1,12 @@
 #!/bin/bash
 
-API_KEY="ajksjdijaskdjaiksjdkajsd"
+API_KEY="YourApiKey"
 BASE_URL="https://jellyfin.example.com"
-USER="theUsernameYouLogInWith"
+USER="TheUsernameYouLogInWith"
 #Go to https://jellyfin.example.com/web/#/dashboard/users and "rightclick > copy link" on your portrait to get your user ID
-USERID="31fd53576d384b288d055549dad87a4a"
+#Example user ID:
+#USERID="31fd53576d384b288d055549dad87a4a"
+USERID="YourUserId"
 
 # Fetch all persons
 response=$(curl -s "${BASE_URL}/emby/Persons?api_key=${API_KEY}")
