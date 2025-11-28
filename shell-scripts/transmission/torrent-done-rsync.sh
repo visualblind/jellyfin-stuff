@@ -20,29 +20,29 @@
 #                                   VARIABLES                                   #
 #################################################################################
 
-LOGFILE="/YourPath/torrentdone.log"
-RSYNC_LOGFILE="/YourPath/torrentdone_rsync.log"
-TORRENT_DESTPATH="/PathWhereTorrentsAreCopiedTo/"
+LOGFILE="/config/rsync/torrentdone.log"
+RSYNC_LOGFILE="/config/rsync/torrentdone_rsync.log"
 TORRENT_PATH="$TR_TORRENT_DIR/$TR_TORRENT_NAME"
+TORRENT_DESTPATH="/ffmpeg-vcodec/"
 
 #################################################################################
 #                                   FUNCTIONS                                   #
 #################################################################################
 
+# --- ANSI escape codes for colors ---
 function setup_colors() {
     NC='\033[0m' RED='\033[0;31m' GREEN='\033[0;32m' ORANGE='\033[0;33m' BLUE='\033[0;34m' PURPLE='\033[0;35m' CYAN='\033[0;36m' YELLOW='\033[1;33m'
+}
+
+# --- Log output events to file ---
+function edate() {
+    setup_colors
+    echo -e "${GREEN}$(date '+%Y-%m-%d %H:%M:%S')${NC}    $1" >> "$LOGFILE"
 }
 
 #################################################################################
 #                                 SCRIPT CONTROL                                #
 #################################################################################
-
-# Log script events
-function edate
-{
-  setup_colors
-  echo -e "${GREEN}$(date '+%Y-%m-%d %H:%M:%S')    ${CYAN}$1${NC}" >> "$LOGFILE"
-}
 
 edate "__________________________NEW TORRENT FILE__________________________"
 edate "Transmission version: $TR_APP_VERSION"
@@ -54,21 +54,23 @@ edate "Torrent ID: $TR_TORRENT_ID"
 edate "Downloaded: $TR_TORRENT_BYTES_DOWNLOADED"
 edate "Full Torrent Path: $TORRENT_PATH"
 
-# checks whether or not the finished torrent file is associated with sonarr/radarr via
-# having a label associated with it and only copy if no labels
+# --- Checks for association with sonarr/radarr via presence of labels ---
 if [[ -z "$TR_TORRENT_LABELS" ]]; then
     rsync --recursive --update --times --ignore-existing --progress --human-readable \
     --stats --verbose --log-file="$RSYNC_LOGFILE" -f'+ */' -f '+ *' -f'- .git/' \
     "$TORRENT_PATH" "$TORRENT_DESTPATH"
 else
-    edate "${GREEN}$TR_TORRENT_NAME${NC} is attached to label: ${ORANGE}$TR_TORRENT_LABELS${NC}"
+    edate "${YELLOW}Not Copying:${NC} ${GREEN}$TR_TORRENT_NAME${NC} ${YELLOW}is attached to label:${NC} ${ORANGE}$TR_TORRENT_LABELS${NC}"
     exit 1
 fi
 
 if [[ $? -eq 0 ]]; then
-    edate "${GREEN}Copy success to: ${YELLOW}$TORRENT_DESTPATH${NC}"
+    edate "${GREEN}Copy success to:${NC} ${YELLOW}$TORRENT_DESTPATH${NC}"
     exit 0
 else
-    edate "${RED}Copy failed to: ${YELLOW}$TORRENT_DESTPATH${NC}"
+    edate "${RED}Copy failed to:${NC} ${YELLOW}$TORRENT_DESTPATH${NC}"
     exit 1
 fi
+
+
+
