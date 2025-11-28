@@ -5,7 +5,7 @@
 
 ## 📌 DESCRIPTION
 
-**jellyfin-stℹuff** is a collection of shell scripts, html/css/js and other conf files which helps customize the Jellyfin web interface and accomplish other tasks not covered by any official plugins (ie. changing the site title for versions [10.8.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.8.x.sh), [10.9.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.9.x.sh), [10.10.x](https://github.com/visualblind/jellyfin-stuff/blob/master/site-title.md)).
+**jellyfin-stuff** is a collection of shell scripts, html/css/js and other conf files which helps customize the Jellyfin web interface and accomplish other tasks not covered by any official plugins (ie. changing the site title for versions [10.8.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.8.x.sh), [10.9.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.9.x.sh), [10.10.x](https://github.com/visualblind/jellyfin-stuff/blob/master/site-title.md)).
 
 Scripts in this repo modify relevant Jellyfin front-end files (html, js, css, etc) directly as there is no other easy way to accomplish the objective without modifying source files and re-compiling the web interface yourself, so use at your own risk. I recommend you also check out BobHasNoSoul's [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) as it's a lot more extensive.
 
