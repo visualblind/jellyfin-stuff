@@ -20,10 +20,10 @@
 #                                   VARIABLES                                   #
 #################################################################################
 
-LOGFILE="/config/rsync/torrentdone.log"
-RSYNC_LOGFILE="/config/rsync/torrentdone_rsync.log"
-TORRENT_PATH="$TR_TORRENT_DIR$TR_TORRENT_NAME"
-TORRENT_DESTPATH="/ffmpeg-vcodec/"
+LOGFILE="/YourPath/torrentdone.log"
+RSYNC_LOGFILE="/YourPath/torrentdone_rsync.log"
+TORRENT_DESTPATH="/PathWhereTorrentsAreCopiedTo/"
+TORRENT_PATH="$TR_TORRENT_DIR/$TR_TORRENT_NAME"
 
 #################################################################################
 #                                   FUNCTIONS                                   #
@@ -38,10 +38,10 @@ function setup_colors() {
 #################################################################################
 
 # Log script events
-function edate 
+function edate
 {
   setup_colors
-  echo -e "${GREEN}$(date '+%Y-%m-%d %H:%M:%S')    ${CYAN}$1" >> "$LOGFILE"
+  echo -e "${GREEN}$(date '+%Y-%m-%d %H:%M:%S')    ${CYAN}$1${NC}" >> "$LOGFILE"
 }
 
 edate "__________________________NEW TORRENT FILE__________________________"
@@ -61,17 +61,14 @@ if [[ -z "$TR_TORRENT_LABELS" ]]; then
     --stats --verbose --log-file="$RSYNC_LOGFILE" -f'+ */' -f '+ *' -f'- .git/' \
     "$TORRENT_PATH" "$TORRENT_DESTPATH"
 else
-    edate "${GREEN}$TR_TORRENT_NAME${NC} is attached to label: ${ORANGE}$TR_TORRENT_LABELS"
+    edate "${GREEN}$TR_TORRENT_NAME${NC} is attached to label: ${ORANGE}$TR_TORRENT_LABELS${NC}"
     exit 1
 fi
 
 if [[ $? -eq 0 ]]; then
-    edate "${GREEN}Copy success to: ${YELLOW}$TORRENT_DESTPATH"
+    edate "${GREEN}Copy success to: ${YELLOW}$TORRENT_DESTPATH${NC}"
     exit 0
 else
-    edate "${RED}Copy failed to: ${YELLOW}$TORRENT_DESTPATH"
+    edate "${RED}Copy failed to: ${YELLOW}$TORRENT_DESTPATH${NC}"
     exit 1
 fi
-
-
-
