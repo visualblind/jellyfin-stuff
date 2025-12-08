@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXTINF:-1 tvg-name="HBO XTREME" tvg-id="HBOXtremeLatinAmerica.us" tvg-logo="https://i.ibb.co/jk1S4GN0/hbo-xtreme.webp" group-title="Shows",HBO XTREME
+http://181.78.106.127:9000/play/ca069/index.m3u8
