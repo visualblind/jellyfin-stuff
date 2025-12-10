@@ -1,6 +1,6 @@
 #EXTM3U
-#EXTINF:-1 tvg-name="HBO XTREME" tvg-id="HBOXtremeLatinAmerica.us" tvg-logo="https://i.ibb.co/F4jDcnN2/hbo-xtreme-logo.jpg" group-title="Shows",HBO XTREME
-http://181.78.106.127:9000/play/ca069/index.m3u8
+#tvg-name="HBO XTREME" tvg-id="HBOXtremeLatinAmerica.us" tvg-logo="https://i.ibb.co/F4jDcnN2/hbo-xtreme-logo.jpg" group-title="Shows",HBO XTREME
+#http://181.78.106.127:9000/play/ca069/index.m3u8
 #EXTINF:-1 tvg-name="HBO XTREME" tvg-id="HBOXtremeLatinAmerica.us" tvg-logo="https://i.ibb.co/F4jDcnN2/hbo-xtreme-logo.jpg" group-title="Shows",HBO XTREME#2
 http://190.60.37.118:4000/play/a03z
 #http://181.189.244.253:8000/play/a01c/index.m3u8
