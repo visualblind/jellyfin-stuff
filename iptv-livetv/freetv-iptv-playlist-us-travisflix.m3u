@@ -33,7 +33,7 @@ https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
 https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
 #EXTINF:-1 tvg-name="MST3K (1080p)" tvg-id="MST3K.us" tvg-logo="https://i.ibb.co/GfcY1n1h/mst3k-live-stream-400x.jpg" group-title="Series",MST3K (1080p)
 https://live-manifest.production-public.tubi.io/live/da2d381e-93a5-466c-8807-74e18bac08f1/playlist.m3u8
-#EXTINF:-1 tvg-name="Forensic Files (Tubi)" tvg-id="FilmRiseForensicFiles.us" tvg-logo="https://i.ibb.co/mGYny0w/forensic-files-400x.jpg" group-title="Series",Forensic Files (Tubi)
+#EXTINF:-1 tvg-name="Forensic Files (Tubi)" tvg-id="FilmRiseForensicFiles.us" tvg-logo="https://i.ibb.co/mGYny0w/forensic-files-400x.jpg" group-title="Series",Forensic Files
 https://live-manifest.production-public.tubi.io/live/09b0ad55-05ca-42e9-9538-348224b86dbf/playlist.m3u8
 #EXTINF:-1 tvg-name="CNN International" tvg-id="CNNInternationalNorthAmerica.us" tvg-logo="https://i.imgur.com/dfxefQw.png" group-title="News",CNN International
 https://stream1.freetv.fun/cnn-int-4.m3u8
