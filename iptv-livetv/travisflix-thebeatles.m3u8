@@ -1,40 +1,40 @@
 #EXTM3U
-#tvg-name="HBO XTREME" tvg-id="HBOXtremeLatinAmerica.us" tvg-logo="https://i.ibb.co/F4jDcnN2/hbo-xtreme-logo.jpg" group-title="Shows",HBO XTREME
-#http://181.78.106.127:9000/play/ca069/index.m3u8
-#EXTINF:-1 tvg-name="HBO XTREME" tvg-id="HBOXtremeLatinAmerica.us" tvg-logo="https://i.ibb.co/F4jDcnN2/hbo-xtreme-logo.jpg" group-title="Shows",HBO XTREME#2
+#EXTINF:-1 tvg-name="HBO XTREME" tvg-id="HBOXtremeLatinAmerica.us" tvg-logo="https://i.ibb.co/F4jDcnN2/hbo-xtreme-logo.jpg" group-title="Shows",HBO XTREME
+http://181.78.106.127:9000/play/ca069/index.m3u8
+#EXTINF:-1 tvg-name="HBO XTREME#2" tvg-id="HBOXtremeLatinAmerica.us" tvg-logo="https://i.ibb.co/F4jDcnN2/hbo-xtreme-logo.jpg" group-title="Shows",HBO XTREME#2
 http://190.60.37.118:4000/play/a03z
 #http://181.189.244.253:8000/play/a01c/index.m3u8
 #EXTINF:-1 tvg-name="HBO PLUS" tvg-id="HBOPlusLatinAmerica.us" tvg-logo="https://i.ibb.co/99wv0TtQ/hbo-plus.webp" group-title="Shows",HBO PLUS
 http://181.78.106.127:9000/play/ca070/index.m3u8
-#EXTINF:-1 tvg-name="HBO PLUS" tvg-id="HBOPlusLatinAmerica.us" tvg-logo="https://i.ibb.co/99wv0TtQ/hbo-plus.webp" group-title="Shows",HBO PLUS#2
-http://181.189.244.253:8000/play/a01a/index.m3u8
+##EXTINF:-1 tvg-name="HBO PLUS" tvg-id="HBOPlusLatinAmerica.us" tvg-logo="https://i.ibb.co/99wv0TtQ/hbo-plus.webp" group-title="Shows",HBO PLUS#2
+#http://181.189.244.253:8000/play/a01a/index.m3u8
 #EXTINF:-1 tvg-name="HBO" tvg-id="HBO.us" tvg-logo="https://i.ibb.co/0VCgKCbk/hbo.jpg" group-title="Shows",HBO
 http://181.189.244.253:8000/play/a018/index.m3u8
 #EXTINF:-1 tvg-name="HBO2" tvg-id="HBO2.us" tvg-logo="https://i.ibb.co/MkbNY3mK/hbo-2.webp" group-title="Shows",HBO2
 http://181.189.244.253:8000/play/a019/index.m3u8
-#EXTINF:-1 tvg-name="TLC" tvg-id="TLC.us" tvg-logo="https://i.ibb.co/4cjsHrg/tlc-logo.png" group-title="Shows",TLC
-http://181.205.130.194:4000/play/a07p
-#EXTINF:-1 tvg-name="PARAMOUNT NETWORK" tvg-id="ParamountNetwork.us" tvg-logo="https://i.ibb.co/R4Sr7F25/paramount-logo.jpg" group-title="Shows",PARAMOUNT NETWORK
-http://181.78.106.127:9000/play/ca082/index.m3u8
+##EXTINF:-1 tvg-name="TLC" tvg-id="TLC.us" tvg-logo="https://i.ibb.co/4cjsHrg/tlc-logo.png" group-title="Shows",TLC
+#http://181.205.130.194:4000/play/a07p
+##EXTINF:-1 tvg-name="PARAMOUNT NETWORK" tvg-id="ParamountNetwork.us" tvg-logo="https://i.ibb.co/R4Sr7F25/paramount-logo.jpg" group-title="Shows",PARAMOUNT NETWORK
+#http://181.78.106.127:9000/play/ca082/index.m3u8
 #EXTINF:-1 tvg-name="PARAMOUNT NETWORK" tvg-id="ParamountNetwork.us" tvg-logo="https://i.ibb.co/R4Sr7F25/paramount-logo.jpg" group-title="Shows",PARAMOUNT NETWORK#2
 http://200.125.170.120:8000/play/a060
 #EXTINF:-1 tvg-name="WARNER CHANNEL" tvg-id="WarnerChannel.us" tvg-logo="https://i.ibb.co/7dmDH8q2/wb.webp" group-title="Shows",WARNER BROTHERS CHANNEL
 http://181.78.106.127:9000/play/ca071/index.m3u8
-#EXTINF:-1 tvg-name="USA NETWORK" tvg-id="USANetworkLatinAmerica.us" tvg-logo="https://i.ibb.co/ycWThXYz/usa-network.webp" group-title="Shows",USA NETWORK
-http://181.205.130.194:4000/play/a06v
-#EXTINF:-1 tvg-name="USA NETWORK" tvg-id="USANetworkLatinAmerica.us" tvg-logo="https://i.ibb.co/ycWThXYz/usa-network.webp" group-title="Shows",USA NETWORK#2
-http://201.230.121.85:8000/play/a0xq/index.m3u8
-#EXTINF:-1 tvg-name="A&E" tvg-id="AE.us" tvg-logo="https://i.ibb.co/qFRm1kYW/a-e.webp" group-title="Shows",A&E HD
-http://181.78.106.127:9000/play/ca086/index.m3u8
-#EXTINF:-1 tvg-name="FX" tvg-id="FX.us" tvg-logo="https://i.ibb.co/V69VQP5/fx.webp" group-title="Shows",FX
-http://181.78.106.127:9000/play/ca075/index.m3u8
-#EXTINF:-1 tvg-name="TNT" tvg-id="TNT.us" tvg-logo="https://i.ibb.co/zhB81SSQ/tnt.webp" group-title="Shows",TNT
-http://181.205.130.194:4000/play/a06n
-#EXTINF:-1 tvg-name="HISTORY" tvg-id="History.us" tvg-logo="https://i.ibb.co/YBJqpJmL/history-logo.webp" group-title="Shows",HISTORY CHANNEL
-http://179.51.136.19:8000/play/a1a4/index.m3u8
-#EXTINF:-1 tvg-name="NATIONAL GEOGRAPHIC" tvg-id="NationalGeographic.us" tvg-logo="https://i.ibb.co/p6kX5cMV/national-geographic-logo.webp" group-title="Shows",NATIONAL GEOGRAPHIC
-http://190.14.10.19:16000/play/a07v/index.m3u8
-#EXTINF:-1 tvg-name="DISCOVERY CHANNEL" tvg-id="DiscoveryChannel.us" tvg-logo="https://i.ibb.co/jkc3tzyL/discovery.png" group-title="Shows",DISCOVERY CHANNEL
-http://190.14.10.19:16000/play/a07y/index.m3u8
+##EXTINF:-1 tvg-name="USA NETWORK" tvg-id="USANetworkLatinAmerica.us" tvg-logo="https://i.ibb.co/ycWThXYz/usa-network.webp" group-title="Shows",USA NETWORK
+#http://181.205.130.194:4000/play/a06v
+##EXTINF:-1 tvg-name="USA NETWORK" tvg-id="USANetworkLatinAmerica.us" tvg-logo="https://i.ibb.co/ycWThXYz/usa-network.webp" group-title="Shows",USA NETWORK#2
+#http://201.230.121.85:8000/play/a0xq/index.m3u8
+##EXTINF:-1 tvg-name="A&E" tvg-id="AE.us" tvg-logo="https://i.ibb.co/qFRm1kYW/a-e.webp" group-title="Shows",A&E HD
+#http://181.78.106.127:9000/play/ca086/index.m3u8
+##EXTINF:-1 tvg-name="FX" tvg-id="FX.us" tvg-logo="https://i.ibb.co/V69VQP5/fx.webp" group-title="Shows",FX
+#http://181.78.106.127:9000/play/ca075/index.m3u8
+##EXTINF:-1 tvg-name="TNT" tvg-id="TNT.us" tvg-logo="https://i.ibb.co/zhB81SSQ/tnt.webp" group-title="Shows",TNT
+#http://181.205.130.194:4000/play/a06n
+##EXTINF:-1 tvg-name="HISTORY" tvg-id="History.us" tvg-logo="https://i.ibb.co/YBJqpJmL/history-logo.webp" group-title="Shows",HISTORY CHANNEL
+#http://179.51.136.19:8000/play/a1a4/index.m3u8
+##EXTINF:-1 tvg-name="NATIONAL GEOGRAPHIC" tvg-id="NationalGeographic.us" tvg-logo="https://i.ibb.co/p6kX5cMV/national-geographic-logo.webp" group-title="Shows",NATIONAL GEOGRAPHIC
+#http://190.14.10.19:16000/play/a07v/index.m3u8
+##EXTINF:-1 tvg-name="DISCOVERY CHANNEL" tvg-id="DiscoveryChannel.us" tvg-logo="https://i.ibb.co/jkc3tzyL/discovery.png" group-title="Shows",DISCOVERY CHANNEL
+#http://190.14.10.19:16000/play/a07y/index.m3u8
 #EXTINF:-1 tvg-name="MUZZIK" tvg-id="Muzzik" tvg-logo="https://i.ibb.co/ksHrYWmz/muzzik.jpg" group-title="Shows",MUZZIK
-#http://85.11.144.9:50999/12
+http://85.11.144.9:50999/12
