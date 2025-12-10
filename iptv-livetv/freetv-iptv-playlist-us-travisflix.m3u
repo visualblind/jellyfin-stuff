@@ -35,8 +35,6 @@ https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
 https://live-manifest.production-public.tubi.io/live/da2d381e-93a5-466c-8807-74e18bac08f1/playlist.m3u8
 #EXTINF:-1 tvg-name="Forensic Files (Tubi)" tvg-id="FilmRiseForensicFiles.us" tvg-logo="https://i.ibb.co/mGYny0w/forensic-files-400x.jpg" group-title="Series",Forensic Files
 https://live-manifest.production-public.tubi.io/live/09b0ad55-05ca-42e9-9538-348224b86dbf/playlist.m3u8
-#EXTINF:-1 tvg-name="CNN International" tvg-id="CNNInternationalNorthAmerica.us" tvg-logo="https://i.imgur.com/dfxefQw.png" group-title="News",CNN International
-https://stream1.freetv.fun/cnn-int-4.m3u8
 #EXTINF:-1 tvg-name="Baywatch (720p)" tvg-id="Baywatch.us" tvg-logo="https://images.fineartamerica.com/images/artworkimages/medium/3/1-baywatch-chris-toro-transparent.png" group-title="Series",Baywatch (720p)
 https://live-manifest.production-public.tubi.io/live/83955a5d-baa8-42a6-aa9c-e1fcc0aab891/playlist.m3u8
 #EXTINF:-1 tvg-name="BBC Top Gear" tvg-id="BBCTopGear" tvg-logo="https://i.ibb.co/wtJY5FZ/top-gear-logo.jpg" group-title="Series",BBC Top Gear (720p)
