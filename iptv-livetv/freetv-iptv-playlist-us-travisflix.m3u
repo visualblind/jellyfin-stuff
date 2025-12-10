@@ -54,5 +54,9 @@ https://live-manifest.production-public.tubi.io/live/b399c32f-0c5f-4609-a2f2-94a
 https://live-manifest.production-public.tubi.io/live/8fa6f1c5-c602-426c-999d-8651180ca7ff/playlist.m3u8
 #EXTINF:-1 tvg-name="The Johnny Carson Show" tvg-id="JOHNNYCARSON" tvg-logo="https://i.ibb.co/4Rsf9HWX/The-Johnny-Carson-Show.webp" group-title="Series",The Johnny Carson Show
 https://live-manifest.production-public.tubi.io/live/196721fd-dabe-4799-8edc-d8e70f63eb31/playlist.m3u8
-#EXTINF:-1 tvg-name="BBC EARTH" tvg-id="BBCEarth.uk" tvg-logo="https://i.ibb.co/sdVJ6xdX/bbc-earth.jpg" group-title="Shows",BBC EARTH
+#EXTINF:-1 tvg-name="BBC EARTH" tvg-id="BBCEarth.uk" tvg-logo="https://i.ibb.co/sdVJ6xdX/bbc-earth.jpg" group-title="Shows",BBC EARTH (720p)
 https://livetv-fa.tubi.video/bbc-earth2/playlist.m3u8
+#EXTINF:-1 tvg-name="COLD CASE FILES" tvg-id="ColdCaseFiles.us" tvg-logo="https://i.ibb.co/3Yp3rbH5/cold-case-files-logo.jpg" group-title="Shows",COLD CASE FILES (1080p)
+https://livetv-fa.tubi.video/cold-case-files/playlist.m3u8
+#EXTINF:-1 tvg-name="DATELINE 24/7" tvg-id="Dateline247.us" tvg-logo="https://i.ibb.co/twPrGZz9/dateline-logo.jpg" group-title="Shows",DATELINE 24/7 (1080p)
+https://livetv-fa.tubi.video/dateline/master.m3u8
