@@ -1,5 +1,7 @@
 # Customize the Site Title of the Jellyfin Web Interface
 
+**Compatibility:** Jellyfin independent
+
 This info is targeted at the Jellyfin 10.10.x versions, however there is no technical reason that it could not be applied to every Jellyfin version ever made since it relies solely on JS.
 
 Replace all instances of the string **YOURNAME** with whatever you want to display in your sites title:

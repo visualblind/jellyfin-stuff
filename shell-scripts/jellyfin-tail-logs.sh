@@ -1,7 +1,12 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
-# IF JELLYFIN DOES NOT HAVE A TIME ZONE CONFIGURED, JF (AND JF LOGS) WILL RUN ON UNIVERSAL TIME ('-U' TELLS 'DATE' TO USE UTC).
-clear; tail -f "/mnt/p10/docker/data/jellyfin/config/log/log_$(date -u +"%Y%m%d").log"
+#If Jellyfin does not have a time zone configured,
+#Jellyfin logs will run on UTC.
+#To run 'date' on UTC add the '-u' switch.
 
-# THE FOLLOWING IS AN EXMAPLE TO SHOW HOW A SHELL OR OPERATOR MAY ALSO WORK:
-#tail -f "/directory/jellyfin/config/log/log_$(date +"%Y%m%d" -d "+1 day").log" || tail -f "/directory/jellyfin/config/log/log_$(date +"%Y%m%d").log"
+tail -f "/jellyfin/config/log/log_$(date +%Y%m%d).log"
+
+#Another option is to look at logs with a timestamp
+#of tomorrow and failback to todays logs on error.
+
+#tail -f "/jellyfin/config/log/log_$(date +"%Y%m%d" -d "+1 day").log" || tail -f "/jellyfin/config/log/log_$(date +"%Y%m%d").log"
