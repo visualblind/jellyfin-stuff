@@ -8,10 +8,10 @@ http://190.60.37.118:4000/play/a03z
 http://181.78.106.127:9000/play/ca070/index.m3u8
 ##EXTINF:-1 tvg-name="HBO PLUS" tvg-id="HBOPlusLatinAmerica.us" tvg-logo="https://i.ibb.co/99wv0TtQ/hbo-plus.webp" group-title="Shows",HBO PLUS#2
 #http://181.189.244.253:8000/play/a01a/index.m3u8
-#EXTINF:-1 tvg-name="HBO" tvg-id="HBO.us" tvg-logo="https://i.ibb.co/0VCgKCbk/hbo.jpg" group-title="Shows",HBO
-http://181.189.244.253:8000/play/a018/index.m3u8
-#EXTINF:-1 tvg-name="HBO2" tvg-id="HBO2.us" tvg-logo="https://i.ibb.co/MkbNY3mK/hbo-2.webp" group-title="Shows",HBO2
-http://181.189.244.253:8000/play/a019/index.m3u8
+##EXTINF:-1 tvg-name="HBO" tvg-id="HBO.us" tvg-logo="https://i.ibb.co/0VCgKCbk/hbo.jpg" group-title="Shows",HBO
+#http://181.189.244.253:8000/play/a018/index.m3u8
+##EXTINF:-1 tvg-name="HBO2" tvg-id="HBO2.us" tvg-logo="https://i.ibb.co/MkbNY3mK/hbo-2.webp" group-title="Shows",HBO2
+#http://181.189.244.253:8000/play/a019/index.m3u8
 ##EXTINF:-1 tvg-name="TLC" tvg-id="TLC.us" tvg-logo="https://i.ibb.co/4cjsHrg/tlc-logo.png" group-title="Shows",TLC
 #http://181.205.130.194:4000/play/a07p
 ##EXTINF:-1 tvg-name="PARAMOUNT NETWORK" tvg-id="ParamountNetwork.us" tvg-logo="https://i.ibb.co/R4Sr7F25/paramount-logo.jpg" group-title="Shows",PARAMOUNT NETWORK
