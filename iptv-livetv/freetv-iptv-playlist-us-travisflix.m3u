@@ -61,4 +61,7 @@ https://livetv-fa.tubi.video/dateline/master.m3u8
 #EXTINF:-1 tvg-name="CNBC" tvg-id="CNBC.us" tvg-logo="https://i.ibb.co/Ndt2C5NV/cnbc-logo.webp" group-title="News",CNBC
 https://fl1.moveonjoy.com/CNBC/index.m3u8
 #https://i.ibb.co/G4Wsy7g3/cnbc-logo2.jpg
+#EXTINF:-1 tvg-id="ComedyCentral.us@East" tvg-logo="https://i.ibb.co/PGdWNK6Q/comedy-central-logo.webp" group-title="Shows",COMEDY CENTRAL (720p)
+https://fl1.moveonjoy.com/Comedy_Central/index.m3u8
+
 
