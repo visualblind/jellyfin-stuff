@@ -58,3 +58,7 @@ https://livetv-fa.tubi.video/bbc-earth2/playlist.m3u8
 https://livetv-fa.tubi.video/cold-case-files/playlist.m3u8
 #EXTINF:-1 tvg-name="DATELINE 24/7" tvg-id="Dateline247.us" tvg-logo="https://i.ibb.co/twPrGZz9/dateline-logo.jpg" group-title="Shows",DATELINE 24/7 (1080p)
 https://livetv-fa.tubi.video/dateline/master.m3u8
+#EXTINF:-1 tvg-name="CNBC" tvg-id="CNBC.us" tvg-logo="https://i.ibb.co/Ndt2C5NV/cnbc-logo.webp" group-title="News",CNBC
+https://fl1.moveonjoy.com/CNBC/index.m3u8
+#https://i.ibb.co/G4Wsy7g3/cnbc-logo2.jpg
+
