@@ -38,8 +38,7 @@ https://live-manifest.production-public.tubi.io/live/09b0ad55-05ca-42e9-9538-348
 #EXTINF:-1 tvg-name="Baywatch (720p)" tvg-id="Baywatch.us" tvg-logo="https://images.fineartamerica.com/images/artworkimages/medium/3/1-baywatch-chris-toro-transparent.png" group-title="Series",Baywatch (720p)
 https://live-manifest.production-public.tubi.io/live/83955a5d-baa8-42a6-aa9c-e1fcc0aab891/playlist.m3u8
 #EXTINF:-1 tvg-name="BBC Top Gear" tvg-id="BBCTopGear" tvg-logo="https://i.ibb.co/wtJY5FZ/top-gear-logo.jpg" group-title="Series",BBC Top Gear (720p)
-https://livetv-fa.tubi.video/bbc-top-gear2/playlist1080-tp.m3u8
-#https://live-manifest.production-public.tubi.io/live/6d84d716-66f1-4f2d-8978-d0a6b99500ed/playlist.m3u8
+https://live-manifest.production-public.tubi.io/live/6d84d716-66f1-4f2d-8978-d0a6b99500ed/playlist.m3u8
 #EXTINF:-1 tvg-name="Ice Road Truckers" tvg-id="IceRoadTruckers" tvg-logo="https://i.pinimg.com/564x/f5/5d/1c/f55d1c1ac7458bec4840dc1bd875cfe7.jpg" group-title="Series",Ice Road Truckers (1080p)
 https://live-manifest.production-public.tubi.io/live/67b1276a-56fb-40ae-bb7b-51dfead73bc1/playlist.m3u8
 #EXTINF:-1 tvg-name="Cosmos: A Spacetime Odyssey" tvg-id="CosmosASpacetimeOdyssey" tvg-logo="https://i.ibb.co/mrhNxLNL/unnamed.jpg" group-title="Series",Cosmos: A Spacetime Odyssey (720p)
