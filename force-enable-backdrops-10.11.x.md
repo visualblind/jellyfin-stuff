@@ -1,4 +1,4 @@
-# Force Enable Backdrops for All Users (10.11.X)
+# Enable Backdrops by Default for All Users (10.11.X)
 
 In `main.jellyfin.bundle.js` simply search for:
 
