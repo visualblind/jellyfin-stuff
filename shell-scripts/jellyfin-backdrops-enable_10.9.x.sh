@@ -11,5 +11,5 @@ jellyfin_bundle_file="<full path to main.jellyfin.bundle.js>"
 sed -E -i 's/enableBackdrops:function\(\)\{return P\}/enableBackdrops:function\(\)\{return _\}/' "$jellyfin_bundle_file"
 
 # TO REVERT THIS CHANGE THEN RETURN THE '_' BACK TO 'P':
-#sed -E -i 's/enableBackdrops:function\(\)\{return _\}/enableBackdrops:function\(\)\{return R\}/' "$jellyfin_bundle_file"
+#sed -E -i 's/enableBackdrops:function\(\)\{return _\}/enableBackdrops:function\(\)\{return P\}/' "$jellyfin_bundle_file"
 
