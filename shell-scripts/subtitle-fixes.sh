@@ -11,7 +11,7 @@ for i in "${array[@]}"; do
         echo "❌ Converting line endings from Windows (CRLF) to Unix in file '$i'"
         dos2unix --quiet "$i"
     fi
-    grep -loZE "GELULA|Resync|Downloaded from|YIFY|YTS|Encoder|Subtitles|Synced by|Ripped by|explosiveskull|twitter.com|Watch Movies, TV Series|Sync and corrections|addic7ed" "$i" | xargs -0 sed -E -i "/GELULA|Resync|Downloaded      from|YIFY|YTS|Encoder|Subtitles|Synced by|explosiveskull|twitter.com|Watch Movies, TV Series|Sync and corrections|addic7ed/I{d;}" 2>/dev/null
+    grep -loZE "GELULA|Resync|Downloaded from|YIFY|YTS|Encoder|Subtitles|Synced by|Ripped by|explosiveskull|twitter.com|Watch Movies, TV Series|Sync and corrections|addic7ed" "$i" | xargs -0 sed -E -i "/GELULA|Resync|Downloaded from|YIFY|YTS|Encoder|Subtitles|Synced by|explosiveskull|twitter.com|Watch Movies, TV Series|Sync and corrections|addic7ed/I{d;}" 2>/dev/null
 done
 echo "✅ Finished processing all files successfully"
 
