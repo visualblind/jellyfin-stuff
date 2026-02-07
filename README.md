@@ -1,11 +1,11 @@
 # jellyfin-stuff
 
-📧  [travisrunyard@gmail.com](mailto:travisrunyard@gmail.com) (visualblind)<br>
+📧  [travisrunyard@gmail.com](mailto:travisrunyard@gmail.com)<br>
 🔗 [travisflix.com](https://travisflix.com)<br>
 
 ## 📌 DESCRIPTION
 
-**jellyfin-stuff** is a collection of shell scripts, html/css/js and other conf files which helps customize the Jellyfin web interface and accomplish other tasks not covered by any official plugins (ie. changing the site title or enabling the backdrop by default).
+[jellyfin-stuff](https://github.com/visualblind/jellyfin-stuff/) is a collection of shell scripts, html/css/js and other conf files which helps customize the Jellyfin web interface and accomplish other tasks not covered by any official plugins (ie. changing the site title or enabling the backdrop by default).
 
 Scripts in this repo modify relevant Jellyfin front-end files (html, js, css, etc) directly as there is no other easy way to accomplish the objective without modifying source files and re-compiling the web interface yourself, so use at your own risk. I recommend you also check out BobHasNoSoul's [jellyfin-mods](https://github.com/BobHasNoSoul/jellyfin-mods) as it's a lot more extensive.
 
