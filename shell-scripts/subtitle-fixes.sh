@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-search_location="/mnt/smb/media/video-movies"
+search_location="/path/to/media"
 
 readarray -d '' array < <(find "$search_location" -maxdepth 2 -name '*.srt' -mmin -1440 -print0)
 
