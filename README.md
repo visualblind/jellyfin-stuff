@@ -13,9 +13,9 @@ I have done my best to add descriptive comments in the shell scripts explaining 
 
 # 📑 INDEX
 
-1. [Customize the Site Title of the Jellyfin Web Interface](https://github.com/visualblind/jellyfin-stuff/blob/master/site-title.md)
+1. Customize the Site Title of the Jellyfin Web Interface
    
-    1. [10.8.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.8.x.sh) | [10.9.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.9.x.sh) | [10.10.x](https://github.com/visualblind/jellyfin-stuff/blob/master/site-title.md)
+    1. [10.8.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.8.x.sh) | [10.9.x](https://github.com/visualblind/jellyfin-stuff/blob/master/shell-scripts/jellyfin-set-title_10.9.x.sh) | [10.10.x](https://github.com/visualblind/jellyfin-stuff/blob/master/site-title.md) | [Universal](https://github.com/visualblind/jellyfin-stuff/blob/master/site-title.md) (recommended)
 
 2. Enable Jellyfin Backdrops for All Users by Default
    
