@@ -4,7 +4,7 @@
 search_location="/path/to/media"
 
 # Populate array variable (array) with srt files one day or less old (-mmin -1440), remove that part if not needed
-# readarray requires Bash v4.4+
+# readarray delimiter option (-d) requires Bash v4.4+
 readarray -d '' array < <(find "$search_location" -maxdepth 2 -name '*.srt' -mmin -1440 -print0)
 
 for i in "${array[@]}"; do
