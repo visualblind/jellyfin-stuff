@@ -1,6 +1,4 @@
-﻿#EXTM3U
-#EXTINF:-1 tvg-name="CBSN KCAL Los Angeles CA" tvg-id="CBSKCALNews.us" tvg-logo="https://i.ibb.co/ncHg0DG/cbs-kcal-losangeles.png" group-title="News",CBSN KCAL Los Angeles CA (720p) [Not 24/7]
-https://dai.google.com/linear/hls/event/TxSbNMu4R5anKrjV02VOBg/master.m3u8
+#EXTM3U
 #EXTINF:-1 tvg-name="TD Ameritrade Network" tvg-id="TDAmeritradeNetwork.us" tvg-logo="https://i.imgur.com/RbVdkJ5.png" group-title="News",TD Ameritrade Network
 https://tdameritrade-distro.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Bloomberg" tvg-id="BloombergTelevision.us" tvg-logo="https://i.ibb.co/jGSp0Cc/bloomberg.jpg" group-title="News",Bloomberg
@@ -33,34 +31,17 @@ https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
 https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
 #EXTINF:-1 tvg-name="MST3K (1080p)" tvg-id="MST3K.us" tvg-logo="https://i.ibb.co/GfcY1n1h/mst3k-live-stream-400x.jpg" group-title="Series",MST3K (1080p)
 https://live-manifest.production-public.tubi.io/live/da2d381e-93a5-466c-8807-74e18bac08f1/playlist.m3u8
-#EXTINF:-1 tvg-name="Forensic Files (Tubi)" tvg-id="FilmRiseForensicFiles.us" tvg-logo="https://i.ibb.co/mGYny0w/forensic-files-400x.jpg" group-title="Series",Forensic Files
-https://live-manifest.production-public.tubi.io/live/09b0ad55-05ca-42e9-9538-348224b86dbf/playlist.m3u8
 #EXTINF:-1 tvg-name="Baywatch (720p)" tvg-id="Baywatch.us" tvg-logo="https://images.fineartamerica.com/images/artworkimages/medium/3/1-baywatch-chris-toro-transparent.png" group-title="Series",Baywatch (720p)
 https://live-manifest.production-public.tubi.io/live/83955a5d-baa8-42a6-aa9c-e1fcc0aab891/playlist.m3u8
 #EXTINF:-1 tvg-name="BBC Top Gear" tvg-id="BBCTopGear" tvg-logo="https://i.ibb.co/wtJY5FZ/top-gear-logo.jpg" group-title="Series",BBC Top Gear (720p)
 https://live-manifest.production-public.tubi.io/live/6d84d716-66f1-4f2d-8978-d0a6b99500ed/playlist.m3u8
-#EXTINF:-1 tvg-name="Ice Road Truckers" tvg-id="IceRoadTruckers" tvg-logo="https://i.pinimg.com/564x/f5/5d/1c/f55d1c1ac7458bec4840dc1bd875cfe7.jpg" group-title="Series",Ice Road Truckers (1080p)
-https://live-manifest.production-public.tubi.io/live/67b1276a-56fb-40ae-bb7b-51dfead73bc1/playlist.m3u8
-#EXTINF:-1 tvg-name="Cosmos: A Spacetime Odyssey" tvg-id="CosmosASpacetimeOdyssey" tvg-logo="https://i.ibb.co/mrhNxLNL/unnamed.jpg" group-title="Series",Cosmos: A Spacetime Odyssey (720p)
-https://live-manifest.production-public.tubi.io/live/e4bf224c-cfad-4ce8-8479-de3568398770/playlist.m3u8
 #EXTINF:-1 tvg-name="FOX 11 Los Angeles" tvg-id="FOX11LA" tvg-logo="https://i.ibb.co/PvskS2L5/fox11la.webp" group-title="News",FOX 11 Los Angeles
 https://live-manifest.production-public.tubi.io/live/b54c2aa5-e243-480f-9384-bbf7bcbddaf1/playlist.m3u8
-#EXTINF:-1 tvg-name="Tubi Watchlist" tvg-id="WATCHLIST" tvg-logo="https://i.ibb.co/qLzNM0LQ/tubi.png" group-title="Series",Tubi Watchlist
-https://live-manifest.production-public.tubi.io/live/b399c32f-0c5f-4609-a2f2-94a773397b44/playlist.m3u8
 #EXTINF:-1 tvg-name="Mysterious Worlds" tvg-id="MYSTERIOUS" tvg-logo="https://i.ibb.co/F4PXdgt3/Mysterious-Worlds.webp" group-title="Series",Mysterious Worlds
 https://live-manifest.production-public.tubi.io/live/8fa6f1c5-c602-426c-999d-8651180ca7ff/playlist.m3u8
 #EXTINF:-1 tvg-name="The Johnny Carson Show" tvg-id="JOHNNYCARSON" tvg-logo="https://i.ibb.co/4Rsf9HWX/The-Johnny-Carson-Show.webp" group-title="Series",The Johnny Carson Show
 https://live-manifest.production-public.tubi.io/live/196721fd-dabe-4799-8edc-d8e70f63eb31/playlist.m3u8
-#EXTINF:-1 tvg-name="BBC EARTH" tvg-id="BBCEarth.uk" tvg-logo="https://i.ibb.co/sdVJ6xdX/bbc-earth.jpg" group-title="Shows",BBC EARTH (720p)
-https://livetv-fa.tubi.video/bbc-earth2/playlist.m3u8
-#EXTINF:-1 tvg-name="COLD CASE FILES" tvg-id="ColdCaseFiles.us" tvg-logo="https://i.ibb.co/3Yp3rbH5/cold-case-files-logo.jpg" group-title="Shows",COLD CASE FILES (1080p)
-https://livetv-fa.tubi.video/cold-case-files/playlist.m3u8
-#EXTINF:-1 tvg-name="DATELINE 24/7" tvg-id="Dateline247.us" tvg-logo="https://i.ibb.co/twPrGZz9/dateline-logo.jpg" group-title="Shows",DATELINE 24/7 (1080p)
-https://livetv-fa.tubi.video/dateline/master.m3u8
-#EXTINF:-1 tvg-name="CNBC" tvg-id="CNBC.us" tvg-logo="https://i.ibb.co/Ndt2C5NV/cnbc-logo.webp" group-title="News",CNBC
-https://fl1.moveonjoy.com/CNBC/index.m3u8
-#https://i.ibb.co/G4Wsy7g3/cnbc-logo2.jpg
-#EXTINF:-1 tvg-id="ComedyCentral.us@East" tvg-logo="https://i.ibb.co/PGdWNK6Q/comedy-central-logo.webp" group-title="Shows",COMEDY CENTRAL (720p)
-https://fl1.moveonjoy.com/Comedy_Central/index.m3u8
-
-
+#EXTINF:-1 tvg-name="TNT" tvg-id="TNT.us" tvg-logo="https://i.ibb.co/zhB81SSQ/tnt.webp" group-title="Series",TNT
+http://181.205.130.194:4000/play/a06n
+#EXTINF:-1 tvg-name="USA NETWORK (Spanish)" tvg-id="USANetworkLatinAmerica.us" tvg-logo="https://i.ibb.co/ycWThXYz/usa-network.webp" group-title="Shows",USA NETWORK (Spanish)
+http://181.205.130.194:4000/play/a06v

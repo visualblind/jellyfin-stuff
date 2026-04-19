@@ -1,12 +1,8 @@
-﻿#EXTM3U
+#EXTM3U
 #EXTINF:-1 tvg-name="CBS News" tvg-id="CBSNews.us" tvg-logo="https://i.ibb.co/C6NkXzt/CBS-NEWS-Logo-vintage-womens-relaxed-RO-1200x630.webp" group-title="News",CBS News
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
-#EXTINF:-1 tvg-name="CBSN KCAL Los Angeles CA" tvg-id="CBSKCALNews.us" tvg-logo="https://i.ibb.co/ncHg0DG/cbs-kcal-losangeles.png" group-title="News",CBSN KCAL Los Angeles CA (720p) [Not 24/7]
-https://dai.google.com/linear/hls/event/TxSbNMu4R5anKrjV02VOBg/master.m3u8
 #EXTINF:-1 tvg-name="Pluto TV CBSN Los Angeles CA (720p)" tvg-id="PlutoTVCBSNewsLosAngeles.us" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" group-title="News",Pluto TV CBSN Los Angeles CA (720p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5dc481cda1d430000948a1b4/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5dc481cda1d430000948a1b4&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=207&terminate=false&userId=
-#EXTINF:-1 tvg-name="ABC News" tvg-id="ABCNews" tvg-logo="https://i.imgur.com/zBOsKCv.png" group-title="News",ABC News
-https://content.uplynk.com/channel/3324f2467c414329b3b0cc5cd987b6be.m3u8
 #EXTINF:-1 tvg-name="ABC Bakersfield CA 23" tvg-id="ABCNewsBakersfield" tvg-logo="https://i.ibb.co/CbsYMDR/abckero.webp" group-title="News",ABC Bakersfield CA 23 (KERO) (720p)
 https://content.uplynk.com/channel/ff809e6d9ec34109abfb333f0d4444b5.m3u8
 #EXTINF:-1 tvg-name="PBS West" tvg-id="PBSWest.us" tvg-logo="https://i.ibb.co/myk8WCF/pbs-news2.png" group-title="Education",PBS West
@@ -15,8 +11,6 @@ https://pbs.lls.cdn.pbs.org/pst/index.m3u8
 https://tdameritrade-distro.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-name="Bloomberg" tvg-id="BloombergTelevision.us" tvg-logo="https://i.ibb.co/jGSp0Cc/bloomberg.jpg" group-title="News",Bloomberg
 https://bloomberg.com/media-manifest/streams/us.m3u8
-#EXTINF:-1 tvg-name="ABC 7 Los Angeles CA (KABC-TV) (720p)" tvg-id="KABC-TV" tvg-logo="https://i.imgur.com/zBOsKCv.png" group-title="News",ABC 7 Los Angeles CA (KABC-TV) (720p)
-https://content.uplynk.com/channel/ext/2118d9222a87420ab69223af9cfa0a0f/kabc_24x7_news.m3u8
 #EXTINF:-1 tvg-name="Aqua Teen Hunger Force (1080p)" tvg-id="AdultSwimAquaTeenHungerForce.us" tvg-logo="https://i.ibb.co/kmxS2RR/Athf-logo.webp" group-title="Series",Aqua Teen Hunger Force (1080p)
 https://adultswim-vodlive.cdn.turner.com/live/aqua-teen/stream.m3u8
 #EXTINF:-1 tvg-name="Black Jesus (1080p)" tvg-id="AdultSwimBlackJesus.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Black_Jesus_title_card.png" group-title="Series",Black Jesus (1080p)
@@ -43,8 +37,6 @@ https://adultswim-vodlive.cdn.turner.com/live/eric-andre/stream.m3u8
 https://adultswim-vodlive.cdn.turner.com/live/venture-bros/stream.m3u8
 #EXTINF:-1 tvg-name="Your Pretty Face Is Going To Hell (1080p)" tvg-id="AdultSwimYourPrettyFaceIsGoingToHell.us" tvg-logo="https://i.ibb.co/fvbD6Fg/as.jpg" group-title="Series",Your Pretty Face Is Going To Hell (1080p)
 https://adultswim-vodlive.cdn.turner.com/live/ypf/stream.m3u8
-#EXTINF:-1 tvg-name="CBS News Los Angeles (720p)" tvg-id="CBSNewsLA.us" tvg-logo="https://images.pluto.tv/channels/5dc481cda1d430000948a1b4/colorLogoPNG.png" group-title="News",CBS News Los Angeles (720p)
-https://cbsn-la.cbsnstream.cbsnews.com/out/v1/57b6c4534a164accb6b1872b501e0028/master.m3u8
 #EXTINF:-1 tvg-name="MST3K (1080p)" tvg-id="MST3K.us" tvg-logo="https://i.ibb.co/FVMsb87/mst3k-live-stream-400x.png" group-title="Series",MST3K (1080p)
 https://live-manifest.production-public.tubi.io/live/da2d381e-93a5-466c-8807-74e18bac08f1/playlist.m3u8
 #EXTINF:-1 tvg-name="Pluto TV Space (720p) [Not 24/7]" tvg-id="PlutoTVSpace.us" tvg-logo="https://images.pluto.tv/channels/5dbc2f98777f2e0009934ae7/colorLogoPNG.png" group-title="Series",Pluto TV Space (720p) [Not 24/7]
@@ -53,8 +45,6 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5dbc2f987
 https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/5f21ea08007a49000762d349/master.m3u8?advertisingId=channel&appName=rokuchannel&appVersion=1.0&bmodel=bm1&channel_id=channel&content=channel&content_rating=ROKU_ADS_CONTENT_RATING&content_type=livefeed&coppa=false&deviceDNT=1&deviceId=channel&deviceMake=rokuChannel&deviceModel=web&deviceType=rokuChannel&deviceVersion=1.0&embedPartner=rokuChannel&genre=ROKU_ADS_CONTENT_GENRE&is_lat=1&platform=web&rdid=channel&studio_id=viacom&tags=ROKU_CONTENT_TAGS
 #EXTINF:-1 tvg-name="Pluto TV Spotlight (684p)" tvg-id="PlutoTVSpotlight.us" tvg-logo="https://images.pluto.tv/channels/5ba3fb9c4b078e0f37ad34e8/colorLogoPNG.png" group-title="Series",Pluto TV Spotlight (684p)
 https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5ba3fb9c4b078e0f37ad34e8/master.m3u8?advertisingId=&appName=web&appStoreUrl=&appVersion=DNT&app_name=&architecture=&buildVersion=&deviceDNT=0&deviceId=5ba3fb9c4b078e0f37ad34e8&deviceLat=&deviceLon=&deviceMake=web&deviceModel=web&deviceType=web&deviceVersion=DNT&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false&sid=51&terminate=false&userId=
-#EXTINF:-1 tvg-name="Forensic Files (Tubi)" tvg-id="FilmRiseForensicFiles.us" tvg-logo="https://i.ibb.co/mGYny0w/forensic-files-400x.jpg" group-title="Series",Forensic Files (Tubi)
-https://live-manifest.production-public.tubi.io/live/09b0ad55-05ca-42e9-9538-348224b86dbf/playlist.m3u8
 #EXTINF:-1 tvg-name="CNN International" tvg-id="CNNInternationalNorthAmerica.us" tvg-logo="https://i.imgur.com/dfxefQw.png" group-title="News",CNN International
 https://stream1.freetv.fun/cnn-int-4.m3u8
 #EXTINF:-1 tvg-name="HBO Xtreme" tvg-id="HBOXtreme.br" tvg-logo="https://www.vertvcable.com/wp-content/uploads/2022/02/hboextreme.jpg" group-title="Series",HBO Xtreme
@@ -63,14 +53,8 @@ http://45.177.179.227:8000/play/a02f/index.m3u8
 https://live-manifest.production-public.tubi.io/live/83955a5d-baa8-42a6-aa9c-e1fcc0aab891/playlist.m3u8
 #EXTINF:-1 tvg-name="BBC Top Gear" tvg-id="BBCTopGear" tvg-logo="https://static.wikia.nocookie.net/classikcars/images/f/f8/Top-gear.jpg" group-title="Series",BBC Top Gear (720p)
 https://live-manifest.production-public.tubi.io/live/6d84d716-66f1-4f2d-8978-d0a6b99500ed/playlist.m3u8
-#EXTINF:-1 tvg-name="Ice Road Truckers" tvg-id="IceRoadTruckers" tvg-logo="https://i.pinimg.com/564x/f5/5d/1c/f55d1c1ac7458bec4840dc1bd875cfe7.jpg" group-title="Series",Ice Road Truckers (1080p)
-https://live-manifest.production-public.tubi.io/live/67b1276a-56fb-40ae-bb7b-51dfead73bc1/playlist.m3u8
-#EXTINF:-1 tvg-name="Cosmos: A Spacetime Odyssey" tvg-id="CosmosASpacetimeOdyssey" tvg-logo="https://i.ibb.co/mrhNxLNL/unnamed.jpg" group-title="Series",Cosmos: A Spacetime Odyssey (720p)
-https://live-manifest.production-public.tubi.io/live/e4bf224c-cfad-4ce8-8479-de3568398770/playlist.m3u8
 #EXTINF:-1 tvg-name="FOX 11 Los Angeles" tvg-id="FOX11LA" tvg-logo="https://i.ibb.co/PvskS2L5/fox11la.webp" group-title="News",FOX 11 Los Angeles
 https://live-manifest.production-public.tubi.io/live/b54c2aa5-e243-480f-9384-bbf7bcbddaf1/playlist.m3u8
-#EXTINF:-1 tvg-name="Tubi Watchlist" tvg-id="WATCHLIST" tvg-logo="https://i.ibb.co/qLzNM0LQ/tubi.png" group-title="Series",Tubi Watchlist
-https://live-manifest.production-public.tubi.io/live/b399c32f-0c5f-4609-a2f2-94a773397b44/playlist.m3u8
 #EXTINF:-1 tvg-name="Mysterious Worlds" tvg-id="MYSTERIOUS" tvg-logo="https://i.ibb.co/F4PXdgt3/Mysterious-Worlds.webp" group-title="Series",Mysterious Worlds
 https://live-manifest.production-public.tubi.io/live/8fa6f1c5-c602-426c-999d-8651180ca7ff/playlist.m3u8
 #EXTINF:-1 tvg-name="The Johnny Carson Show" tvg-id="JOHNNYCARSON" tvg-logo="https://i.ibb.co/4Rsf9HWX/The-Johnny-Carson-Show.webp" group-title="Series",The Johnny Carson Show
