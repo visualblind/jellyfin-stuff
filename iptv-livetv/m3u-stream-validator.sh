@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
-INPUT_M3U="freetv-iptv-playlist-us-travisflix.m3u"
-OUTPUT_M3U="WORKING_freetv-iptv-playlist-us-travisflix.m3u"
-TIMEOUT_SECONDS=7
+INPUT_M3U="input.m3u"
+OUTPUT_M3U="WORKING_$INPUT_M3U"
+TIMEOUT_SECONDS=10
 MPV_OPTIONS=(
     "--no-video"
     "--really-quiet"
-    "--frames=10" # Play only the first frame/chunk to check connectivity
+    "--frames=1" # Play only the first frame/chunk to check connectivity
     "--network-timeout=$TIMEOUT_SECONDS"
 )
 
