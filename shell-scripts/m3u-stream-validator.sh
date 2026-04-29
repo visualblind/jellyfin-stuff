@@ -5,8 +5,10 @@ OUTPUT_M3U="WORKING_STREAMS.m3u"
 TIMEOUT_SECONDS=15
 MPV_OPTIONS=(
     "--no-video"
+    "--mute"
+    "--stop-playback-on-init-failure"
     "--really-quiet"
-    "--frames=1" # Play only the first frame/chunk to check connectivity
+    "--frames=1" # Play only the first frame/chunk
     "--network-timeout=$TIMEOUT_SECONDS"
 )
 
