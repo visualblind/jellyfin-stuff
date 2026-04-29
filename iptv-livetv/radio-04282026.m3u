@@ -1,0 +1,23 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="1067KROQ" tvg-logo="https://i.ibb.co/fddVfR2R/kroq-1067-logo.jpg" group-title="Radio",106.7 KROQ
+http://live.amperwave.net/direct/audacy-kroqfmaac-imc
+#EXTINF:-1 tvg-id="1027KIIS" tvg-logo="https://i.ibb.co/zWqBBRPj/1027-kiis-fm-logo.jpg" group-title="Radio",102.7 KIIS FM
+https://stream.revma.ihrhls.com/zc185
+#EXTINF:-1 tvg-id="KFIAM640" tvg-logo="https://i.ibb.co/GQtczbz0/kfi-640-am-logo.png" group-title="Radio",KFI AM 640
+https://stream.revma.ihrhls.com/zc177/hls.m3u8
+#EXTINF:-1 tvg-id="1031JackFM" tvg-logo="https://i.ibb.co/qP6JTdD/1031-jack-fm-logo.jpg" group-title="Radio",103.1 Jack FM
+https://ice24.securenetsystems.net/KDAA
+#EXTINF:-1 tvg-id="KOST1035" tvg-logo="https://i.ibb.co/MxSyPcz8/kost-1035-logo.webp" group-title="Radio",KOST 103.5
+https://stream.revma.ihrhls.com/zc193
+#EXTINF:-1 tvg-id="ALT987" tvg-logo="https://i.ibb.co/RGV483tq/alt-987-logo.jpg" group-title="Radio",ALT 98.7
+https://stream.revma.ihrhls.com/zc201
+#EXTINF:-1 tvg-id="181FMTheEagle" tvg-logo="https://i.ibb.co/G3J7DNqp/181fm-the-eagle-logo.png" group-title="Radio",181.FM The Eagle (Classic)
+http://www.181.fm/stream/pls/181-eagle.pls
+#EXTINF:-1 tvg-id="1FMChilloutRadio" tvg-logo="https://i.ibb.co/SX0xFXnN/1-fm-chillout-lounge-radio-logo.png" group-title="Radio",1.FM Chillout Lounge Radio
+http://strm112.1.fm/chilloutlounge_mobile_mp3
+#EXTINF:-1 tvg-id="1065KIXATheFox" tvg-logo="https://i.ibb.co/gL5c5g15/1065-kixa-the-fox-logo.webp" group-title="Radio",106.5 KIXA The Fox
+https://ais-sa1.streamon.fm/10286_96k.aac/playlist.m3u8
+#EXTINF:-1 tvg-id="DFMVocalTrance" tvg-logo="https://i.ibb.co/5h8wkHRy/dfm-vocal-trance-logo2.jpg" group-title="Radio",D.FM Vocal Trance
+https://dfm-trance.hostingradio.ru/trance96.aacp
+#EXTINF:-1 tvg-id="1FMAlternativeRockRadio" tvg-logo="https://i.ibb.co/cX7LFKhd/1-fm-alternative-rock-x-hits-radio-logo.webp" group-title="Radio",1.FM Alternative Rock Radio
+http://strm112.1.fm/x_mobile_mp3
